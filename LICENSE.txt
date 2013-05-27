@@ -1,10 +1,10 @@
-Project maintained by Ungki, H. Contact ���� <mailto:ungki.h@gmail.com>
+Project maintained by Ungki, H. Contact 문의 <mailto:ungki.h@gmail.com>
 
 Documentations under [Creative Commons Attribution 3.0](http://creativecommons.org/licenses/by/3.0/)
 
 Open sources are copyright of their respective owners
 
-�� ����Ʈ��� �������� �������� ���Ѿ��� �����ص� ����. ��, ���۱� ǥ�� �� �� �㰡 ǥ�ø� ����Ʈ������ ���� ������ �Ǵ� �߿��� �κп� �����ؾ� �Ѵ�.
+이 소프트웨어를 누구라도 무상으로 제한없이 취급해도 좋다. 단, 저작권 표시 및 이 허가 표시를 소프트웨어의 모든 복제물 또는 중요한 부분에 기재해야 한다.
 
 Copyright (c) 2013 Ungki, H
 
