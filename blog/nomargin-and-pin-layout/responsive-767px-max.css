@@ -1,0 +1,31 @@
+// Fluid rows
+.row-fluid, .row-fluid-nomargin {
+width: 100%;
+}
+
+// Make all grid-sized elements block level again
+[class*="span"],
+.uneditable-input[class*="span"], // Makes uneditable inputs full-width when using grid sizing
+.row-nomargin [class*="span"],
+.row-fluid [class*="span"],
+.row-fluid-nomargin [class*="span"] {
+float: none;
+display: block;
+width: 100%;
+margin-left: 0;
+.box-sizing(border-box);
+}
+
+.span12,
+.row-nomargin .span12,
+.row-fluid .span12,
+.row-fluid-nomargin .span12 {
+width: 100%;
+.box-sizing(border-box);
+}
+.row-fluid [class*="offset"]:first-child, 
+.row-fluid-nomargin [class*="offset"]:first-child {
+margin-left: 0;
+}
+
+ 

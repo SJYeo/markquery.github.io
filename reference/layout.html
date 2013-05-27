@@ -1,0 +1,525 @@
+<!-- layout -->
+<section class="ref-section">
+	<div class="container-fluid-nomargin">
+		<div class="row-fluid ref-header">
+		<div class="span1"><strong># Layout</strong></div>
+		<div class="span2"><strong>HTML</strong></div>
+		<div class="span2"><strong>class</strong></div>
+		<div class="span2"><strong>example</strong></div>
+		<div class="span5"><strong>note</strong></div>
+		</div><!-- row-fluid ref-header -->
+		<div class="row-fluid ref">
+		<div class="span1"><p>Usage<p></div>
+		<div class="span2"><p>&lt;div&gt;</p></div>
+		<div class="span2"><p>.container-</p></div>
+		<div class="span2"><p>docs page</p></div>
+		<div class="span5 ref-note">
+<pre class="prettyprint ref-prettyprint">
+Layout CSS는 bootstrap.css에 포함되어 있다. 유저의 커스텀 CSS 파일에 추가할 필요가 없다. bootstrap의 기본 Layout은 2개이며, markquery에서 추가된 Layout은 19개이다. 
+
+Layout을 만들 때는 오직 &lt;div&gt; 태그만 사용된다. nomargin은 margin, padding 값을 없앤 레이아웃이고, pin은 container의 크기와 center, left, right 위치로 고정시키는 레이아웃을 뜻한다.
+</pre>
+		</div><!-- span5 -->
+		</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;container&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>container</p></div>
+			<div class="span2"><p><a href="/docs/container" title="go to docs page">docs</a></p></div>
+			<div class="span5 ref-note"><p>// centered, fixed-width layouts<br>.container {&nbsp;&nbsp;<br>&nbsp;&nbsp;.container-fixed();<br>}</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;container-fluid&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>container-fluid</p></div>
+			<div class="span2"><p><a href="/docs/container-fluid" title="go to docs page">docs</a></p></div>
+			<div class="span5 ref-note"><p>// min- &amp; max-width content<br>.container-fluid {<br>&nbsp;&nbsp;padding-right: @gridGutterWidth;<br>&nbsp;&nbsp;padding-left: @gridGutterWidth;<br>&nbsp;&nbsp;.clearfix();<br>}</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;container-fluid-nomargin&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>container-fluid-nomargin</p></div>
+			<div class="span2"><p><a href="/docs/container-fluid-nomargin" title="go to docs page">docs</a></p></div>
+			<div class="span5 ref-note"><p>// min- &amp; max-width content, nomargin<br>.container-fluid {<br>&nbsp;&nbsp;padding: 0;<br>&nbsp;&nbsp;.clearfix();<br>}</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;container-pin&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>container-pin</p></div>
+			<div class="span2"><p><a href="/docs/container-pin" title="go to docs page">docs</a></p></div>
+			<div class="span5 ref-note"><p>// default<br>.container-pin {<br>&nbsp;&nbsp;max-width: 1170px;<br>&nbsp;&nbsp;margin-right: auto;<br>&nbsp;&nbsp;margin-left: auto;<br>&nbsp;&nbsp;*zoom: 1;<br>}</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;container-pin-left&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>container-pin-left</p></div>
+			<div class="span2"><p><a href="/docs/container-pin-left" title="go to docs page">docs</a></p></div>
+			<div class="span5 ref-note"><p>// default<br>.container-pin-left {<br>&nbsp;&nbsp;max-width: 1170px;<br>&nbsp;&nbsp;float: left;<br>&nbsp;&nbsp;display: block;<br>&nbsp;&nbsp;*zoom: 1;<br>}</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;container-pin-right&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>container-pin-right</p></div>
+			<div class="span2"><p><a href="/docs/container-pin-right" title="go to docs page">docs</a></p></div>
+			<div class="span5 ref-note"><p>// default<br>.container-pin-right {<br>&nbsp;&nbsp;max-width: 1170px;<br>&nbsp;&nbsp;float: right;<br>&nbsp;&nbsp;display: block;<br>&nbsp;&nbsp;*zoom: 1;<br>}</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;container-pin-620&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>container-pin-620</p></div>
+			<div class="span2"><p><a href="/docs/container-pin-620" title="go to docs page">docs</a></p></div>
+			<div class="span5 ref-note"><p>// default<br>.container-pin-620 {<br>&nbsp;&nbsp;max-width: 620px;<br>&nbsp;&nbsp;margin-right: auto;<br>&nbsp;&nbsp;margin-left: auto;<br>&nbsp;&nbsp;*zoom: 1;<br>}</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;container-pin-620-left&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>container-pin-620-left</p></div>
+			<div class="span2"><p><a href="/docs/container-pin-620-left" title="go to docs page">docs</a></p></div>
+			<div class="span5 ref-note"><p>// default<br>.container-pin-620-left {<br>&nbsp;&nbsp;max-width: 620px;<br>&nbsp;&nbsp;float: left;<br>&nbsp;&nbsp;display: block;<br>&nbsp;&nbsp;*zoom: 1;<br>}</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;container-pin-620-right&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>container-pin-620-right</p></div>
+			<div class="span2"><p><a href="/docs/container-pin-620-right" title="go to docs page">docs</a></p></div>
+			<div class="span5 ref-note"><p>// default<br>.container-pin-620-right {<br>&nbsp;&nbsp;max-width: 620px;<br>&nbsp;&nbsp;float: right;<br>&nbsp;&nbsp;display: block;<br>&nbsp;&nbsp;*zoom: 1;<br>}</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;container-pin-820&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>container-pin-820</p></div>
+			<div class="span2"><p><a href="/docs/container-pin-820" title="go to docs page">docs</a></p></div>
+			<div class="span5 ref-note"><p>// default<br>.container-pin-820 {<br>&nbsp;&nbsp;max-width: 820px;<br>&nbsp;&nbsp;margin-right: auto;<br>&nbsp;&nbsp;margin-left: auto;<br>&nbsp;&nbsp;*zoom: 1;<br>}</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;container-pin-820-left&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>container-pin-820-left</p></div>
+			<div class="span2"><p><a href="/docs/container-pin-820-left" title="go to docs page">docs</a></p></div>
+			<div class="span5 ref-note"><p>// default<br>.container-pin-820-left {<br>&nbsp;&nbsp;max-width: 820px;<br>&nbsp;&nbsp;float: left;<br>&nbsp;&nbsp;display: block;<br>&nbsp;&nbsp;*zoom: 1;<br>}</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;container-pin-820-right&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>container-pin-820-right</p></div>
+			<div class="span2"><p><a href="/docs/container-pin-820-right" title="go to docs page">docs</a></p></div>
+			<div class="span5 ref-note"><p>// default<br>.container-pin-820-right {<br>&nbsp;&nbsp;max-width: 820px;<br>&nbsp;&nbsp;float: right;<br>&nbsp;&nbsp;display: block;<br>&nbsp;&nbsp;*zoom: 1;<br>}</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;container-pin-960&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>container-pin-960</p></div>
+			<div class="span2"><p><a href="/docs/container-960" title="go to docs page">docs</a></p></div>
+			<div class="span5 ref-note"><p>// default<br>.container-pin-960 {<br>&nbsp;&nbsp;max-width: 960px;<br>&nbsp;&nbsp;margin-right: auto;<br>&nbsp;&nbsp;margin-left: auto;<br>&nbsp;&nbsp;*zoom: 1;<br>}</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;container-pin-960-left&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>container-pin-960-left</p></div>
+			<div class="span2"><p><a href="/docs/container-pin-960-left" title="go to docs page">docs</a></p></div>
+			<div class="span5 ref-note"><p>// default<br>.container-pin-960-left {<br>&nbsp;&nbsp;max-width: 960px;<br>&nbsp;&nbsp;float: left;<br>&nbsp;&nbsp;display: block;<br>&nbsp;&nbsp;*zoom: 1;<br>}</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;container-pin-960-right&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>container-pin-960-right</p></div>
+			<div class="span2"><p><a href="/docs/container-pin-960-right" title="go to docs page">docs</a></p></div>
+			<div class="span5 ref-note"><p>// default<br>.container-pin-960-right {<br>&nbsp;&nbsp;max-width: 960px;<br>&nbsp;&nbsp;float: right;<br>&nbsp;&nbsp;display: block;<br>&nbsp;&nbsp;*zoom: 1;<br>}</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;container-pin-1200&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>container-pin-1200</p></div>
+			<div class="span2"><p><a href="/docs/container-pin-1200" title="go to docs page">docs</a></p></div>
+			<div class="span5 ref-note"><p>// default<br>.container-pin-1200 {<br>&nbsp;&nbsp;max-width: 1200px;<br>&nbsp;&nbsp;margin-right: auto;<br>&nbsp;&nbsp;margin-left: auto;<br>&nbsp;&nbsp;*zoom: 1;<br>}</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;container-pin-1200-left&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>container-pin-1200-left</p></div>
+			<div class="span2"><p><a href="/docs/container-pin-1200-left" title="go to docs page">docs</a></p></div>
+			<div class="span5 ref-note"><p>// default<br>.container-pin-1200-left {<br>&nbsp;&nbsp;max-width: 1200px;<br>&nbsp;&nbsp;float: left;<br>&nbsp;&nbsp;display: block;<br>&nbsp;&nbsp;*zoom: 1;<br>}</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;container-pin-1200-right&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>container-pin-1200-right</p></div>
+			<div class="span2"><p><a href="/docs/container-pin-1200-right" title="go to docs page">docs</a></p></div>
+			<div class="span5 ref-note"><p>// default<br>.container-pin-1200-right {<br>&nbsp;&nbsp;max-width: 1200px;<br>&nbsp;&nbsp;float: right;<br>&nbsp;&nbsp;display: block;<br>&nbsp;&nbsp;*zoom: 1;<br>}</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;container-pin-1600&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>container-pin-1600</p></div>
+			<div class="span2"><p><a href="/docs/container-pin-1600" title="go to docs page">docs</a></p></div>
+			<div class="span5 ref-note"><p>// default<br>.container-pin-1600 {<br>&nbsp;&nbsp;max-width: 1600px;<br>&nbsp;&nbsp;margin-right: auto;<br>&nbsp;&nbsp;margin-left: auto;<br>&nbsp;&nbsp;*zoom: 1;<br>}</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;container-pin-1600-left&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>container-pin-1600-left</p></div>
+			<div class="span2"><p><a href="/docs/container-pin-1600-left" title="go to docs page">docs</a></p></div>
+			<div class="span5 ref-note"><p>// default<br>.container-pin-1600-left {<br>&nbsp;&nbsp;max-width: 1600px;<br>&nbsp;&nbsp;float: left;<br>&nbsp;&nbsp;display: block;<br>&nbsp;&nbsp;*zoom: 1;<br>}</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;container-pin-1600-right&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>container-pin-1600-right</p></div>
+			<div class="span2"><p><a href="/docs/container-pin-1600-right" title="go to docs page">docs</a></p></div>
+			<div class="span5 ref-note"><p>// default<br>.container-pin-1600-right {<br>&nbsp;&nbsp;max-width: 1600px;<br>&nbsp;&nbsp;float: right;<br>&nbsp;&nbsp;display: block;<br>&nbsp;&nbsp;*zoom: 1;<br>}</p></div>
+			</div><!-- row-fluid ref -->
+
+
+
+
+		<div class="row-fluid ref-divide-header">
+		<div class="span1"><strong># ROW</strong></div>
+		<div class="span2"><strong>HTML</strong></div>
+		<div class="span2"><strong>class</strong></div>
+		<div class="span2"><strong>example</strong></div>
+		<div class="span5"><strong>note</strong></div>
+		</div><!-- row-fluid ref-header -->
+		<div class="row-fluid ref">
+		<div class="span1"><p>Usage<p></div>
+		<div class="span2"><p>&lt;div&gt;</p></div>
+		<div class="span2"><p>.row-</p></div>
+		<div class="span2"><p>docs page</p></div>
+		<div class="span5 ref-note">
+<pre class="prettyprint ref-prettyprint">
+layout의 세로 열를 markup하는 셀렉터다. bootstrap의 기본 열은 2개이며,  markquery에서는 row에 여백을 없애는 2개의 nomargin 열이 추가된다. 고정된 레이아웃을 만드는 경우가 아니라면 보통 .row-fluid 셀렉터가 많이 사용된다. row-fluid-nomargin은 하위 셀렉터인 span 행 셀렉터에 영향을 주어 span의 여백이 모두 nomargin으로 처리된다. 
+</pre>
+		</div><!-- span5 -->
+		</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;row&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>row</p></div>
+			<div class="span2"><p><a href="/docs/row" title="go to docs page">docs</a></p></div>
+			<div class="span5 ref-note"><p><br>.row {<br>&nbsp;&nbsp;margin-left: @gridGutterWidth * -1;<br>&nbsp;&nbsp;.clearfix();<br>}</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;row-nomargin&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>row-nomargin</p></div>
+			<div class="span2"><p><a href="/docs/row-nomargin" title="go to docs page">docs</a></p></div>
+			<div class="span5 ref-note"><p><br>.row-nomargin {<br>//&nbsp;&nbsp;margin-left: @gridGutterWidth * -1;<br>&nbsp;&nbsp;.clearfix();<br>}<br><br>&nbsp;&nbsp;[class*="span"] {<br>&nbsp;&nbsp;float: left;<br>&nbsp;&nbsp;min-height: 1px; // prevent collapsing columns<br>&nbsp;&nbsp;margin-left: 0;<br>//&nbsp;&nbsp;margin-left: @gridGutterWidth;<br>}</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;row-fluid&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>row-fluid</p></div>
+			<div class="span2"><p><a href="/docs/row-fluid" title="go to docs page">docs</a></p></div>
+			<div class="span5 ref-note"><p><br>.row-fluid {<br>&nbsp;&nbsp;width: 100%;<br>&nbsp;&nbsp;.clearfix();<br>&nbsp;&nbsp;[class*="span"] {<br>&nbsp;&nbsp;&nbsp;&nbsp;.input-block-level();<br>&nbsp;&nbsp;&nbsp;&nbsp;float: left;<br>&nbsp;&nbsp;&nbsp;&nbsp;margin-left: @fluidGridGutterWidth;<br>&nbsp;&nbsp;&nbsp;&nbsp;*margin-left: @fluidGridGutterWidth - (.5 / @gridRowWidth * 100 * 1%);<br>&nbsp;&nbsp;}<br>&nbsp;&nbsp;[class*="span"]:first-child {<br>&nbsp;&nbsp;margin-left: 0;<br>}</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;row-fluid-nomargin&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>row-fluid-nomargin</p></div>
+			<div class="span2"><p><a href="/docs/row-fluid-nomargin" title="go to docs page">docs</a></p></div>
+			<div class="span5 ref-note"><p><br>.row-fluid {<br>&nbsp;&nbsp;width: 100%;<br>&nbsp;&nbsp;.clearfix();<br>&nbsp;&nbsp;[class*="span"] {<br>&nbsp;&nbsp;&nbsp;&nbsp;.input-block-level();<br>&nbsp;&nbsp;&nbsp;&nbsp;float: left;<br>&nbsp;&nbsp;&nbsp;&nbsp;margin-left: 0;<br>&nbsp;&nbsp;&nbsp;&nbsp;*margin-left: 0;<br>//&nbsp;&nbsp;margin-left: @fluidGridGutterWidth;<br>//&nbsp;&nbsp;*margin-left: @fluidGridGutterWidth - (.5 / @gridRowWidth * 100 * 1%);<br>&nbsp;&nbsp;}<br>&nbsp;&nbsp;[class*="span"]:first-child {<br>&nbsp;&nbsp;margin-left: 0;<br>}</p></div>
+			</div><!-- row-fluid ref -->
+
+		<div class="row-fluid ref-divide-header">
+		<div class="span1"><strong># utility</strong></div>
+		<div class="span2"><strong>HTML</strong></div>
+		<div class="span2"><strong>class</strong></div>
+		<div class="span2"><strong>example</strong></div>
+		<div class="span5"><strong>note</strong></div>
+		</div><!-- row-fluid ref-header -->
+		<div class="row-fluid ref">
+		<div class="span1"><p>Usage<p></div>
+		<div class="span2"><p>&lt;div&gt;</p></div>
+		<div class="span2"><p></p></div>
+		<div class="span2"><p>docs page</p></div>
+		<div class="span5 ref-note">
+<pre class="prettyprint ref-prettyprint">
+레이아웃을 마크업할 때 row-fluid-nomargin 값을 사용하면 하위 셀렉터에 영향을 주어, span 행까지 여백이 사라진다. 여러가지 경우를 고려한 nomargin 셀렉터로 사용한다. 
+</pre>
+		</div><!-- span5 -->
+		</div><!-- row-fluid ref -->
+
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;span12 layout-nomargin&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>layout-nomargin</p></div>
+			<div class="span2"><p>-</p></div>
+			<div class="span5 ref-note"><p>.layout-nomargin {<br>&nbsp;&nbsp;margin-left: 0 !important;<br>&nbsp;&nbsp;*margin-left: 0 !important;<br>}</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;row-fluid span-nomargin&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>span-nomargin</p></div>
+			<div class="span2"><p>-</p></div>
+			<div class="span5 ref-note"><p>.span-nomargin [class*="span"] {<br>&nbsp;&nbsp;margin-left: 0 !important;<br>&nbsp;&nbsp;*margin-left: 0 !important;<br>}</p></div>
+			</div><!-- row-fluid ref -->
+
+
+		<div class="row-fluid ref-divide-header">
+		<div class="span1"><strong># column</strong></div>
+		<div class="span2"><strong>HTML</strong></div>
+		<div class="span2"><strong>class</strong></div>
+		<div class="span2"><strong>example</strong></div>
+		<div class="span5"><strong>note</strong></div>
+		</div><!-- row-fluid ref-header -->
+		<div class="row-fluid ref">
+		<div class="span1"><p>Usage<p></div>
+		<div class="span2"><p>&lt;div&gt;</p></div>
+		<div class="span2"><p>.span*</p></div>
+		<div class="span2"><p>docs page</p></div>
+		<div class="span5 ref-note">
+<pre class="prettyprint ref-prettyprint">
+layout의 가로 행을 markup하는 셀렉터다. bootstrap의 기본 행은 12개이며,  
+markquery 역시 동일하다.  
+
+// example : <a href="http://markquery.com/docs/layout" title="go to markquery documentation">http://markquery.com/docs/grid-system</a>
+</pre>
+		</div><!-- span5 -->
+		</div><!-- row-fluid ref -->
+
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;span1&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>span1</p></div>
+			<div class="span2"><p>-</p></div>
+			<div class="span5 ref-note"><p> - </p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;span2&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>span2</p></div>
+			<div class="span2"><p>-</p></div>
+			<div class="span5 ref-note"><p> - </p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;span3&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>span3</p></div>
+			<div class="span2"><p>-</p></div>
+			<div class="span5 ref-note"><p> - </p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;span4&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>span4</p></div>
+			<div class="span2"><p>-</p></div>
+			<div class="span5 ref-note"><p> - </p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;span5&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>span5</p></div>
+			<div class="span2"><p>-</p></div>
+			<div class="span5 ref-note"><p> - </p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;span6&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>span6</p></div>
+			<div class="span2"><p>-</p></div>
+			<div class="span5 ref-note"><p> - </p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;span7&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>span7</p></div>
+			<div class="span2"><p>-</p></div>
+			<div class="span5 ref-note"><p> - </p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;span8&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>span8</p></div>
+			<div class="span2"><p>-</p></div>
+			<div class="span5 ref-note"><p> - </p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;span9&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>span9</p></div>
+			<div class="span2"><p>-</p></div>
+			<div class="span5 ref-note"><p> - </p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;span10&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>span10</p></div>
+			<div class="span2"><p>-</p></div>
+			<div class="span5 ref-note"><p> - </p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;span11&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>span11</p></div>
+			<div class="span2"><p>-</p></div>
+			<div class="span5 ref-note"><p> - </p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;span12&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>span12</p></div>
+			<div class="span2"><p>-</p></div>
+			<div class="span5 ref-note"><p> - </p></div>
+			</div><!-- row-fluid ref -->
+			
+
+		<div class="row-fluid ref-divide-header">
+		<div class="span1"><strong># column</strong></div>
+		<div class="span2"><strong>HTML</strong></div>
+		<div class="span2"><strong>class</strong></div>
+		<div class="span2"><strong>example</strong></div>
+		<div class="span5"><strong>note</strong></div>
+		</div><!-- row-fluid ref-header -->
+		<div class="row-fluid ref">
+		<div class="span1"><p>Usage<p></div>
+		<div class="span2"><p>&lt;div&gt;</p></div>
+		<div class="span2"><p>.offset*</p></div>
+		<div class="span2"><p>docs page</p></div>
+		<div class="span5 ref-note">
+<pre class="prettyprint ref-prettyprint">
+layout의 가로 행을 offest으로 markup하는 셀렉터다. bootstrap의 기본 행은 12개이며,  
+markquery 역시 동일하다.  
+
+// example : <a href="http://markquery.com/docs/layout" title="go to markquery documentation">http://markquery.com/docs/grid-system</a>
+</pre>
+		</div><!-- span5 -->
+		</div><!-- row-fluid ref -->
+
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;span1 offset1&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>offset1</p></div>
+			<div class="span2"><p>-</p></div>
+			<div class="span5 ref-note"><p> - </p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;span1 offset2&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>offset2</p></div>
+			<div class="span2"><p>-</p></div>
+			<div class="span5 ref-note"><p> - </p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;span1 offset3&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>offset3</p></div>
+			<div class="span2"><p>-</p></div>
+			<div class="span5 ref-note"><p> - </p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;span1 offset4&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>offset4</p></div>
+			<div class="span2"><p>-</p></div>
+			<div class="span5 ref-note"><p> - </p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;span1 offset5&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>offset5</p></div>
+			<div class="span2"><p>-</p></div>
+			<div class="span5 ref-note"><p> - </p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;span1 offset6&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>offset6</p></div>
+			<div class="span2"><p>-</p></div>
+			<div class="span5 ref-note"><p> - </p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;span1 offset7&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>offset7</p></div>
+			<div class="span2"><p>-</p></div>
+			<div class="span5 ref-note"><p> - </p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;span1 offset8&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>offset8</p></div>
+			<div class="span2"><p>-</p></div>
+			<div class="span5 ref-note"><p> - </p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;span1 offset9&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>offset9</p></div>
+			<div class="span2"><p>-</p></div>
+			<div class="span5 ref-note"><p> - </p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;span1 offset10&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>offset10</p></div>
+			<div class="span2"><p>-</p></div>
+			<div class="span5 ref-note"><p> - </p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;span1 offset11&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>offset11</p></div>
+			<div class="span2"><p>-</p></div>
+			<div class="span5 ref-note"><p> - </p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="&lt;div class=&quot;span1 offset12&quot;&gt;&lt;/div&gt;"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>&lt;div&gt;</p></div>
+			<div class="span2"><p>offset12</p></div>
+			<div class="span2"><p>-</p></div>
+			<div class="span5 ref-note"><p> - </p></div>
+			</div><!-- row-fluid ref -->
+			
+	</div>
+</section>
+<script src="/scripts/ajax.js"></script>

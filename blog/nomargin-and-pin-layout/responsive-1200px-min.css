@@ -1,0 +1,27 @@
+// Fixed grid
+#grid-nomargin > .core(@gridColumnWidth1200-nomargin, @gridGutterWidth1200-nomargin);
+
+// Fluid grid
+#grid-nomargin > .fluid(@fluidGridColumnWidth1200-nomargin, @fluidGridGutterWidth1200-nomargin);
+
+// Input grid
+#grid-nomargin > .input(@gridColumnWidth1200-nomargin, @gridGutterWidth1200-nomargin);
+
+// nest
+.container-nest, .container-nest-left, .container-nest-right { width:1170px; }
+.container-nest-620, .container-nest-620-left, .container-nest-620-right { width:620px; }
+.container-nest-820, .container-nest-820-left, .container-nest-820-right { width:820px; }
+.container-nest-960, .container-nest-960-left, .container-nest-960-right { width:960px; }
+.container-nest-1200, .container-nest-1200-left, .container-nest-1200-right { width:1200px; }
+.container-nest-1600, .container-nest-1600-left, .container-nest-1600-right { width:1600px; }
+
+// Thumbnails
+.thumbnails {
+margin-left: -@gridGutterWidth1200;
+}
+.thumbnails > li {
+margin-left: @gridGutterWidth1200;
+}
+.row-fluid .thumbnails, .row-fluid-nomargin .thumbnails {
+margin-left: 0;
+}

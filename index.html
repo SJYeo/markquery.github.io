@@ -1,0 +1,669 @@
+﻿<!DOCTYPE html>
+<html lange="en">
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width">
+	<title>markquery</title>
+	<meta name="description" content="Customize your contents. markquery is markup library for web contents." />
+	<meta name="keywords" content="markquery, web, contents, editorial design, opensource, html5, css, markup" />
+	<meta name="author" content="Ungki, H" />
+	<meta http-equiv="X-Powered-By" content="DocPad v6.34.1"/>
+
+	<link rel="author" href="humans.txt" />
+	<link rel="profile" href="http://microformats.org/profile/hcard">
+	
+	<!-- Icons -->
+	<link rel="shortcut icon" href="http://markquery.com/images/favicon.ico">
+	<link rel="apple-touch-icon" href="http://markquery.com/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="http://markquery.com/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="http://markquery.com/images/apple-touch-icon-114x114.png">
+
+	<!-- Shims: IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+		<script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- home style -->
+	<link  rel="stylesheet" href="/styles/markquery.min.css" />
+	<link  rel="stylesheet" href="/styles/home.css" />
+
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->
+<!-- Nav
+================================================== -->
+<nav role="navigation">
+	<div class="navbar navbar-static-top">
+		<div class="navbar-inner">
+			<div class="container-pin-820">
+				<a href="#content" class="skip">skip to content</a>
+				<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+					<div class="nav-collapse collapse">
+					<ul class="nav">
+					
+					<li class="active">
+					<a href="/">Home</a>
+					</li>
+					
+					<li class="inactive">
+					<a href="/docs">documentation</a>
+					</li>
+					
+					<li class="inactive">
+					<a href="/reference">reference</a>
+					</li>
+					
+					<li class="inactive">
+					<a href="/blog">blog</a>
+					</li>
+					
+					</ul>
+					</div>
+			</div>
+		</div>
+	</div>
+</nav>
+
+
+<!-- content 
+================================================== -->
+<!-- Header 
+================================================== -->
+<header role="banner">
+	<div class="container-pin-820">
+		<div class="row-fluid">
+			<div class="span12">
+			<h1 class="font-anton-4em logo"><a title="go to markquery home" href="http://markquery.com">MARKQUERY</a></h1>
+			</div>
+		</div>
+	</div>
+</header>
+
+<section class="intro">
+	<div class="container-pin-820 height-margin-60">
+ 		<div id="myCarousel" class="carousel slide">
+			<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+				<div class="carousel-inner">
+				<!-- item 1 -->
+				<div class="item active">
+					<div class="row-fluid height-margin-60">
+						<div class="span12 text-center">
+						<h2 class="font-opensans300">Customize your contents</h2>
+						<p class="font-opensans text-lineheight-26 margin-top-40">Passionate individual bloggers, Brand contents creators, Designers &amp; developers and everyone. It's free. <a  class="alink-08c-005580" href="/docs/overview">Getting started</a></p>
+						</div>
+					</div><!-- row -->
+				</div><!-- item 1 active -->
+
+				<!-- item 2 -->
+				<div class="item">
+					<div class="row-fluid height-margin-60">
+						<div class="span12 text-center">
+						<h2 class="font-opensans300">sharing source</h2>
+						<p class="font-opensans text-lineheight-26 margin-top-40"><a class="alink-08c-005580" href="/docs/download">Download</a> as you want. and <a class="alink-08c-005580" href="mailto:ungki.h@gmail.com">Submit</a> your contents. HTML, CSS, javascript, anything and everything.</p>
+						</div>
+					</div><!-- row -->
+				</div><!-- item 2-->
+
+				<!-- item 3 -->
+				<div class="item">
+					<div class="row-fluid height-margin-60">
+						<div class="span12 text-center">
+						<h2 class="font-opensans300">Documentaion &amp; resource</h2>
+						<p class="font-opensans text-lineheight-26 margin-top-40">Provides Help <a class="alink-08c-005580" href="/docs">docs</a> and Find out flexible, various, entertaining contents editorial design <a class="alink-08c-005580" href="#">resource (pendding)</a></p>
+						</div>
+					</div><!-- row -->
+				</div><!-- item 3 -->
+				</div><!-- carousel-inner -->
+
+			<div class="home-carousel-control-box">
+			<a class="home-carousel-control" href="#myCarousel" data-slide="prev"><i class="icon-chevron-left"></i></a>
+			<a class="home-carousel-control" href="#myCarousel" data-slide="next"><i class="icon-chevron-right"></i></a>
+			</div>
+		</div><!-- #myCarousel -->
+	</div><!-- container-pin-820 -->
+</section><!-- intro section -->
+
+<section class="like text-color-999">
+	<div class="container">
+		<div class="row-fluid-nomargin">
+			<div class="span12">
+			<p class="text-center padding-20"><a class="ahover-cfcfd5-fff" href="http://markquery.com/license">About The License</a> Hosted by GitHub, Powered by DOCPAD on node.js, Based on front-end framework bootstrap, LessCSS, CoffeeScript, etc</p>
+			</div><!-- span12 -->
+			<div class="span12">
+			<div class="thumb2"><img class="grayimg" src="/images/github-logo.png" alt="github logo"></div>
+			<div class="thumb2"><img class="grayimg" src="/images/bootstrap-logo.png" alt="bootstrap logo"></div>
+			<div class="thumb2"><img class="grayimg" src="/images/lesscss-logo.png" alt="lesscss logo"></div>
+			<div class="thumb2"><img class="grayimg" src="/images/docpad-logo.png" alt="docpad logo"></div>
+			<div class="thumb2"><img class="grayimg" src="/images/nodejs-logo.png" alt="nodejs logo"></div>
+			<div class="thumb2"><img class="grayimg" src="/images/coffeescript-logo.png" alt="coffeescript logo"></div>
+			</div>
+		</div><!-- row-fluid-nomargin -->
+	</div><!-- container-pin -->
+</section><!-- like section -->
+
+<article role="main" id="content">
+	<div class="container-pin-960">
+		<div class="row-fluid height-margin-100">
+		
+			<div class="row-fluid height-margin-100">
+			<div class="span12">
+			<p>이 사이트는 초안 작성 중입니다.<small > test verion 0.1</small> - wait translate from Korean into English (any other languages, too) </p>
+
+			<h2 class="font-opensans300" id="header 2">What is markquery?</h2>
+			</div>
+			</div>
+
+			<div class="row-fluid height-margin-100 height-padding-20 border-3teee">
+			<div class="span6">
+			<p class="text-lineheight-26 text-justify">markquery는 웹콘텐츠를 위한 마크업 라이브러리(markup library)입니다. 콘텐츠를 유연하고 강력하게 커스터마이즈 할 수 있는 편집디자인을 제공합니다. 세상의 모든 웹콘텐츠를 발전시키는 것이 목표입니다. 더욱 멋지고 경쟁력 있는 콘텐츠를 만들어보세요. 쉽게 활용할 수 있고 자유롭게 접근할 수 있습니다.</p>
+			</div>
+			
+			<div class="span6">
+			<p class="text-lineheight-26 text-justify">웹은 HTML<sup><a href="#note1" id="ref1">[1]</a></sup>로 만듭다. 이제는 콘텐츠도 HTML의 기본에 충실해야 합니다. markquery에서 공유하는 코드를 활용하여 마크업<sup><a href="#note2" id="ref2">[2]</a></sup>을 시작하세요. 하지만 누구나 배우면서 만들 수는 없습니다. 많은 소스를 공유할 것이고, reference에서 소스를 찾아 콘텐츠의 특징에 맞춰 창작을 할 수도 있도록 안내할 것입니다.</p>
+			</div>
+			</div>
+			
+			<!-- footnote -->
+			<div class="row-fluid height-padding-20 margin-bottom-50">
+			<hr class="hr-1px-ddd" />
+				<ol class="unstyled">
+				<li id="note1">1. HTML - 하이퍼텍스트 마크업 언어 HyperText Markup Language <a href="#ref1" title="Jump back to footnote 1 in the text.">&#x2191;</a></li>
+				<li id="note2">2. 마크업(markup) - 편집을 위해 카피나 레이아웃 등을 만드는 작업. <a href="#ref2" title="Jump back to footnote 2 in the text.">&#x2191;</a></li>
+				</ol>
+			</div>
+		
+		</div><!-- row-fluid -->
+	</div><!-- container-pin-960 -->
+
+
+	<div class="container-fluid-nomargin bgmask-texturetastic-gray">
+	<div class="container-pin-960 height-margin-100">
+
+		<div class="row-fluid margin-top-40">
+		<div class="span12">
+			<h2 class="font-opensans300 text-color-155" id="header 2">DOWNLOAD</h2>
+		</div>
+		</div>
+
+		<div class="row-fluid">
+		<div class="span12">
+			<p class="lead text-size-18" id="lead">markquery는 bootstrap<sup><a href="#note3" id="ref3">[3]</a></sup>을 바탕으로 레이아웃을 마크업 합니다. bootstrap은 논란의 여지가 없는 세계에서 가장 인기있는 <a class="alink-08c-005580" href="https://github.com/popular/starred" title="Popular Starred Repositories on github">front-end framework</a>입니다. 만약 이미 bootstrap으로 사이트가 준비되어 있다면 "<a class="alink-08c-005580" href="/blog/nomargin-and-pin-layout/">nomargin과 pin</a>"<sup><a href="#note4" id="ref4">[4]</a></sup> CSS를 추가하세요. 더욱 유연하고 다양한 콘텐츠 제작을 할 수 있습니다. markquery는 유저가 원하는 대로, 신뢰할 수 있는 만큼 무료로 사용 가능합니다. <a class="text-bgcolor-d5d5d5" href="http://markquery.com/license">라이센스</a>를 확인하세요.</p>
+			<hr class="hr-3px-bbb" />
+		</div>
+		</div>
+
+
+
+
+		<div class="row-fluid">
+		<div class="span12">
+			<h3 class="font-opensans300 text-color-155" id="header 3">1. Markquery Download</h3>
+		</div>
+		</div>
+
+		<div class="row-fluid">
+		<div class="span4">
+			<div  class="palette palette-night">
+			<p><a class="ahover-ee2e24-b94a48 text-size-16" href="#">Markquery</a> <br>compiled and minified version 0.1 <br> <a class="ahover-cfcfd5-fff"href="https://github.com/">GitHub project</a></p>
+			</div>
+			<div class="palette palette-night-dark">
+			<p><a class="ahover-ee2e24-b94a48 text-size-16" href="#">Markquery Source</a> <br>lessCSS files version 0.1 <br> <a class="ahover-cfcfd5-fff" href="https://github.com/">GitHub project</a></p>
+			</div>
+		</div>
+
+		<div class="span4">
+			<p class="text-lineheight-26">Files size of bootstrap Version 2.3.2</p>
+			<ul>
+			<li>bootstrap.css <span class="text-bgcolor-d5d5d5">124KB</span></li>
+			<li>bootstrap.min.css <span class="text-bgcolor-d5d5d5">103KB</span></li>
+			<li>bootstrap-responsive.css <span class="text-bgcolor-d5d5d5">21.5KB</span></li>
+			<li>bootstrap-responsive.min.css <span class="text-bgcolor-d5d5d5">16.4KB</span></li>
+			<li>bootstrap.js <span class="text-bgcolor-d5d5d5">60.5KB</span></li>
+			<li>bootstrap.min.js <span class="text-bgcolor-d5d5d5">27.9KB</span></li>
+			<li>jquery.min.js <span class="text-bgcolor-d5d5d5">90.4KB</span></li>
+			</ul>
+			<!--
+			<p class="text-lineheight-26">Files size of Components</p>
+			<ul>
+			<li>holder.js <span class="text-bgcolor-d5d5d5">11.4KB</span></li>
+			<li>hoverizr.js <span class="text-bgcolor-d5d5d5">6.13KB</span></li>
+			<li>jtwt.js <span class="text-bgcolor-d5d5d5">2.07KB</span></li>
+			<li>modernizr.js <span class="text-bgcolor-d5d5d5">15.0KB</span></li>
+			</ul> 
+			-->
+		</div>
+		<div class="span4">
+			<p class="text-lineheight-26">Files size of markquery Version 1.0</p>
+			<ul>
+			<li>bootstrap.css <span class="text-bgcolor-e4c4c4">129KB</span></li>
+			<li>bootstrap-responsive.css <span class="text-bgcolor-e4c4c4">36.9KB</span></li>
+			<li>reference.css <span class="text-bgcolor-e4c4c4">87.3KB</span></li>
+			</ul>
+
+			<p class="text-lineheight-26">ran grunt.js</p>
+			<ul>
+			<li>markquery.min.css <span class="text-bgcolor-e4c4c4">142KB</span></li>
+			<li>reference.min.css <span class="text-bgcolor-e4c4c4">71.3KB</span></li>
+			<li>markquery.js <span class="text-bgcolor-e4c4c4">158KB</span></li>
+			</ul>
+
+			<p><a href="/docs/download">File Structure</a></p>
+		</div>
+		</div><!-- download markquery -->
+			
+
+		<div class="row-fluid">
+		<div class="span12">
+			<h3 class="font-opensans300 text-color-155" id="header 3">2. Skeleton Download</h3>
+		</div>
+		</div>
+
+		<div class="row-fluid">
+		<div class="span4">
+			<div  class="palette palette-blue">
+			<p><a class="ahover-33ff00-29cd00 text-size-16" href="#">Wordpress Skeletons</a> <br>version 0.1<br> <a class="ahover-cfcfd5-666" href="#">GitHub project</a></p>
+			</div>
+			<div class="palette palette-blue-dark">
+			<p><a class="ahover-33ff00-29cd00 text-size-16" href="#">Tistory Skeletons</a> <br> version 0.1 Korean only <br> <a class="ahover-cfcfd5-666" href="#">GitHub project</a></p>
+			</div>
+		</div>
+		
+		<div class="span4">
+			<p>Skeleton Features</p>
+			<ul>
+			<li>bootstrap ver 2.3.2</li>
+			<li>Roots theme</li>
+			<li>HTML5 Boilerplate</li>
+			<li>CSS Optimize</li>
+			</ul>
+		</div>
+		<div class="span4">
+			<p>included 3 layout package</p>
+			<ul>
+				<li>fixed layout</li>
+				<li>fluid layout</li>
+				<li>fluid with sidebar layout</li>
+			</ul>
+			<p><a href="/docs/download">File Structure</a></p>
+		</div>
+		</div><!-- download skeleton -->
+
+
+
+		<!-- footnote -->
+		<div class="row-fluid height-margin-60">
+		<hr class="hr-bababa-f1f1f1" />
+			<ol class="unstyled">
+			<li id="note3">3. bootstrap - 트위터에서 오픈소스로 공개하는 프론트엔드 프레임워크 | <a href="http://twitter.github.io/bootstrap/index.html" title="go to bootstrap">http://twitter.github.io/bootstrap/index.html</a><a href="#ref3" title="Jump back to footnote 3 in the text.">&#x2191;</a></li>
+			<li id="note4">4. nomargin과 pin CSS, less | <a href="/blog/nomargin-and-pin-layout/" title="go to markquery blog">http://markquery.com/blog/nomargin-and-pin-layout/</a> <a href="#ref4" title="Jump back to footnote 4 in the text.">&#x2191;</a></li>
+			</ol>
+		</div>
+	</div><!-- container-fluid-nomargin -->
+	</div><!-- container-pin-960 -->
+
+</article>
+
+
+<!-- Footer
+================================================== -->
+<footer role="contentinfo">
+		<div class="container-fluid bgmask-diagonal-noise">
+		<div class="row-fluid height-padding-100">
+			<div class="vcard">
+			<div class="span4">
+			<h1 class="font-anton-3em"><img class="photo bgcolor-373737" src="/images/markquery-icon-64.png" alt=" " /><a class="org url margin-left-20 ahover-fff-ddd" title="http://markquery.com" href="http://markquery.com">MARKQUERY</a></h1>
+			
+			<div class="nestedhover-cfcfd5-fff">
+			<cite><p>Copyright &copy; 2013 <a class="org url" href="http://markquery.com/">markquery.com</a> project maintained  by <a class="fn email" href="mailto:ungki.h@gmail.com">Ungki, H</a></p></cite>
+			<p>Licensed under the incredibly permissive <a rel="license" href="http://markquery.com/license">MIT License</a></p>
+			<p>Documentations under <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0</a></p>
+			<p>Open sources are copyright of their respective owners  <a rel="license" href="http://markquery.com/license">About The License</a></p>
+			</div>
+			</div>
+
+			<div class="span2">
+			<h1 class="title-opensans"><img class="bgcolor-373737" src="/images/github-icon-64.png" alt=" " /><a class="margin-left-20 ahover-fff-ddd" title="github.com" href="http://github.com">GitHub</a></h1>
+			<ul class="nestedhover-cfcfd5-fff">
+			<li><a rel="directory" href="https://github.com/">markquery</a></li>
+			<li><a rel="directory" href="https://github.com/">markquery source</a></li>
+			<li><a rel="directory" href="https://github.com/">wordpress skeleton</a></li>
+			<li><a rel="directory" href="https://github.com/">tistory skeleton</a></li>
+			<li><a rel="directory" href="https://github.com/">docs &amp; reference</a></li>
+			</ul>
+			</div>
+
+			<div class="span2">
+			<h1 class="title-opensans"><a class="ahover-fff-ddd" title="download page" href="http://markquery/docs/download">Download</a></h1>
+			<ul class="nestedhover-cfcfd5-fff">
+			<li><a rel="directory" href="http://markquery.com/docs/download#markquery">markquery</a></li>
+			<li><a rel="directory" href="http://markquery.com/docs/download#markquery-source">markquery source</a></li>
+			<li><a rel="directory" href="http://markquery.com/docs/download#wordpress">wordpress skeleton</a></li>
+			<li><a rel="directory" href="http://markquery.com/docs/download#tistory">tistory skeleton</a></li>
+			</ul>
+			</div>
+
+			<div class="span4">
+			<h1 class="title-opensans"><img class="bgcolor-373737" src="/images/twitter-icon-64.png" alt=" " /><a class="margin-left-20 ahover-fff-ddd" title="twitter" href="http://twitter.com/markquery">Released Note</a></h1>
+			<div id="twitter" class="note"></div>
+			</div>
+			</div><!-- microformats -->
+		</div>
+		</div>
+</footer>
+
+<!-- source 
+================================================== -->
+<section id="source">
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+			<p>This page was last updated at 2013-05-27T05:28:11.072Z</p>
+			<h6 id="source-header"><a>Click to view this page's source</a></h6>
+			<div id="source-code">
+			<div><p>Source file extension is <code>html</code>. Outextension is <code>html</code>.</p></div>
+			<pre class="prettyprint lang-html">--- yaml
+title: &quot;Home&quot;
+layout: &quot;home&quot;
+nav: true
+navOrder: 1
+---
+&lt;!-- Header 
+================================================== --&gt;
+&lt;header role=&quot;banner&quot;&gt;
+	&lt;div class=&quot;container-pin-820&quot;&gt;
+		&lt;div class=&quot;row-fluid&quot;&gt;
+			&lt;div class=&quot;span12&quot;&gt;
+			&lt;h1 class=&quot;font-anton-4em logo&quot;&gt;&lt;a title=&quot;go to markquery home&quot; href=&quot;http://markquery.com&quot;&gt;MARKQUERY&lt;/a&gt;&lt;/h1&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/header&gt;
+
+&lt;section class=&quot;intro&quot;&gt;
+	&lt;div class=&quot;container-pin-820 height-margin-60&quot;&gt;
+ 		&lt;div id=&quot;myCarousel&quot; class=&quot;carousel slide&quot;&gt;
+			&lt;ol class=&quot;carousel-indicators&quot;&gt;
+			&lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;0&quot; class=&quot;active&quot;&gt;&lt;/li&gt;
+			&lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;1&quot;&gt;&lt;/li&gt;
+			&lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;2&quot;&gt;&lt;/li&gt;
+			&lt;/ol&gt;
+				&lt;div class=&quot;carousel-inner&quot;&gt;
+				&lt;!-- item 1 --&gt;
+				&lt;div class=&quot;item active&quot;&gt;
+					&lt;div class=&quot;row-fluid height-margin-60&quot;&gt;
+						&lt;div class=&quot;span12 text-center&quot;&gt;
+						&lt;h2 class=&quot;font-opensans300&quot;&gt;Customize your contents&lt;/h2&gt;
+						&lt;p class=&quot;font-opensans text-lineheight-26 margin-top-40&quot;&gt;Passionate individual bloggers, Brand contents creators, Designers &amp;amp; developers and everyone. It's free. &lt;a  class=&quot;alink-08c-005580&quot; href=&quot;/docs/overview&quot;&gt;Getting started&lt;/a&gt;&lt;/p&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;&lt;!-- row --&gt;
+				&lt;/div&gt;&lt;!-- item 1 active --&gt;
+
+				&lt;!-- item 2 --&gt;
+				&lt;div class=&quot;item&quot;&gt;
+					&lt;div class=&quot;row-fluid height-margin-60&quot;&gt;
+						&lt;div class=&quot;span12 text-center&quot;&gt;
+						&lt;h2 class=&quot;font-opensans300&quot;&gt;sharing source&lt;/h2&gt;
+						&lt;p class=&quot;font-opensans text-lineheight-26 margin-top-40&quot;&gt;&lt;a class=&quot;alink-08c-005580&quot; href=&quot;/docs/download&quot;&gt;Download&lt;/a&gt; as you want. and &lt;a class=&quot;alink-08c-005580&quot; href=&quot;mailto:ungki.h@gmail.com&quot;&gt;Submit&lt;/a&gt; your contents. HTML, CSS, javascript, anything and everything.&lt;/p&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;&lt;!-- row --&gt;
+				&lt;/div&gt;&lt;!-- item 2--&gt;
+
+				&lt;!-- item 3 --&gt;
+				&lt;div class=&quot;item&quot;&gt;
+					&lt;div class=&quot;row-fluid height-margin-60&quot;&gt;
+						&lt;div class=&quot;span12 text-center&quot;&gt;
+						&lt;h2 class=&quot;font-opensans300&quot;&gt;Documentaion &amp;amp; resource&lt;/h2&gt;
+						&lt;p class=&quot;font-opensans text-lineheight-26 margin-top-40&quot;&gt;Provides Help &lt;a class=&quot;alink-08c-005580&quot; href=&quot;/docs&quot;&gt;docs&lt;/a&gt; and Find out flexible, various, entertaining contents editorial design &lt;a class=&quot;alink-08c-005580&quot; href=&quot;#&quot;&gt;resource (pendding)&lt;/a&gt;&lt;/p&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;&lt;!-- row --&gt;
+				&lt;/div&gt;&lt;!-- item 3 --&gt;
+				&lt;/div&gt;&lt;!-- carousel-inner --&gt;
+
+			&lt;div class=&quot;home-carousel-control-box&quot;&gt;
+			&lt;a class=&quot;home-carousel-control&quot; href=&quot;#myCarousel&quot; data-slide=&quot;prev&quot;&gt;&lt;i class=&quot;icon-chevron-left&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+			&lt;a class=&quot;home-carousel-control&quot; href=&quot;#myCarousel&quot; data-slide=&quot;next&quot;&gt;&lt;i class=&quot;icon-chevron-right&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;&lt;!-- #myCarousel --&gt;
+	&lt;/div&gt;&lt;!-- container-pin-820 --&gt;
+&lt;/section&gt;&lt;!-- intro section --&gt;
+
+&lt;section class=&quot;like text-color-999&quot;&gt;
+	&lt;div class=&quot;container&quot;&gt;
+		&lt;div class=&quot;row-fluid-nomargin&quot;&gt;
+			&lt;div class=&quot;span12&quot;&gt;
+			&lt;p class=&quot;text-center padding-20&quot;&gt;&lt;a class=&quot;ahover-cfcfd5-fff&quot; href=&quot;http://markquery.com/license&quot;&gt;About The License&lt;/a&gt; Hosted by GitHub, Powered by DOCPAD on node.js, Based on front-end framework bootstrap, LessCSS, CoffeeScript, etc&lt;/p&gt;
+			&lt;/div&gt;&lt;!-- span12 --&gt;
+			&lt;div class=&quot;span12&quot;&gt;
+			&lt;div class=&quot;thumb2&quot;&gt;&lt;img class=&quot;grayimg&quot; src=&quot;/images/github-logo.png&quot; alt=&quot;github logo&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;thumb2&quot;&gt;&lt;img class=&quot;grayimg&quot; src=&quot;/images/bootstrap-logo.png&quot; alt=&quot;bootstrap logo&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;thumb2&quot;&gt;&lt;img class=&quot;grayimg&quot; src=&quot;/images/lesscss-logo.png&quot; alt=&quot;lesscss logo&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;thumb2&quot;&gt;&lt;img class=&quot;grayimg&quot; src=&quot;/images/docpad-logo.png&quot; alt=&quot;docpad logo&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;thumb2&quot;&gt;&lt;img class=&quot;grayimg&quot; src=&quot;/images/nodejs-logo.png&quot; alt=&quot;nodejs logo&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;thumb2&quot;&gt;&lt;img class=&quot;grayimg&quot; src=&quot;/images/coffeescript-logo.png&quot; alt=&quot;coffeescript logo&quot;&gt;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;&lt;!-- row-fluid-nomargin --&gt;
+	&lt;/div&gt;&lt;!-- container-pin --&gt;
+&lt;/section&gt;&lt;!-- like section --&gt;
+
+&lt;article role=&quot;main&quot; id=&quot;content&quot;&gt;
+	&lt;div class=&quot;container-pin-960&quot;&gt;
+		&lt;div class=&quot;row-fluid height-margin-100&quot;&gt;
+		
+			&lt;div class=&quot;row-fluid height-margin-100&quot;&gt;
+			&lt;div class=&quot;span12&quot;&gt;
+			&lt;p&gt;이 사이트는 초안 작성 중입니다.&lt;small &gt; test verion 0.1&lt;/small&gt; - wait translate from Korean into English (any other languages, too) &lt;/p&gt;
+
+			&lt;h2 class=&quot;font-opensans300&quot; id=&quot;header 2&quot;&gt;What is markquery?&lt;/h2&gt;
+			&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&quot;row-fluid height-margin-100 height-padding-20 border-3teee&quot;&gt;
+			&lt;div class=&quot;span6&quot;&gt;
+			&lt;p class=&quot;text-lineheight-26 text-justify&quot;&gt;markquery는 웹콘텐츠를 위한 마크업 라이브러리(markup library)입니다. 콘텐츠를 유연하고 강력하게 커스터마이즈 할 수 있는 편집디자인을 제공합니다. 세상의 모든 웹콘텐츠를 발전시키는 것이 목표입니다. 더욱 멋지고 경쟁력 있는 콘텐츠를 만들어보세요. 쉽게 활용할 수 있고 자유롭게 접근할 수 있습니다.&lt;/p&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&quot;span6&quot;&gt;
+			&lt;p class=&quot;text-lineheight-26 text-justify&quot;&gt;웹은 HTML&lt;sup&gt;&lt;a href=&quot;#note1&quot; id=&quot;ref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;로 만듭다. 이제는 콘텐츠도 HTML의 기본에 충실해야 합니다. markquery에서 공유하는 코드를 활용하여 마크업&lt;sup&gt;&lt;a href=&quot;#note2&quot; id=&quot;ref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;을 시작하세요. 하지만 누구나 배우면서 만들 수는 없습니다. 많은 소스를 공유할 것이고, reference에서 소스를 찾아 콘텐츠의 특징에 맞춰 창작을 할 수도 있도록 안내할 것입니다.&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;/div&gt;
+			
+			&lt;!-- footnote --&gt;
+			&lt;div class=&quot;row-fluid height-padding-20 margin-bottom-50&quot;&gt;
+			&lt;hr class=&quot;hr-1px-ddd&quot; /&gt;
+				&lt;ol class=&quot;unstyled&quot;&gt;
+				&lt;li id=&quot;note1&quot;&gt;1. HTML - 하이퍼텍스트 마크업 언어 HyperText Markup Language &lt;a href=&quot;#ref1&quot; title=&quot;Jump back to footnote 1 in the text.&quot;&gt;&amp;#x2191;&lt;/a&gt;&lt;/li&gt;
+				&lt;li id=&quot;note2&quot;&gt;2. 마크업(markup) - 편집을 위해 카피나 레이아웃 등을 만드는 작업. &lt;a href=&quot;#ref2&quot; title=&quot;Jump back to footnote 2 in the text.&quot;&gt;&amp;#x2191;&lt;/a&gt;&lt;/li&gt;
+				&lt;/ol&gt;
+			&lt;/div&gt;
+		
+		&lt;/div&gt;&lt;!-- row-fluid --&gt;
+	&lt;/div&gt;&lt;!-- container-pin-960 --&gt;
+
+
+	&lt;div class=&quot;container-fluid-nomargin bgmask-texturetastic-gray&quot;&gt;
+	&lt;div class=&quot;container-pin-960 height-margin-100&quot;&gt;
+
+		&lt;div class=&quot;row-fluid margin-top-40&quot;&gt;
+		&lt;div class=&quot;span12&quot;&gt;
+			&lt;h2 class=&quot;font-opensans300 text-color-155&quot; id=&quot;header 2&quot;&gt;DOWNLOAD&lt;/h2&gt;
+		&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;row-fluid&quot;&gt;
+		&lt;div class=&quot;span12&quot;&gt;
+			&lt;p class=&quot;lead text-size-18&quot; id=&quot;lead&quot;&gt;markquery는 bootstrap&lt;sup&gt;&lt;a href=&quot;#note3&quot; id=&quot;ref3&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt;을 바탕으로 레이아웃을 마크업 합니다. bootstrap은 논란의 여지가 없는 세계에서 가장 인기있는 &lt;a class=&quot;alink-08c-005580&quot; href=&quot;https://github.com/popular/starred&quot; title=&quot;Popular Starred Repositories on github&quot;&gt;front-end framework&lt;/a&gt;입니다. 만약 이미 bootstrap으로 사이트가 준비되어 있다면 &quot;&lt;a class=&quot;alink-08c-005580&quot; href=&quot;/blog/nomargin-and-pin-layout/&quot;&gt;nomargin과 pin&lt;/a&gt;&quot;&lt;sup&gt;&lt;a href=&quot;#note4&quot; id=&quot;ref4&quot;&gt;[4]&lt;/a&gt;&lt;/sup&gt; CSS를 추가하세요. 더욱 유연하고 다양한 콘텐츠 제작을 할 수 있습니다. markquery는 유저가 원하는 대로, 신뢰할 수 있는 만큼 무료로 사용 가능합니다. &lt;a class=&quot;text-bgcolor-d5d5d5&quot; href=&quot;http://markquery.com/license&quot;&gt;라이센스&lt;/a&gt;를 확인하세요.&lt;/p&gt;
+			&lt;hr class=&quot;hr-3px-bbb&quot; /&gt;
+		&lt;/div&gt;
+		&lt;/div&gt;
+
+
+
+
+		&lt;div class=&quot;row-fluid&quot;&gt;
+		&lt;div class=&quot;span12&quot;&gt;
+			&lt;h3 class=&quot;font-opensans300 text-color-155&quot; id=&quot;header 3&quot;&gt;1. Markquery Download&lt;/h3&gt;
+		&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;row-fluid&quot;&gt;
+		&lt;div class=&quot;span4&quot;&gt;
+			&lt;div  class=&quot;palette palette-night&quot;&gt;
+			&lt;p&gt;&lt;a class=&quot;ahover-ee2e24-b94a48 text-size-16&quot; href=&quot;#&quot;&gt;Markquery&lt;/a&gt; &lt;br&gt;compiled and minified version 0.1 &lt;br&gt; &lt;a class=&quot;ahover-cfcfd5-fff&quot;href=&quot;https://github.com/&quot;&gt;GitHub project&lt;/a&gt;&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;palette palette-night-dark&quot;&gt;
+			&lt;p&gt;&lt;a class=&quot;ahover-ee2e24-b94a48 text-size-16&quot; href=&quot;#&quot;&gt;Markquery Source&lt;/a&gt; &lt;br&gt;lessCSS files version 0.1 &lt;br&gt; &lt;a class=&quot;ahover-cfcfd5-fff&quot; href=&quot;https://github.com/&quot;&gt;GitHub project&lt;/a&gt;&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;span4&quot;&gt;
+			&lt;p class=&quot;text-lineheight-26&quot;&gt;Files size of bootstrap Version 2.3.2&lt;/p&gt;
+			&lt;ul&gt;
+			&lt;li&gt;bootstrap.css &lt;span class=&quot;text-bgcolor-d5d5d5&quot;&gt;124KB&lt;/span&gt;&lt;/li&gt;
+			&lt;li&gt;bootstrap.min.css &lt;span class=&quot;text-bgcolor-d5d5d5&quot;&gt;103KB&lt;/span&gt;&lt;/li&gt;
+			&lt;li&gt;bootstrap-responsive.css &lt;span class=&quot;text-bgcolor-d5d5d5&quot;&gt;21.5KB&lt;/span&gt;&lt;/li&gt;
+			&lt;li&gt;bootstrap-responsive.min.css &lt;span class=&quot;text-bgcolor-d5d5d5&quot;&gt;16.4KB&lt;/span&gt;&lt;/li&gt;
+			&lt;li&gt;bootstrap.js &lt;span class=&quot;text-bgcolor-d5d5d5&quot;&gt;60.5KB&lt;/span&gt;&lt;/li&gt;
+			&lt;li&gt;bootstrap.min.js &lt;span class=&quot;text-bgcolor-d5d5d5&quot;&gt;27.9KB&lt;/span&gt;&lt;/li&gt;
+			&lt;li&gt;jquery.min.js &lt;span class=&quot;text-bgcolor-d5d5d5&quot;&gt;90.4KB&lt;/span&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+			&lt;!--
+			&lt;p class=&quot;text-lineheight-26&quot;&gt;Files size of Components&lt;/p&gt;
+			&lt;ul&gt;
+			&lt;li&gt;holder.js &lt;span class=&quot;text-bgcolor-d5d5d5&quot;&gt;11.4KB&lt;/span&gt;&lt;/li&gt;
+			&lt;li&gt;hoverizr.js &lt;span class=&quot;text-bgcolor-d5d5d5&quot;&gt;6.13KB&lt;/span&gt;&lt;/li&gt;
+			&lt;li&gt;jtwt.js &lt;span class=&quot;text-bgcolor-d5d5d5&quot;&gt;2.07KB&lt;/span&gt;&lt;/li&gt;
+			&lt;li&gt;modernizr.js &lt;span class=&quot;text-bgcolor-d5d5d5&quot;&gt;15.0KB&lt;/span&gt;&lt;/li&gt;
+			&lt;/ul&gt; 
+			--&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span4&quot;&gt;
+			&lt;p class=&quot;text-lineheight-26&quot;&gt;Files size of markquery Version 1.0&lt;/p&gt;
+			&lt;ul&gt;
+			&lt;li&gt;bootstrap.css &lt;span class=&quot;text-bgcolor-e4c4c4&quot;&gt;129KB&lt;/span&gt;&lt;/li&gt;
+			&lt;li&gt;bootstrap-responsive.css &lt;span class=&quot;text-bgcolor-e4c4c4&quot;&gt;36.9KB&lt;/span&gt;&lt;/li&gt;
+			&lt;li&gt;reference.css &lt;span class=&quot;text-bgcolor-e4c4c4&quot;&gt;87.3KB&lt;/span&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+
+			&lt;p class=&quot;text-lineheight-26&quot;&gt;ran grunt.js&lt;/p&gt;
+			&lt;ul&gt;
+			&lt;li&gt;markquery.min.css &lt;span class=&quot;text-bgcolor-e4c4c4&quot;&gt;142KB&lt;/span&gt;&lt;/li&gt;
+			&lt;li&gt;reference.min.css &lt;span class=&quot;text-bgcolor-e4c4c4&quot;&gt;71.3KB&lt;/span&gt;&lt;/li&gt;
+			&lt;li&gt;markquery.js &lt;span class=&quot;text-bgcolor-e4c4c4&quot;&gt;158KB&lt;/span&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+
+			&lt;p&gt;&lt;a href=&quot;/docs/download&quot;&gt;File Structure&lt;/a&gt;&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;/div&gt;&lt;!-- download markquery --&gt;
+			
+
+		&lt;div class=&quot;row-fluid&quot;&gt;
+		&lt;div class=&quot;span12&quot;&gt;
+			&lt;h3 class=&quot;font-opensans300 text-color-155&quot; id=&quot;header 3&quot;&gt;2. Skeleton Download&lt;/h3&gt;
+		&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;row-fluid&quot;&gt;
+		&lt;div class=&quot;span4&quot;&gt;
+			&lt;div  class=&quot;palette palette-blue&quot;&gt;
+			&lt;p&gt;&lt;a class=&quot;ahover-33ff00-29cd00 text-size-16&quot; href=&quot;#&quot;&gt;Wordpress Skeletons&lt;/a&gt; &lt;br&gt;version 0.1&lt;br&gt; &lt;a class=&quot;ahover-cfcfd5-666&quot; href=&quot;#&quot;&gt;GitHub project&lt;/a&gt;&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;palette palette-blue-dark&quot;&gt;
+			&lt;p&gt;&lt;a class=&quot;ahover-33ff00-29cd00 text-size-16&quot; href=&quot;#&quot;&gt;Tistory Skeletons&lt;/a&gt; &lt;br&gt; version 0.1 Korean only &lt;br&gt; &lt;a class=&quot;ahover-cfcfd5-666&quot; href=&quot;#&quot;&gt;GitHub project&lt;/a&gt;&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		
+		&lt;div class=&quot;span4&quot;&gt;
+			&lt;p&gt;Skeleton Features&lt;/p&gt;
+			&lt;ul&gt;
+			&lt;li&gt;bootstrap ver 2.3.2&lt;/li&gt;
+			&lt;li&gt;Roots theme&lt;/li&gt;
+			&lt;li&gt;HTML5 Boilerplate&lt;/li&gt;
+			&lt;li&gt;CSS Optimize&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;span4&quot;&gt;
+			&lt;p&gt;included 3 layout package&lt;/p&gt;
+			&lt;ul&gt;
+				&lt;li&gt;fixed layout&lt;/li&gt;
+				&lt;li&gt;fluid layout&lt;/li&gt;
+				&lt;li&gt;fluid with sidebar layout&lt;/li&gt;
+			&lt;/ul&gt;
+			&lt;p&gt;&lt;a href=&quot;/docs/download&quot;&gt;File Structure&lt;/a&gt;&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;/div&gt;&lt;!-- download skeleton --&gt;
+
+
+
+		&lt;!-- footnote --&gt;
+		&lt;div class=&quot;row-fluid height-margin-60&quot;&gt;
+		&lt;hr class=&quot;hr-bababa-f1f1f1&quot; /&gt;
+			&lt;ol class=&quot;unstyled&quot;&gt;
+			&lt;li id=&quot;note3&quot;&gt;3. bootstrap - 트위터에서 오픈소스로 공개하는 프론트엔드 프레임워크 | &lt;a href=&quot;http://twitter.github.io/bootstrap/index.html&quot; title=&quot;go to bootstrap&quot;&gt;http://twitter.github.io/bootstrap/index.html&lt;/a&gt;&lt;a href=&quot;#ref3&quot; title=&quot;Jump back to footnote 3 in the text.&quot;&gt;&amp;#x2191;&lt;/a&gt;&lt;/li&gt;
+			&lt;li id=&quot;note4&quot;&gt;4. nomargin과 pin CSS, less | &lt;a href=&quot;/blog/nomargin-and-pin-layout/&quot; title=&quot;go to markquery blog&quot;&gt;http://markquery.com/blog/nomargin-and-pin-layout/&lt;/a&gt; &lt;a href=&quot;#ref4&quot; title=&quot;Jump back to footnote 4 in the text.&quot;&gt;&amp;#x2191;&lt;/a&gt;&lt;/li&gt;
+			&lt;/ol&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;&lt;!-- container-fluid-nomargin --&gt;
+	&lt;/div&gt;&lt;!-- container-pin-960 --&gt;
+
+&lt;/article&gt;
+
+</pre>
+			</div>
+		</div>
+	</div>
+</div>
+</section><!-- source -->
+
+<a href="#" class="scrollup">Scroll</a>
+
+	<!-- Scripts -->
+	<script >(function(){
+	// Did we just livereload?
+var log = true && localStorage && console && console.log && true;
+if ( log && localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReloaded at', new Date())
+}
+
+// Listen for the regenerated event
+// and perform a reload of the page when the event occurs
+var listen = function(){
+	var socket = io.connect('/docpad-livereload');
+	socket.on('regenerated',function(){
+		if ( log ) {
+	localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+}
+document.location.reload();
+	});
+};
+	if ( typeof io !== 'undefined' ) {
+		listen();
+	} else {
+		// Inject socket.io into our page then listen once loaded
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = true;
+	t.src = '/socket.io/socket.io.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t,s);
+};
+		inject();
+	}
+})();</script><script defer="defer"  src="/scripts/markquery.js"></script>
+</body>
+</html>

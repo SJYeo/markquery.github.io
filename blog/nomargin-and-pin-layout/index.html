@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lange="en">
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width">
+	<title>markquery</title>
+	<meta name="description" content="Customize your contents. markquery is markup library for web contents." />
+	<meta name="keywords" content="markquery, web, contents, editorial design, opensource, html5, css, markup" />
+	<meta name="author" content="Ungki, H" />
+	<meta http-equiv="X-Powered-By" content="DocPad v6.34.1"/>
+
+	<link rel="author" href="humans.txt" />
+	<link rel="profile" href="http://microformats.org/profile/hcard">
+	
+	<!-- Icons -->
+	<link rel="shortcut icon" href="http://markquery.com/images/favicon.ico">
+	<link rel="apple-touch-icon" href="http://markquery.com/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="http://markquery.com/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="http://markquery.com/images/apple-touch-icon-114x114.png">
+
+	<!-- Shims: IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+		<script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- blog style -->
+	<link  rel="stylesheet" href="/styles/markquery.min.css" />
+	<link  rel="stylesheet" href="/styles/blog.css" />
+
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->
+<!-- Nav
+================================================== -->
+<nav role="navigation">
+	<div class="navbar navbar-static-top">
+		<div class="navbar-inner">
+			<div class="container-fluid-nomargin">
+				<a href="#content" class="skip">skip to content</a>
+				<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+					<div class="nav-collapse collapse">
+					<ul class="nav">
+					
+					<li class="inactive">
+					<a href="/">Home</a>
+					</li>
+					
+					<li class="inactive">
+					<a href="/docs">documentation</a>
+					</li>
+					
+					<li class="inactive">
+					<a href="/reference">reference</a>
+					</li>
+					
+					<li class="active">
+					<a href="/blog">blog</a>
+					</li>
+					
+					</ul>
+					</div>
+			</div>
+		</div>
+	</div>
+</nav>	
+
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span3 layout-nomargin">
+ 		<!-- Header 
+		================================================== -->
+		<header role="banner">
+			<h1 class="title-opensans"><img class="bgcolor-373737" src="/images/markquery-icon-64.png" alt=" " /><a class="margin-left-20 ahover-111-555" title="markquery docs" href="/blog">blog</a></h1>
+		</header><!-- header : role="banner" -->
+		<aside role="complementary">
+			<h2 class="font-opensans300"></h2>
+			<menu class="nestedhover-111-555"> 
+
+			</menu>
+		</aside>
+		</div><!-- span3 -->
+
+		<div class="span9 border-1leee layout-nomargin padding-bottom-100">
+		<!-- content 
+		================================================== -->
+		<div class="row-fluid">
+		<article role="main" id="content">
+			
+			<div class="github">
+			<div class="container-pin-820-left">
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span12 text-justify">
+
+<figure>
+        <img src="/blog/nomargin-and-pin-layout/nomargin-pin-less.png" alt="bootstrap image">
+        <figcaption id="caption"><a href="http://lesscss.org" alt="go to lesscss.org">less</a> / <a href="http://twitter.github.io/bootstrap/" alt="go to bootstrap homepage">bootstrap</a></figcaption>
+</figure>
+
+<h1 id="header 1">Nomargin And Pin Layout</h1>
+<small id="date">May 27 2013</small>
+
+<h2 id="header 2">Get A Peek Into The LessCSS Files</h2>
+
+<p>markquery에는 레이아웃에 필요한 nomargin과 pin이 추가되어 있습니다. bootstrap의 레이아웃은 경우에 따라서 제한적일 수 있습니다. 웹개발자라면 충분히 수정할 수 있지만, 콘텐츠 제작자까지 모두 활용할 수 없습니다. 레이아웃을 만들다보면 반드시 필요한 조건이 생깁니다. 이를테면 여백이 없는 gird가 필요한데, 그것을 nomargin이라고 이름 붙였습니다. 또한 콘텐츠의 어떤 한 면을 고정시켜야 하는 경우가 있다. 그것을 pin이라고 이름 붙였습니다. </p>
+
+<h3 id="header 3">Web Designers &amp; developers</h3>
+
+<p class="height-padding-20">markquery source는 lessCSS입니다. less에 추가된 것은 nomargin과 pin 두 개의 selector입니다. 어떻게 활용되는지 <a href="http://markquery.com/docs/">docs</a>에서 확인할 수 있습니다. nomargin은 어떻게 만들었을까요? bootstrap의 grid(span)에는 margin 값이 들어있습니다. 그 값을 없애면 layout의 크기가 달라집니다. layout의 사이즈를 유지한 채 grid(span)의 사이즈도 유지되어야 합니다. @media (min-width: 1200px) { }에서 .container와 .span12의 width 값은 1170px입니다. 여백값 없이 1170을 12로 나누면 97.5입니다. 이 값이 nomargin입니다. 이해하기 쉬울 것입니다. 오리지널에서는 @gridGutterWidth이 함께 계산됩니다. markquery의 nomargin에서는 다음과 같이 계산됩니다. 반올림 함수 ceil()는 없어도 됩니다. css valid는 소수점도 완벽하게 통과시킵니다.</p>
+
+<pre class="download-pre linenums">
+// variables.less - nomargin 1200px min
+@gridColumnWidth1200-nomargin: 97.5px;
+@gridGutterWidth1200-nomargin: 0px;
+@gridRowWidth1200-nomargin: (@gridColumns * @gridColumnWidth1200-nomargin) + (@gridGutterWidth1200-nomargin * (@gridColumns - 1));
+
+// mixins.less file
+.span (@columns) {
+      width: ceil((@gridColumnWidth-nomargin * @columns) + (@gridGutterWidth-nomargin * (@columns - 1)));
+}
+</pre>
+
+<p class="height-padding-20"><code>nomargin</code>과 <code>pin</code> 7개의 파일들에서 추적할 수 있습니다.</p>
+
+<ul>
+<li>grid.less</li>
+<li>layouts.less</li>
+<li>mixins.less</li>
+<li>responsive-1200px-min.less</li>
+<li>responsive-767px-max.less</li>
+<li>responsive-768px-979px.less</li>
+<li>variables.less</li>
+</ul>
+
+			
+
+<p class="height-padding-20">1. grid.less</p>
+<pre class="prettyprint linenums lang-css">
+// Fixed (940px)
+
+#grid-nomargin > .core(@gridColumnWidth-nomargin, @gridGutterWidth-nomargin);
+
+// Fluid (940px)
+#grid-nomargin > .fluid(@fluidGridColumnWidth-nomargin, @fluidGridGutterWidth-nomargin);
+
+// Reset utility classes due to specificity
+[class*="span"].hide,
+.row-nomargin [class*="span"].hide,
+.row-fluid [class*="span"].hide,
+.row-fluid-nomargin [class*="span"].hide {
+display: none;
+}
+
+[class*="span"].pull-right,
+.row-nomargin [class*="span"].pull-right,
+.row-fluid [class*="span"].pull-right,
+.row-fluid-nomargin [class*="span"].pull-right{
+float: right;
+}
+
+// Utility nomargin (span nomargin)
+.span-nomargin [class*="span"] {
+margin-left: 0 !important;
+*margin-left: 0 !important; 
+}
+
+// Utility nomargin (container-*, row-* nomargin)
+.layout-nomargin {
+margin-left: 0 !important;
+*margin-left: 0 !important; 
+}
+</pre>
+
+<p class="height-padding-20">2. layouts.less</p>
+<pre class="prettyprint linenums lang-css">
+// Fluid nomargin layout (left aligned, with sidebar, min- & max-width content)
+.container-fluid-nomargin {
+padding: 0;
+.clearfix();
+}
+
+// Fluid pin (centered, min- & max-width content)
+.container-pin, .container-pin-620, .container-pin-820, .container-pin-960, .container-pin-1200, .container-pin-1600 {
+.container-fixed();
+}
+// Fluid pin (left aligned, min- & max-width content)
+.container-pin-left, .container-pin-620-left, .container-pin-820-left, .container-pin-960-left, .container-pin-1200-left, .container-pin-1600-left {
+.container-fixed-left();
+}
+// Fluid pin (right aligned, min- & max-width content)
+.container-pin-right, .container-pin-620-right, .container-pin-820-right, .container-pin-960-right, .container-pin-1200-right, .container-pin-1600-right {
+.container-fixed-right();
+}
+</pre>
+
+<p class="height-padding-20">3. mixins.less</p>
+<pre class="prettyprint linenums lang-css">
+.container-fixed-left() {
+float:left;
+display: block;
+.clearfix();
+}
+.container-fixed-right() {
+float:right;
+display: block;
+.clearfix();
+}
+ 
+// The Grid
+#grid-nomargin {
+// container nomargin
+
+.core (@gridColumnWidth-nomargin, @gridGutterWidth-nomargin) {
+
+.spanX (@index) when (@index > 0) {
+.span@{index} { .span(@index); }
+.spanX(@index - 1);
+}
+.spanX (0) {}
+
+.offsetX (@index) when (@index > 0) {
+.offset@{index} { .offset(@index); }
+.offsetX(@index - 1);
+}
+.offsetX (0) {}
+
+.offset (@columns) {
+margin-left: ceil((@gridColumnWidth-nomargin * @columns) + (@gridGutterWidth-nomargin * (@columns + 1)));
+}
+
+.span (@columns) {
+width: ceil((@gridColumnWidth-nomargin * @columns) + (@gridGutterWidth-nomargin * (@columns - 1)));
+}
+
+.row-nomargin {
+margin-left: 0;
+// margin-left: @gridGutterWidth * -1;
+.clearfix();
+}
+
+.row-nomargin [class*="span"] {
+float: left;
+min-height: 1px; // prevent collapsing columns
+margin-left: 0;
+// margin-left: @gridGutterWidth;
+}
+
+// move media-query less. Set the container width, and override it for fixed navbars in media queries
+.container-nomargin,
+.navbar-static-top .container-nomargin,
+.navbar-fixed-top .container-nomargin,
+.navbar-fixed-bottom .container-nomargin { .span(@gridColumns); }
+
+// generate .spanX and .offsetX
+.spanX (@gridColumns);
+.offsetX (@gridColumns);
+}
+
+
+// container-fluid nomargin
+
+.fluid (@fluidGridColumnWidth-nomargin, @fluidGridGutterWidth-nomargin) {
+
+.spanX (@index) when (@index > 0) {
+.span@{index} { .span(@index); }
+.spanX(@index - 1);
+}
+.spanX (0) {}
+
+.offsetX (@index) when (@index > 0) {
+.offset@{index} { .offset(@index); }
+.offset@{index}:first-child { .offsetFirstChild(@index); }
+.offsetX(@index - 1);
+}
+.offsetX (0) {}
+
+.offset (@columns) {
+margin-left: (@fluidGridColumnWidth-nomargin * @columns) + (@fluidGridGutterWidth-nomargin * (@columns - 1)) + (@fluidGridGutterWidth-nomargin*2);
+*margin-left: (@fluidGridColumnWidth-nomargin * @columns) + (@fluidGridGutterWidth-nomargin * (@columns - 1)) - (.5 / @gridRowWidth-nomargin * 100 * 1%) + (@fluidGridGutterWidth-nomargin*2) - (.5 / @gridRowWidth-nomargin * 100 * 1%);
+}
+
+.offsetFirstChild (@columns) {
+margin-left: (@fluidGridColumnWidth-nomargin * @columns) + (@fluidGridGutterWidth-nomargin * (@columns - 1)) + (@fluidGridGutterWidth-nomargin);
+*margin-left: (@fluidGridColumnWidth-nomargin * @columns) + (@fluidGridGutterWidth-nomargin * (@columns - 1)) - (.5 / @gridRowWidth-nomargin * 100 * 1%) + @fluidGridGutterWidth-nomargin - (.5 / @gridRowWidth-nomargin * 100 * 1%);
+}
+
+.span (@columns) {
+width: (@fluidGridColumnWidth-nomargin * @columns) + (@fluidGridGutterWidth-nomargin * (@columns - 1));
+*width: (@fluidGridColumnWidth-nomargin * @columns) + (@fluidGridGutterWidth-nomargin * (@columns - 1)) - (.5 / @gridRowWidth-nomargin * 100 * 1%) + (@fluidGridGutterWidth-nomargin / 2 );
+}
+
+.row-fluid-nomargin {
+width: 100%;
+.clearfix();
+[class*="span"] {
+.input-block-level();
+float: left;
+margin-left:0;
+*margin-left:0;
+// margin-left: @fluidGridGutterWidth;
+// *margin-left: @fluidGridGutterWidth - (.5 / @gridRowWidth * 100 * 1%);
+}
+[class*="span"]:first-child {
+margin-left: 0;
+}
+
+// Space grid-sized controls properly if multiple per line
+.controls-row [class*="span"] + [class*="span"] {
+margin-left: @fluidGridGutterWidth-nomargin;
+}
+
+// generate .spanX and .offsetX
+.spanX (@gridColumns);
+.offsetX (@gridColumns);
+}
+
+}
+
+.input(@gridColumnWidth-nomargin, @gridGutterWidth-nomargin) {
+
+.spanX (@index) when (@index > 0) {
+input.span@{index}, textarea.span@{index}, .uneditable-input.span@{index} { .span(@index); }
+.spanX(@index - 1);
+}
+.spanX (0) {}
+
+.span(@columns) {
+width: ((@gridColumnWidth-nomargin) * @columns) + (@gridGutterWidth-nomargin * (@columns - 1)) - 14;
+}
+
+input,
+textarea,
+.uneditable-input {
+margin-left: 0; // override margin-left from core grid system
+}
+
+// Space grid-sized controls properly if multiple per line
+.controls-row [class*="span"] + [class*="span"] {
+margin-left: @gridGutterWidth-nomargin;
+}
+
+// generate .spanX
+.spanX (@gridColumns);
+
+}
+}
+</pre>
+
+<p class="height-padding-20">4. responsive-1200px-min.less</p>
+<pre class="prettyprint linenums lang-css">
+// Fixed grid
+#grid-nomargin > .core(@gridColumnWidth1200-nomargin, @gridGutterWidth1200-nomargin);
+
+// Fluid grid
+#grid-nomargin > .fluid(@fluidGridColumnWidth1200-nomargin, @fluidGridGutterWidth1200-nomargin);
+
+// Input grid
+#grid-nomargin > .input(@gridColumnWidth1200-nomargin, @gridGutterWidth1200-nomargin);
+
+// nest
+.container-nest, .container-nest-left, .container-nest-right { width:1170px; }
+.container-nest-620, .container-nest-620-left, .container-nest-620-right { width:620px; }
+.container-nest-820, .container-nest-820-left, .container-nest-820-right { width:820px; }
+.container-nest-960, .container-nest-960-left, .container-nest-960-right { width:960px; }
+.container-nest-1200, .container-nest-1200-left, .container-nest-1200-right { width:1200px; }
+.container-nest-1600, .container-nest-1600-left, .container-nest-1600-right { width:1600px; }
+
+// Thumbnails
+.thumbnails {
+margin-left: -@gridGutterWidth1200;
+}
+.thumbnails > li {
+margin-left: @gridGutterWidth1200;
+}
+.row-fluid .thumbnails, .row-fluid-nomargin .thumbnails {
+margin-left: 0;
+}
+
+</pre>
+
+<p class="height-padding-20">5. responsive-768px-979px.less</p>
+<pre class="prettyprint linenums lang-css">
+// Fixed grid
+#grid-nomargin > .core(@gridColumnWidth768-nomargin, @gridGutterWidth768-nomargin);
+
+// Fluid grid
+#grid-nomargin > .fluid(@fluidGridColumnWidth768-nomargin, @fluidGridGutterWidth768-nomargin);
+
+// Input grid
+#grid-nomargin > .input(@gridColumnWidth768-nomargin, @gridGutterWidth768-nomargin);
+
+// Fluid pin
+.container-pin, .container-pin-left, .container-pin-right { max-width:724px; }
+.container-pin-620, .container-pin-620-left, .container-pin-620-right { max-width:620px; }
+.container-pin-820, .container-pin-820-left, .container-pin-820-right { max-width:724px; }
+.container-pin-960, .container-pin-960-left, .container-pin-960-right { max-width:724px; }
+.container-pin-1200, .container-pin-1200-left, .container-pin-1200-right { max-width:724px; }
+.container-pin-1600, .container-pin-1600-left, .container-pin-1600-right { max-width:724px; }
+
+</pre>
+
+<p class="height-padding-20">6. responsive-767px-max.less</p>
+<pre class="prettyprint linenums lang-css">
+// Fluid rows
+.row-fluid, .row-fluid-nomargin {
+width: 100%;
+}
+
+// Make all grid-sized elements block level again
+[class*="span"],
+.uneditable-input[class*="span"], // Makes uneditable inputs full-width when using grid sizing
+.row-nomargin [class*="span"],
+.row-fluid [class*="span"],
+.row-fluid-nomargin [class*="span"] {
+float: none;
+display: block;
+width: 100%;
+margin-left: 0;
+.box-sizing(border-box);
+}
+
+.span12,
+.row-nomargin .span12,
+.row-fluid .span12,
+.row-fluid-nomargin .span12 {
+width: 100%;
+.box-sizing(border-box);
+}
+.row-fluid [class*="offset"]:first-child, 
+.row-fluid-nomargin [class*="offset"]:first-child {
+margin-left: 0;
+}
+
+ 
+</pre>
+
+<p class="height-padding-20">7. variables.less</p>
+<pre class="prettyprint linenums lang-css">
+// nomargin 940px grid
+// -------------------------
+@gridColumnWidth-nomargin: 78.3px;
+@gridGutterWidth-nomargin: 0px;
+@gridRowWidth-nomargin: (@gridColumns * @gridColumnWidth-nomargin) + (@gridGutterWidth-nomargin * (@gridColumns - 1));
+
+// nomargin 1200px min
+@gridColumnWidth1200-nomargin: 97.5px;
+@gridGutterWidth1200-nomargin: 0px;
+@gridRowWidth1200-nomargin: (@gridColumns * @gridColumnWidth1200-nomargin) + (@gridGutterWidth1200-nomargin * (@gridColumns - 1));
+
+// nomargin 768px-979px
+@gridColumnWidth768-nomargin: 60.5px;
+@gridGutterWidth768-nomargin: 0px;
+@gridRowWidth768-nomargin: (@gridColumns * @gridColumnWidth768-nomargin) + (@gridGutterWidth768-nomargin * (@gridColumns - 1));
+
+
+// Fluid nomargin grid
+// -------------------------
+@fluidGridColumnWidth-nomargin: percentage(@gridColumnWidth-nomargin/@gridRowWidth-nomargin);
+@fluidGridGutterWidth-nomargin: percentage(@gridGutterWidth-nomargin/@gridRowWidth-nomargin);
+
+// nomargin 1200px min
+@fluidGridColumnWidth1200-nomargin: percentage(@gridColumnWidth1200-nomargin/@gridRowWidth1200-nomargin);
+@fluidGridGutterWidth1200-nomargin: percentage(@gridGutterWidth1200-nomargin/@gridRowWidth1200-nomargin);
+
+// nomargin 768px-979px
+@fluidGridColumnWidth768-nomargin: percentage(@gridColumnWidth768-nomargin/@gridRowWidth768-nomargin);
+@fluidGridGutterWidth768-nomargin: percentage(@gridGutterWidth768-nomargin/@gridRowWidth768-nomargin);
+</pre>
+
+			</div>
+		</div>
+	</div>
+</div>
+			</div>
+			<!-- else nomal css -->
+		</article>
+		</div>
+
+<div class="row-fluid">
+<section class="disqus">
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span12">
+<div id="disqus_thread"></div>
+<script>
+	(function(){
+		window.disqus_shortname = 'markquery';
+		window.disqus_developer = '1';
+		window.disqus_url = 'http://markquery.com';
+		window.disqus_identifier = 'index';
+		window.disqus_title = 'index.html';
+		if ( window.DISQUS ) {
+			return DISQUS.reset({
+				reload: true,
+				config: function () {
+					this.page.identifier = window.disqus_identifier;
+					this.page.url = window.disqus_url;
+					this.page.title = window.disqus_title;
+				}
+			});
+		}
+		else {
+		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		  dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+			</div>
+		</div>
+	</div>
+</section>	
+</div>
+
+		</div><!-- span9 -->
+	</div><!-- row-fluid-nomargin -->
+</div><!-- container-fluid-nomargin -->
+
+<!-- Footer
+================================================== -->
+<footer role="contentinfo">
+		<div class="container-fluid bgmask-diagonal-noise">
+		<div class="row-fluid height-padding-100">
+			<div class="vcard">
+			<div class="span4">
+			<h1 class="font-anton-3em"><img class="photo bgcolor-373737" src="/images/markquery-icon-64.png" alt=" " /><a class="org url margin-left-20 ahover-fff-ddd" title="http://markquery.com" href="http://markquery.com">MARKQUERY</a></h1>
+			
+			<div class="nestedhover-cfcfd5-fff">
+			<cite><p>Copyright &copy; 2013 <a class="org url" href="http://markquery.com/">markquery.com</a> project maintained  by <a class="fn email" href="mailto:ungki.h@gmail.com">Ungki, H</a></p></cite>
+			<p>Licensed under the incredibly permissive <a rel="license" href="http://markquery.com/license">MIT License</a></p>
+			<p>Documentations under <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0</a></p>
+			<p>Open sources are copyright of their respective owners  <a rel="license" href="http://markquery.com/license">About The License</a></p>
+			</div>
+			</div>
+
+			<div class="span2">
+			<h1 class="title-opensans"><img class="bgcolor-373737" src="/images/github-icon-64.png" alt=" " /><a class="margin-left-20 ahover-fff-ddd" title="github.com" href="http://github.com">GitHub</a></h1>
+			<ul class="nestedhover-cfcfd5-fff">
+			<li><a rel="directory" href="https://github.com/">markquery</a></li>
+			<li><a rel="directory" href="https://github.com/">markquery source</a></li>
+			<li><a rel="directory" href="https://github.com/">wordpress skeleton</a></li>
+			<li><a rel="directory" href="https://github.com/">tistory skeleton</a></li>
+			<li><a rel="directory" href="https://github.com/">docs &amp; reference</a></li>
+			</ul>
+			</div>
+
+			<div class="span2">
+			<h1 class="title-opensans"><a class="ahover-fff-ddd" title="download page" href="http://markquery/docs/download">Download</a></h1>
+			<ul class="nestedhover-cfcfd5-fff">
+			<li><a rel="directory" href="http://markquery.com/docs/download#markquery">markquery</a></li>
+			<li><a rel="directory" href="http://markquery.com/docs/download#markquery-source">markquery source</a></li>
+			<li><a rel="directory" href="http://markquery.com/docs/download#wordpress">wordpress skeleton</a></li>
+			<li><a rel="directory" href="http://markquery.com/docs/download#tistory">tistory skeleton</a></li>
+			</ul>
+			</div>
+
+			<div class="span4">
+			<h1 class="title-opensans"><img class="bgcolor-373737" src="/images/twitter-icon-64.png" alt=" " /><a class="margin-left-20 ahover-fff-ddd" title="twitter" href="http://twitter.com/markquery">Released Note</a></h1>
+			<div id="twitter" class="note"></div>
+			</div>
+			</div><!-- microformats -->
+		</div>
+		</div>
+</footer>
+
+<!-- source 
+================================================== -->
+<section id="source">
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+			<p>This page was last updated at 2013-05-27T05:28:11.072Z</p>
+			<h6 id="source-header"><a>Click to view this page's source</a></h6>
+			<div id="source-code">
+			<div><p>Source file extension is <code>eco</code>. Outextension is <code>html</code>.</p></div>
+			<pre class="prettyprint lang-html">﻿--- yaml
+title: &quot;Nomargin And Pin Layout&quot;
+layout: &quot;blog&quot;
+tag: [&quot;editorial design&quot;,&quot;layout&quot;,&quot;web contents&quot;]
+image: &quot;/blog/nomargin-and-pin-layout/nomargin-pin-less.png&quot;
+excerpt: &quot;bootstrap의 레이아웃을 유연하게 다루는 방법을 소개합니다. CSS에는 반드시 필요한 nomargin과 pin이 추가되어 있습니다. Less를 엿보는 페이지입니다. GitHub에서 살펴보는 것도 좋습니다. 물론 markquery를 다운로드 한다면 더욱 좋습니다.&quot;
+isPage: true
+---
+&lt;div class=&quot;container-pin-820-left&quot;&gt;
+	&lt;div class=&quot;container-fluid&quot;&gt;
+		&lt;div class=&quot;row-fluid&quot;&gt;
+			&lt;div class=&quot;span12 text-justify&quot;&gt;
+
+&lt;figure&gt;
+        &lt;img src=&quot;/blog/nomargin-and-pin-layout/nomargin-pin-less.png&quot; alt=&quot;bootstrap image&quot;&gt;
+        &lt;figcaption id=&quot;caption&quot;&gt;&lt;a href=&quot;http://lesscss.org&quot; alt=&quot;go to lesscss.org&quot;&gt;less&lt;/a&gt; / &lt;a href=&quot;http://twitter.github.io/bootstrap/&quot; alt=&quot;go to bootstrap homepage&quot;&gt;bootstrap&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;header 1&quot;&gt;&lt;%= @document.title %&gt;&lt;/h1&gt;
+&lt;small id=&quot;date&quot;&gt;&lt;%= @formatDate(@document.date) %&gt;&lt;/small&gt;
+
+&lt;h2 id=&quot;header 2&quot;&gt;Get A Peek Into The LessCSS Files&lt;/h2&gt;
+
+&lt;p&gt;markquery에는 레이아웃에 필요한 nomargin과 pin이 추가되어 있습니다. bootstrap의 레이아웃은 경우에 따라서 제한적일 수 있습니다. 웹개발자라면 충분히 수정할 수 있지만, 콘텐츠 제작자까지 모두 활용할 수 없습니다. 레이아웃을 만들다보면 반드시 필요한 조건이 생깁니다. 이를테면 여백이 없는 gird가 필요한데, 그것을 nomargin이라고 이름 붙였습니다. 또한 콘텐츠의 어떤 한 면을 고정시켜야 하는 경우가 있다. 그것을 pin이라고 이름 붙였습니다. &lt;/p&gt;
+
+&lt;h3 id=&quot;header 3&quot;&gt;Web Designers &amp;amp; developers&lt;/h3&gt;
+
+&lt;p class=&quot;height-padding-20&quot;&gt;markquery source는 lessCSS입니다. less에 추가된 것은 nomargin과 pin 두 개의 selector입니다. 어떻게 활용되는지 &lt;a href=&quot;http://markquery.com/docs/&quot;&gt;docs&lt;/a&gt;에서 확인할 수 있습니다. nomargin은 어떻게 만들었을까요? bootstrap의 grid(span)에는 margin 값이 들어있습니다. 그 값을 없애면 layout의 크기가 달라집니다. layout의 사이즈를 유지한 채 grid(span)의 사이즈도 유지되어야 합니다. @media (min-width: 1200px) { }에서 .container와 .span12의 width 값은 1170px입니다. 여백값 없이 1170을 12로 나누면 97.5입니다. 이 값이 nomargin입니다. 이해하기 쉬울 것입니다. 오리지널에서는 @gridGutterWidth이 함께 계산됩니다. markquery의 nomargin에서는 다음과 같이 계산됩니다. 반올림 함수 ceil()는 없어도 됩니다. css valid는 소수점도 완벽하게 통과시킵니다.&lt;/p&gt;
+
+&lt;pre class=&quot;download-pre linenums&quot;&gt;
+// variables.less - nomargin 1200px min
+@gridColumnWidth1200-nomargin: 97.5px;
+@gridGutterWidth1200-nomargin: 0px;
+@gridRowWidth1200-nomargin: (@gridColumns * @gridColumnWidth1200-nomargin) + (@gridGutterWidth1200-nomargin * (@gridColumns - 1));
+
+// mixins.less file
+.span (@columns) {
+      width: ceil((@gridColumnWidth-nomargin * @columns) + (@gridGutterWidth-nomargin * (@columns - 1)));
+}
+&lt;/pre&gt;
+
+&lt;p class=&quot;height-padding-20&quot;&gt;&lt;code&gt;nomargin&lt;/code&gt;과 &lt;code&gt;pin&lt;/code&gt; 7개의 파일들에서 추적할 수 있습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;grid.less&lt;/li&gt;
+&lt;li&gt;layouts.less&lt;/li&gt;
+&lt;li&gt;mixins.less&lt;/li&gt;
+&lt;li&gt;responsive-1200px-min.less&lt;/li&gt;
+&lt;li&gt;responsive-767px-max.less&lt;/li&gt;
+&lt;li&gt;responsive-768px-979px.less&lt;/li&gt;
+&lt;li&gt;variables.less&lt;/li&gt;
+&lt;/ul&gt;
+
+			
+
+&lt;p class=&quot;height-padding-20&quot;&gt;1. grid.less&lt;/p&gt;
+&lt;pre class=&quot;prettyprint linenums lang-css&quot;&gt;
+&lt;%- @readFile('grid.css', 'css') %&gt;
+&lt;/pre&gt;
+
+&lt;p class=&quot;height-padding-20&quot;&gt;2. layouts.less&lt;/p&gt;
+&lt;pre class=&quot;prettyprint linenums lang-css&quot;&gt;
+&lt;%- @readFile('layouts.css', 'css') %&gt;
+&lt;/pre&gt;
+
+&lt;p class=&quot;height-padding-20&quot;&gt;3. mixins.less&lt;/p&gt;
+&lt;pre class=&quot;prettyprint linenums lang-css&quot;&gt;
+&lt;%- @readFile('mixins.css', 'css') %&gt;
+&lt;/pre&gt;
+
+&lt;p class=&quot;height-padding-20&quot;&gt;4. responsive-1200px-min.less&lt;/p&gt;
+&lt;pre class=&quot;prettyprint linenums lang-css&quot;&gt;
+&lt;%- @readFile('responsive-1200px-min.css', 'css') %&gt;
+&lt;/pre&gt;
+
+&lt;p class=&quot;height-padding-20&quot;&gt;5. responsive-768px-979px.less&lt;/p&gt;
+&lt;pre class=&quot;prettyprint linenums lang-css&quot;&gt;
+&lt;%- @readFile('responsive-768px-979px.css', 'css') %&gt;
+&lt;/pre&gt;
+
+&lt;p class=&quot;height-padding-20&quot;&gt;6. responsive-767px-max.less&lt;/p&gt;
+&lt;pre class=&quot;prettyprint linenums lang-css&quot;&gt;
+&lt;%- @readFile('responsive-767px-max.css', 'css') %&gt;
+&lt;/pre&gt;
+
+&lt;p class=&quot;height-padding-20&quot;&gt;7. variables.less&lt;/p&gt;
+&lt;pre class=&quot;prettyprint linenums lang-css&quot;&gt;
+&lt;%- @readFile('variables.css', 'css') %&gt;
+&lt;/pre&gt;
+
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</pre>
+			</div>
+		</div>
+	</div>
+</div>
+</section><!-- source -->
+
+<a href="#" class="scrollup">Scroll</a>
+
+	<!-- Scripts -->
+	<script >(function(){
+	// Did we just livereload?
+var log = true && localStorage && console && console.log && true;
+if ( log && localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReloaded at', new Date())
+}
+
+// Listen for the regenerated event
+// and perform a reload of the page when the event occurs
+var listen = function(){
+	var socket = io.connect('/docpad-livereload');
+	socket.on('regenerated',function(){
+		if ( log ) {
+	localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+}
+document.location.reload();
+	});
+};
+	if ( typeof io !== 'undefined' ) {
+		listen();
+	} else {
+		// Inject socket.io into our page then listen once loaded
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = true;
+	t.src = '/socket.io/socket.io.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t,s);
+};
+		inject();
+	}
+})();</script><script defer="defer"  src="/scripts/markquery.js"></script>
+</body>
+</html>

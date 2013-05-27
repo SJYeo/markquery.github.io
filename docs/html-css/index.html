@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lange="en">
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width">
+	<title>markquery</title>
+	<meta name="description" content="Customize your contents. markquery is markup library for web contents." />
+	<meta name="keywords" content="markquery, web, contents, editorial design, opensource, html5, css, markup" />
+	<meta name="author" content="Ungki, H" />
+	<meta http-equiv="X-Powered-By" content="DocPad v6.34.1"/>
+
+	<link rel="author" href="humans.txt" />
+	<link rel="profile" href="http://microformats.org/profile/hcard">
+	
+	<!-- Icons -->
+	<link rel="shortcut icon" href="http://markquery.com/images/favicon.ico">
+	<link rel="apple-touch-icon" href="http://markquery.com/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="http://markquery.com/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="http://markquery.com/images/apple-touch-icon-114x114.png">
+
+	<!-- Shims: IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+		<script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- docs style -->
+	<link  rel="stylesheet" href="/styles/markquery.min.css" />
+	<link  rel="stylesheet" href="/styles/docs.css" /><link  rel="stylesheet" href="/styles/github.css" />
+
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->
+<!-- Nav
+================================================== -->
+<nav role="navigation">
+	<div class="navbar navbar-static-top">
+		<div class="navbar-inner">
+			<div class="container-fluid-nomargin">
+				<a href="#content" class="skip">skip to content</a>
+				<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+					<div class="nav-collapse collapse">
+					<ul class="nav">
+					
+					<li class="inactive">
+					<a href="/">Home</a>
+					</li>
+					
+					<li class="active">
+					<a href="/docs">documentation</a>
+					</li>
+					
+					<li class="inactive">
+					<a href="/reference">reference</a>
+					</li>
+					
+					<li class="inactive">
+					<a href="/blog">blog</a>
+					</li>
+					
+					</ul>
+					</div>
+			</div>
+		</div>
+	</div>
+</nav>
+
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span3 layout-nomargin">
+ 		<!-- Header 
+		================================================== -->
+		<header role="banner">
+			<h1 class="title-opensans"><img class="bgcolor-373737" src="/images/markquery-icon-64.png" alt=" " /><a class="margin-left-20 ahover-111-555" title="markquery docs" href="http://markquery.com/docs">Docs</a></h1>
+		</header><!-- header : role="banner" -->
+		<aside role="complementary">
+			<h2 class="font-opensans300">table of contents</h2>
+			<menu class="nestedhover-111-555"> 
+			<ol class="toc">
+				<li class="toc sub-list">
+				<h5>Getting started</h5>
+					<ul>
+					<li><a href="/docs/overview">overview</a></li>
+					<li><a href="/docs/download">download</a></li>
+					<li><a href="/docs/html-css">HTML and CSS</a></li>
+					<li><a href="/docs/usage">usage</a></li>
+					<li><a href="/docs/code-guide">code guide</a></li>
+					</ul>
+				</li> 
+				<li class="toc sub-list">
+  				<h5>Layout</h5>
+					<ul>
+					<li ><a href="/docs/container">container</a></li>
+					<li ><a href="/docs/container-fluid">container-fluid</a></li>
+					<li ><a href="/docs/container-fluid-nomargin">container-fluid-nomargin</a></li>
+					<li><a data-toggle="collapse" data-target="#pin" href="#collapse">pin</a>
+						<div id="pin" class="collapse">
+						<ul>
+							<li><a href="/docs/container-pin">container-pin</a></li>
+							<li><a href="/docs/container-pin-left">container-pin-left</a></li>
+							<li><a href="/docs/container-pin-right">container-pin-right</a></li>
+						</ul>
+						</div>
+					</li>
+					<li><a data-toggle="collapse" data-target="#pin-620" href="#collapse">pin-620</a>
+						<div id="pin-620" class="collapse">
+						<ul>
+							<li><a href="/docs/container-pin-620">container-pin-620</a></li>
+							<li><a href="/docs/container-pin-620-left">container-pin-620-left</a></li>
+							<li><a href="/docs/container-pin-620-right">container-pin-620-right</a></li>
+						</ul>
+						</div>
+					</li>
+					<li><a data-toggle="collapse" data-target="#pin-820" href="#collapse">pin-820</a>
+						<div id="pin-820" class="collapse">
+						<ul>
+							<li><a href="/docs/container-pin-820">container-pin-820</a></li>
+							<li><a href="/docs/container-pin-820-left">container-pin-820-left</a></li>
+							<li><a href="/docs/container-pin-820-right">container-pin-820-right</a></li>
+						</ul>
+						</div>
+					</li>
+					<li><a data-toggle="collapse" data-target="#pin-960" href="#collapse">pin-960</a>
+						<div id="pin-960" class="collapse">
+						<ul>					
+							<li><a href="/docs/container-pin-960">container-pin-960</a></li>
+							<li><a href="/docs/container-pin-960-left">container-pin-960-left</a></li>
+							<li><a href="/docs/container-pin-960-right">container-pin-960-right</a></li>
+						</ul>
+						</div>
+					</li>
+					<li><a data-toggle="collapse" data-target="#pin-1200" href="#collapse">pin-1200</a>
+						<div id="pin-1200" class="collapse">
+						<ul>			
+							<li><a href="/docs/container-pin-1200">container-pin-1200</a></li>
+							<li><a href="/docs/container-pin-1200-left">container-pin-1200-left</a></li>
+							<li><a href="/docs/container-pin-1200-right">container-pin-1200-right</a></li>
+						</ul>
+						</div>
+					</li>
+					<li><a data-toggle="collapse" data-target="#pin-1600" href="#collapse">pin-1600</a>
+						<div id="pin-1600" class="collapse">
+						<ul>			
+							<li><a href="/docs/container-pin-1600">container-pin-1600</a></li>
+							<li><a href="/docs/container-pin-1600-left">container-pin-1600-left</a></li>
+							<li><a href="/docs/container-pin-1600-right">container-pin-1600-right</a></li>
+						</ul>
+						</div>
+					</li>
+					<li><a href="/docs/row">row</a></li>
+					<li><a href="/docs/row-nomargin">row-nomargin</a></li>
+					<li><a href="/docs/row-fluid">row-fluid</a></li>
+					<li><a href="/docs/row-fluid-nomargin">row-fluid-nomargin</a></li>  
+					<li><a href="/docs/grid-system">grid system</a></li>
+					</ul>
+				</li> 
+				<li class="toc sub-list">
+				<h5>markdown</h5>
+					<ul>
+					<li><a href="/docs/what-is-markdown">What is markdown?</a></li>
+					<li><a href="/docs/get-markdown">Get Markdown</a></li>
+					</ul>
+				</li> 
+				<li class="toc sub-list">
+				<h5>sublime text</h5>
+					<ul>
+					<li><a href="/docs/install-sublimetext">Install sublime text</a></li>
+					<li><a href="/docs/markdown-package">Markdown Package</a></li>
+					<li><a href="/docs/2byte-languages">For 2byte Languages</a></li>
+					<li><a href="/docs/theme-package">Theme Package</a></li>
+					</ul>
+				</li> 
+				<li class="toc sub-list">
+				<h5>minify</h5>
+					<ul>
+					<li><a href="/docs/css-minify">css</a></li>
+					<li><a href="/docs/js-minify">javascript</a></li>
+					<li><a href="/docs/grunt">grunt</a></li>
+					</ul>
+				</li> 
+			</ol>
+			</menu>
+		</aside>
+		</div><!-- span3 -->
+
+		<div class="span9 border-1leee layout-nomargin padding-bottom-100">
+		<!-- content 
+		================================================== -->
+		<div class="row-fluid">
+		<article role="main" id="content">
+			
+			<div class="github">
+			<div class="container-pin-820-left">
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span12 text-justify">
+			<h1 id="header 1">1. Basic HTML</h1>
+
+			<p>유저가 좋든 싫은, 웹에서 모든 콘텐츠는 HTML이다. HTML과 CSS를 전혀 모르는 유저라면, 다음 문서인 Usage로 건너뛰어 markquery를 하나씩 따라하는 것으로 시작하는 것도 좋을 것이다. HTML 파일은 head와 body로 구성된다. head에는 웹 페이지에 대한 meta 정보를 가지게 되고, body에는 콘텐츠가 쓰여진다. 자세히 알아야할 필요는 없지만 기초를 살펴보자. 문서가 HTML이라는 선언부터 시작된다. &lt;!DOCTYPE html&gt;은 웹 페이지가 HTML5라는 것을 뜻한다.</p>
+
+<pre class="prettyprint lang-html">
+&lt;!DOCTYPE html&gt;
+&lt;head&gt;
+	&lt;!-- place javascript and CSS in the your directory --&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;.../style.css&quot;&gt;
+	&lt;script src=&quot;.../script.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+	&lt;!-- place yout contents --&gt;
+	&lt;h1&gt;Heading&lt;/h1&gt;
+	&lt;p&gt;paragraph.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+			<h2 id="header 2">&lt;head&gt;</h2>
+
+			<p>&lt;head&gt;와 &lt;/head&gt; 사이에는 사이트 meta 정보와 CSS 파일, javascript 파일이 연결된다.</p>
+
+			 <p>markquery.css 파일은 bootstrap.css, responsive.css 파일과 함께 하나로 압축하여 배포된다. nomargin과 pin CSS가 포함되어 있다.</p>
+
+<pre class="prettyprint lang-html">
+&lt;link href=".../markquery.css" rel="stylesheet"&gt;
+</pre>
+
+			<p>그리고 유저의 커스텀 CSS인 style.css 파일이 링크돼야 한다. reference.css는 방대한 용량의 디자인 정보가 업데이트될 것이기 때문에 절대 웹사이트에 링크해서 사용하면 안된다. style.css는 유저가 원하는대로 파일명과 내용 수정이 가능하다. </p>
+
+<pre class="prettyprint lang-html">
+&lt;link href=".../style.css" rel="stylesheet"&gt;
+</pre>
+
+			<p>javascript 파일은 jquery.js 및 bootstrap.js 등 파일을 하나로 압축하여 배포한다.</p>
+<pre class="prettyprint lang-html">
+&lt;script src=&quot;.../markquery.js&quot;&gt;&lt;/script&gt;
+</pre>
+
+			<h2 id="header 2">&lt;body&gt;</h2>
+
+			<p>요소명은  "&lt;"와 "&gt;" angle brackets으로 표기한다.</p>
+
+<pre class="prettyprint lang-html">
+&lt;h1&gt; title &lt;/h1&gt;
+&lt;p&gt; contents &lt;p&gt;		
+&lt;strong&gt; important! &lt;/strong&gt;
+</pre>
+			<p>HTML은 내용을 태그로 둘러싸는 것으로 마크업한다. 내용을 둘러싸면 내용이 어디서부터 어디까지인지 범위가 명확해진다.</p>
+
+<pre class="prettyprint lang-html">
+&lt;요소명&gt;내용&lt;/요소명&gt;
+</pre>
+
+			<p>&lt;요소명&gt;은 시작 태그라 하고, &lt;/요소명&gt;를 종료 태그라 한다. 종료 태그에는 <code>/</code>를 넣어 종료 태그임을 표기한다. 예외사항도 있는데, 콘텐츠에 이미지를 넣을 때 사용되는 &lt;img&gt;와 구분선을 넣는 &lt;hr&gt; 태그 두 개만 기억하면 된다.</p>
+
+<pre class="prettyprint lang-html">
+&lt;img src=&quot;/path/markquery.jpg&quot; alt=&quot;markquery logo image&quot; /&gt;
+</pre>
+
+			<p>img 태그의 끝에 종료를 선언하는 <code>/</code>가 함께 쓰인다. 이처럼 &lt;요소명 /&gt; 형식으로 표기하는 HTML을 빈요소(empty element)라고 한다. 참고로 img 태그를 사용할 때 이미지의 경로와 함께 alt="description" 속성을 반드시 사용해야 한다. 이미지의 설명이고, 이미지를 볼 수 없을 경우에 대체 텍스트로 사용된다. 모든 img 태그에 alt 속성을 넣을 필요는 없다. 디자인에 쓰이는 이미지 혹은 내용과 관련 없는 이미지는 공백 상태로 두면 된다. alt=" "</p>
+
+			<h1 id="header 1">Basic CSS</h1> 
+
+			<p>CSS 파일에 담겨있는 디자인을 부여하는 방법은 &lt;요소명 속성명="속성값"&gt;으로 표기하는 것이다.</p>
+
+<pre class="prettyprint lang-html">
+&lt;h1 class=&quot;text-color-666&quot;&gt; title &lt;/h1&gt;
+</pre>
+
+			<p>속성명은 <code>class</code>이고 속성값은 <code>text-color-666</code>이다. markquery의 모든 속성명은 class를 사용하며, 속성값은 reference 페이지에서 얻을 수 있다. resource 페이지와 magazine 페이지에서도 소스를 얻을 수 있다. </p>
+
+			<p>속성값은 여러개를 사용할 수 있다. 텍스트의 컬러를 666으로, 사이즈를 20px로, line 크기를 24px로 하고 싶을 경우 하나의 class에 한 칸씩 띄어쓴다. 
+
+<pre class="prettyprint lang-html">
+&lt;p class=&quot;text-color-666 text-size-20 text-lineheight24&quot;&gt; contents &lt;/p&gt;
+</pre>
+
+			<p>속성명은 중복될 수 없으나 다른 속성명을 함께 사용 가능하다. class 외에 id, href, rol 등의 속성명이 있다. </p>
+			
+<pre class="prettyprint lang-html">
+&lt;img src="../path/image.png" id="link" class="padding-20" alt=" " /&gt;
+</pre>
+
+			<p>id는 한 페이지에 한 번만 사용 가능하다. markquery에서는 id를 거의 사용하지 않는다. </p>
+
+			<p>bootstrap의 기본 속성값은 <code>-</code> dash로 단어가 연결된다. markquery의 속성값은 <code>-</code> underscore로 연결한다. 
+
+<pre class="prettyprint lang-html">
+bootstrap : &lt;div class=&quot;containter-fluid&quot;&gt;
+markquery : &lt;div class=&quot;text-color-999&quot;&gt;
+</pre>
+
+			<p>bootstrap은 주로 레이아웃 만들 때 관련 속성값이 사용될 것이고, markquery는 편집디자인의 대부분을 차지할 것이다. underscore를 사용하는 이유는 속성값을 더블클릭 시 쉽게 복사하고 삭제할 수 있기 때문이다. dash로 연결된 단어는 하나씩만 선택된다. markquery의 대상은 모든 유저들이기 때문에 속성값의 네이밍 역시 길어질 수밖에 없다. 속성값은 네이밍 자체로 읽을 수 있는 소스로 만든다는 규칙을 가지고 있다. 단, javascript가 쓰일 경우에는 속성명을 id로 사용하고, 속성값의 단어를 dash로 연결한다. 
+				
+			<p class="border-3teee padding-top-20">Next Page &mdash; <a href="/docs/usage">Usage</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+			</div>
+			<!-- else nomal css -->
+		</article>
+		</div>
+<div class="row-fluid">
+<section class="disqus">
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span12">
+<div id="disqus_thread"></div>
+<script>
+	(function(){
+		window.disqus_shortname = 'markquery';
+		window.disqus_developer = '1';
+		window.disqus_url = 'http://markquery.com';
+		window.disqus_identifier = 'index';
+		window.disqus_title = 'index.html';
+		if ( window.DISQUS ) {
+			return DISQUS.reset({
+				reload: true,
+				config: function () {
+					this.page.identifier = window.disqus_identifier;
+					this.page.url = window.disqus_url;
+					this.page.title = window.disqus_title;
+				}
+			});
+		}
+		else {
+		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		  dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+			</div>
+		</div>
+	</div>
+</section>	
+</div>
+
+		</div><!-- span9 -->
+	</div><!-- row-fluid-nomargin -->
+</div><!-- container-fluid-nomargin -->
+
+<!-- Footer
+================================================== -->
+<footer role="contentinfo">
+		<div class="container-fluid bgmask-diagonal-noise">
+		<div class="row-fluid height-padding-100">
+			<div class="vcard">
+			<div class="span4">
+			<h1 class="font-anton-3em"><img class="photo bgcolor-373737" src="/images/markquery-icon-64.png" alt=" " /><a class="org url margin-left-20 ahover-fff-ddd" title="http://markquery.com" href="http://markquery.com">MARKQUERY</a></h1>
+			
+			<div class="nestedhover-cfcfd5-fff">
+			<cite><p>Copyright &copy; 2013 <a class="org url" href="http://markquery.com/">markquery.com</a> project maintained  by <a class="fn email" href="mailto:ungki.h@gmail.com">Ungki, H</a></p></cite>
+			<p>Licensed under the incredibly permissive <a rel="license" href="http://markquery.com/license">MIT License</a></p>
+			<p>Documentations under <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0</a></p>
+			<p>Open sources are copyright of their respective owners  <a rel="license" href="http://markquery.com/license">About The License</a></p>
+			</div>
+			</div>
+
+			<div class="span2">
+			<h1 class="title-opensans"><img class="bgcolor-373737" src="/images/github-icon-64.png" alt=" " /><a class="margin-left-20 ahover-fff-ddd" title="github.com" href="http://github.com">GitHub</a></h1>
+			<ul class="nestedhover-cfcfd5-fff">
+			<li><a rel="directory" href="https://github.com/">markquery</a></li>
+			<li><a rel="directory" href="https://github.com/">markquery source</a></li>
+			<li><a rel="directory" href="https://github.com/">wordpress skeleton</a></li>
+			<li><a rel="directory" href="https://github.com/">tistory skeleton</a></li>
+			<li><a rel="directory" href="https://github.com/">docs &amp; reference</a></li>
+			</ul>
+			</div>
+
+			<div class="span2">
+			<h1 class="title-opensans"><a class="ahover-fff-ddd" title="download page" href="http://markquery/docs/download">Download</a></h1>
+			<ul class="nestedhover-cfcfd5-fff">
+			<li><a rel="directory" href="http://markquery.com/docs/download#markquery">markquery</a></li>
+			<li><a rel="directory" href="http://markquery.com/docs/download#markquery-source">markquery source</a></li>
+			<li><a rel="directory" href="http://markquery.com/docs/download#wordpress">wordpress skeleton</a></li>
+			<li><a rel="directory" href="http://markquery.com/docs/download#tistory">tistory skeleton</a></li>
+			</ul>
+			</div>
+
+			<div class="span4">
+			<h1 class="title-opensans"><img class="bgcolor-373737" src="/images/twitter-icon-64.png" alt=" " /><a class="margin-left-20 ahover-fff-ddd" title="twitter" href="http://twitter.com/markquery">Released Note</a></h1>
+			<div id="twitter" class="note"></div>
+			</div>
+			</div><!-- microformats -->
+		</div>
+		</div>
+</footer>
+
+<!-- source 
+================================================== -->
+<section id="source">
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+			<p>This page was last updated at 2013-05-27T05:28:11.072Z</p>
+			<h6 id="source-header"><a>Click to view this page's source</a></h6>
+			<div id="source-code">
+			<div><p>Source file extension is <code>html</code>. Outextension is <code>html</code>.</p></div>
+			<pre class="prettyprint lang-html">--- yaml
+title: 'basic html and css'
+layout: 'docs'
+tags: ['html','basic', 'css']
+excerpt: &quot;HTML과 CSS의 코드 가이드입니다. 올바른 웹콘텐츠 제작을 위해 목표를 세우는 작업입니다. 이 문서는 꾸준히 관리될 것입니다. 잘못된 정보가 있다면 바로 신고해주시기 바랍니다. &quot;
+isPage: true
+---
+&lt;div class=&quot;container-pin-820-left&quot;&gt;
+	&lt;div class=&quot;container-fluid&quot;&gt;
+		&lt;div class=&quot;row-fluid&quot;&gt;
+			&lt;div class=&quot;span12 text-justify&quot;&gt;
+			&lt;h1 id=&quot;header 1&quot;&gt;1. Basic HTML&lt;/h1&gt;
+
+			&lt;p&gt;유저가 좋든 싫은, 웹에서 모든 콘텐츠는 HTML이다. HTML과 CSS를 전혀 모르는 유저라면, 다음 문서인 Usage로 건너뛰어 markquery를 하나씩 따라하는 것으로 시작하는 것도 좋을 것이다. HTML 파일은 head와 body로 구성된다. head에는 웹 페이지에 대한 meta 정보를 가지게 되고, body에는 콘텐츠가 쓰여진다. 자세히 알아야할 필요는 없지만 기초를 살펴보자. 문서가 HTML이라는 선언부터 시작된다. &amp;lt;!DOCTYPE html&amp;gt;은 웹 페이지가 HTML5라는 것을 뜻한다.&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint lang-html&quot;&gt;
+&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;head&amp;gt;
+	&amp;lt;!-- place javascript and CSS in the your directory --&amp;gt;
+	&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;.../style.css&amp;quot;&amp;gt;
+	&amp;lt;script src=&amp;quot;.../script.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;/head&amp;gt;
+
+&amp;lt;body&amp;gt;
+	&amp;lt;!-- place yout contents --&amp;gt;
+	&amp;lt;h1&amp;gt;Heading&amp;lt;/h1&amp;gt;
+	&amp;lt;p&amp;gt;paragraph.&amp;lt;/p&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/pre&gt;
+
+			&lt;h2 id=&quot;header 2&quot;&gt;&amp;lt;head&amp;gt;&lt;/h2&gt;
+
+			&lt;p&gt;&amp;lt;head&amp;gt;와 &amp;lt;/head&amp;gt; 사이에는 사이트 meta 정보와 CSS 파일, javascript 파일이 연결된다.&lt;/p&gt;
+
+			 &lt;p&gt;markquery.css 파일은 bootstrap.css, responsive.css 파일과 함께 하나로 압축하여 배포된다. nomargin과 pin CSS가 포함되어 있다.&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint lang-html&quot;&gt;
+&amp;lt;link href=&quot;.../markquery.css&quot; rel=&quot;stylesheet&quot;&amp;gt;
+&lt;/pre&gt;
+
+			&lt;p&gt;그리고 유저의 커스텀 CSS인 style.css 파일이 링크돼야 한다. reference.css는 방대한 용량의 디자인 정보가 업데이트될 것이기 때문에 절대 웹사이트에 링크해서 사용하면 안된다. style.css는 유저가 원하는대로 파일명과 내용 수정이 가능하다. &lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint lang-html&quot;&gt;
+&amp;lt;link href=&quot;.../style.css&quot; rel=&quot;stylesheet&quot;&amp;gt;
+&lt;/pre&gt;
+
+			&lt;p&gt;javascript 파일은 jquery.js 및 bootstrap.js 등 파일을 하나로 압축하여 배포한다.&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-html&quot;&gt;
+&amp;lt;script src=&amp;quot;.../markquery.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/pre&gt;
+
+			&lt;h2 id=&quot;header 2&quot;&gt;&amp;lt;body&amp;gt;&lt;/h2&gt;
+
+			&lt;p&gt;요소명은  &quot;&amp;lt;&quot;와 &quot;&amp;gt;&quot; angle brackets으로 표기한다.&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint lang-html&quot;&gt;
+&amp;lt;h1&amp;gt; title &amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt; contents &amp;lt;p&amp;gt;		
+&amp;lt;strong&amp;gt; important! &amp;lt;/strong&amp;gt;
+&lt;/pre&gt;
+			&lt;p&gt;HTML은 내용을 태그로 둘러싸는 것으로 마크업한다. 내용을 둘러싸면 내용이 어디서부터 어디까지인지 범위가 명확해진다.&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint lang-html&quot;&gt;
+&amp;lt;요소명&amp;gt;내용&amp;lt;/요소명&amp;gt;
+&lt;/pre&gt;
+
+			&lt;p&gt;&amp;lt;요소명&amp;gt;은 시작 태그라 하고, &amp;lt;/요소명&amp;gt;를 종료 태그라 한다. 종료 태그에는 &lt;code&gt;/&lt;/code&gt;를 넣어 종료 태그임을 표기한다. 예외사항도 있는데, 콘텐츠에 이미지를 넣을 때 사용되는 &amp;lt;img&amp;gt;와 구분선을 넣는 &amp;lt;hr&amp;gt; 태그 두 개만 기억하면 된다.&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint lang-html&quot;&gt;
+&amp;lt;img src=&amp;quot;/path/markquery.jpg&amp;quot; alt=&amp;quot;markquery logo image&amp;quot; /&amp;gt;
+&lt;/pre&gt;
+
+			&lt;p&gt;img 태그의 끝에 종료를 선언하는 &lt;code&gt;/&lt;/code&gt;가 함께 쓰인다. 이처럼 &amp;lt;요소명 /&amp;gt; 형식으로 표기하는 HTML을 빈요소(empty element)라고 한다. 참고로 img 태그를 사용할 때 이미지의 경로와 함께 alt=&quot;description&quot; 속성을 반드시 사용해야 한다. 이미지의 설명이고, 이미지를 볼 수 없을 경우에 대체 텍스트로 사용된다. 모든 img 태그에 alt 속성을 넣을 필요는 없다. 디자인에 쓰이는 이미지 혹은 내용과 관련 없는 이미지는 공백 상태로 두면 된다. alt=&quot; &quot;&lt;/p&gt;
+
+			&lt;h1 id=&quot;header 1&quot;&gt;Basic CSS&lt;/h1&gt; 
+
+			&lt;p&gt;CSS 파일에 담겨있는 디자인을 부여하는 방법은 &amp;lt;요소명 속성명=&quot;속성값&quot;&amp;gt;으로 표기하는 것이다.&lt;/p&gt;
+
+&lt;pre class=&quot;prettyprint lang-html&quot;&gt;
+&amp;lt;h1 class=&amp;quot;text-color-666&amp;quot;&amp;gt; title &amp;lt;/h1&amp;gt;
+&lt;/pre&gt;
+
+			&lt;p&gt;속성명은 &lt;code&gt;class&lt;/code&gt;이고 속성값은 &lt;code&gt;text-color-666&lt;/code&gt;이다. markquery의 모든 속성명은 class를 사용하며, 속성값은 reference 페이지에서 얻을 수 있다. resource 페이지와 magazine 페이지에서도 소스를 얻을 수 있다. &lt;/p&gt;
+
+			&lt;p&gt;속성값은 여러개를 사용할 수 있다. 텍스트의 컬러를 666으로, 사이즈를 20px로, line 크기를 24px로 하고 싶을 경우 하나의 class에 한 칸씩 띄어쓴다. 
+
+&lt;pre class=&quot;prettyprint lang-html&quot;&gt;
+&amp;lt;p class=&amp;quot;text-color-666 text-size-20 text-lineheight24&amp;quot;&amp;gt; contents &amp;lt;/p&amp;gt;
+&lt;/pre&gt;
+
+			&lt;p&gt;속성명은 중복될 수 없으나 다른 속성명을 함께 사용 가능하다. class 외에 id, href, rol 등의 속성명이 있다. &lt;/p&gt;
+			
+&lt;pre class=&quot;prettyprint lang-html&quot;&gt;
+&amp;lt;img src=&quot;../path/image.png&quot; id=&quot;link&quot; class=&quot;padding-20&quot; alt=&quot; &quot; /&amp;gt;
+&lt;/pre&gt;
+
+			&lt;p&gt;id는 한 페이지에 한 번만 사용 가능하다. markquery에서는 id를 거의 사용하지 않는다. &lt;/p&gt;
+
+			&lt;p&gt;bootstrap의 기본 속성값은 &lt;code&gt;-&lt;/code&gt; dash로 단어가 연결된다. markquery의 속성값은 &lt;code&gt;-&lt;/code&gt; underscore로 연결한다. 
+
+&lt;pre class=&quot;prettyprint lang-html&quot;&gt;
+bootstrap : &amp;lt;div class=&amp;quot;containter-fluid&amp;quot;&amp;gt;
+markquery : &amp;lt;div class=&amp;quot;text-color-999&amp;quot;&amp;gt;
+&lt;/pre&gt;
+
+			&lt;p&gt;bootstrap은 주로 레이아웃 만들 때 관련 속성값이 사용될 것이고, markquery는 편집디자인의 대부분을 차지할 것이다. underscore를 사용하는 이유는 속성값을 더블클릭 시 쉽게 복사하고 삭제할 수 있기 때문이다. dash로 연결된 단어는 하나씩만 선택된다. markquery의 대상은 모든 유저들이기 때문에 속성값의 네이밍 역시 길어질 수밖에 없다. 속성값은 네이밍 자체로 읽을 수 있는 소스로 만든다는 규칙을 가지고 있다. 단, javascript가 쓰일 경우에는 속성명을 id로 사용하고, 속성값의 단어를 dash로 연결한다. 
+				
+			&lt;p class=&quot;border-3teee padding-top-20&quot;&gt;Next Page &amp;mdash; &lt;a href=&quot;/docs/usage&quot;&gt;Usage&lt;/a&gt;&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</pre>
+			</div>
+		</div>
+	</div>
+</div>
+</section><!-- source -->
+
+<a href="#" class="scrollup">Scroll</a>
+
+	<!-- Scripts -->
+	<script >(function(){
+	// Did we just livereload?
+var log = true && localStorage && console && console.log && true;
+if ( log && localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReloaded at', new Date())
+}
+
+// Listen for the regenerated event
+// and perform a reload of the page when the event occurs
+var listen = function(){
+	var socket = io.connect('/docpad-livereload');
+	socket.on('regenerated',function(){
+		if ( log ) {
+	localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+}
+document.location.reload();
+	});
+};
+	if ( typeof io !== 'undefined' ) {
+		listen();
+	} else {
+		// Inject socket.io into our page then listen once loaded
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = true;
+	t.src = '/socket.io/socket.io.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t,s);
+};
+		inject();
+	}
+})();</script><script defer="defer"  src="/scripts/markquery.js"></script>
+</body>
+</html>

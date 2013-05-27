@@ -1,0 +1,1085 @@
+<!-- TEXT size -->
+<section class="ref-section">
+	<div class="container-fluid-nomargin">
+		<div class="row-fluid ref-header">
+		<div class="span1"><strong># css</strong></div>
+		<div class="span2"><strong>selector</strong></div>
+		<div class="span2"><strong>size</strong></div>
+		<div class="span2"><strong>example</strong></div>
+		<div class="span5"><strong>note</strong></div>
+		</div><!-- row-fluid ref-header -->
+		<div class="row-fluid ref">
+		<div class="span1"><p></p></div>
+		<div class="span2"><p>.text-size</p></div>
+		<div class="span2"><p>px, em</p></div>
+		<div class="span2"></div>
+		<div class="span5 ref-note">
+<pre class="prettyprint ref-prettyprint">
+텍스트에 사이즈가 적용된다. 
+6 ~ 32 px까지, 0.375 ~ 2 em까지 출력되는 px와 em의 텍스트 사이즈는 동일하다. 
+em의 소수점은 0.375일 경우 e375m, 1.125em일 경우 1e125m으로 표기한다. 권장 텍스트 사이즈는 16px와 1em이다.
+
+.text-size-16 {
+	font-size: 16px;
+}
+
+// LessCSS
+@textsize-px: 6;
+    .text-size-px-loop(@index) when (@index &lt; 33) {
+      .text-size-@{index} { font-size: unit(@index, px); }
+      .text-size-px-loop(@index + 1);
+    }
+    // generate .text-size 6px ~ 32px by 1px
+    .text-size-px-loop(@textsize-px);
+</pre>
+		</div><!-- span5 -->
+		</div><!-- row-fluid ref -->
+
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-6 { font-size:  6px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-6</p></div>
+			<div class="span2"><p>6px</p></div>
+			<div class="span2 text-size-6"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-6&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-7 { font-size:  7px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-7</p></div>
+			<div class="span2"><p>7px</p></div>
+			<div class="span2 text-size-7"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-7&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-8 { font-size:  8px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-8</p></div>
+			<div class="span2"><p>8px</p></div>
+			<div class="span2 text-size-8"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-8&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-9 { font-size:  9px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-9</p></div>
+			<div class="span2"><p>9px</p></div>
+			<div class="span2 text-size-9"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-9&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-10 { font-size:  10px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-10</p></div>
+			<div class="span2"><p>10px</p></div>
+			<div class="span2 text-size-10"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-10&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-11 { font-size:  11px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-11</p></div>
+			<div class="span2"><p>11px</p></div>
+			<div class="span2 text-size-11"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-11&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-12 { font-size:  12px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-12</p></div>
+			<div class="span2"><p>12px</p></div>
+			<div class="span2 text-size-12"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-12&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-13 { font-size:  13px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-13</p></div>
+			<div class="span2"><p>13px</p></div>
+			<div class="span2 text-size-13"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-13&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-14 { font-size:  14px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-14</p></div>
+			<div class="span2"><p>14px</p></div>
+			<div class="span2 text-size-14"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-14&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-15 { font-size:  15px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-15</p></div>
+			<div class="span2"><p>15px</p></div>
+			<div class="span2 text-size-15"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-15&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-16 { font-size:  16px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-16</p></div>
+			<div class="span2"><p>16px</p></div>
+			<div class="span2 text-size-16"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-16&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-17 { font-size:  17px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-17</p></div>
+			<div class="span2"><p>17px</p></div>
+			<div class="span2 text-size-17"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-17&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-18 { font-size:  18px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-18</p></div>
+			<div class="span2"><p>18px</p></div>
+			<div class="span2 text-size-18"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-18&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-19 { font-size:  19px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-19</p></div>
+			<div class="span2"><p>19px</p></div>
+			<div class="span2 text-size-19"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-19&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-20 { font-size:  20px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-20</p></div>
+			<div class="span2"><p>20px</p></div>
+			<div class="span2 text-size-20"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-20&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-21 { font-size:  21px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-21</p></div>
+			<div class="span2"><p>21px</p></div>
+			<div class="span2 text-size-21"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-21&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-22 { font-size:  22px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-22</p></div>
+			<div class="span2"><p>22px</p></div>
+			<div class="span2 text-size-22"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-22&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-23 { font-size:  23px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-23</p></div>
+			<div class="span2"><p>23px</p></div>
+			<div class="span2 text-size-23"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-23&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-24 { font-size:  24px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-24</p></div>
+			<div class="span2"><p>24px</p></div>
+			<div class="span2 text-size-24"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-24&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-25 { font-size:  25px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-25</p></div>
+			<div class="span2"><p>25px</p></div>
+			<div class="span2 text-size-25"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-25&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-26 { font-size:  26px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-26</p></div>
+			<div class="span2"><p>26px</p></div>
+			<div class="span2 text-size-26"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-26&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-27 { font-size:  27px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-27</p></div>
+			<div class="span2"><p>27px</p></div>
+			<div class="span2 text-size-27"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-27&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-28 { font-size:  28px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-28</p></div>
+			<div class="span2"><p>28px</p></div>
+			<div class="span2 text-size-28"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-28&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-29 { font-size:  29px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-29</p></div>
+			<div class="span2"><p>29px</p></div>
+			<div class="span2 text-size-29"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-29&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-30 { font-size:  30px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-30</p></div>
+			<div class="span2"><p>30px</p></div>
+			<div class="span2 text-size-30"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-30&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-31 { font-size:  31px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-31</p></div>
+			<div class="span2"><p>31px</p></div>
+			<div class="span2 text-size-31"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-31&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-32 { font-size:  32px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-32</p></div>
+			<div class="span2"><p>32px</p></div>
+			<div class="span2 text-size-32"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-32&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-e375m { font-size: .375em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-e375m</p></div>
+			<div class="span2"><p>.375em</p></div>
+			<div class="span2 text-size-e375m"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-e375m&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-e438m { font-size: .438em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-e438m</p></div>
+			<div class="span2"><p>.438em</p></div>
+			<div class="span2 text-size-e438m"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-e438m&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-e500m { font-size: .500em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-e500m</p></div>
+			<div class="span2"><p>.500em</p></div>
+			<div class="span2 text-size-e500m"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-e500m&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-e563m { font-size: .563em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-e563m</p></div>
+			<div class="span2"><p>.563em</p></div>
+			<div class="span2 text-size-e563m"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-e563m&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-e625m { font-size: .625em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-e625m</p></div>
+			<div class="span2"><p>.625em</p></div>
+			<div class="span2 text-size-e625m"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-e625m&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-e688m { font-size: .688em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-e688m</p></div>
+			<div class="span2"><p>.688em</p></div>
+			<div class="span2 text-size-e688m"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-e688m&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-e750m { font-size: .750em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-e750m</p></div>
+			<div class="span2"><p>.750em</p></div>
+			<div class="span2 text-size-e750m"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-e750m&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-e813m { font-size: .813em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-e813m</p></div>
+			<div class="span2"><p>.813em</p></div>
+			<div class="span2 text-size-e813m"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-e813m&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-e875m { font-size: .875em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-e875m</p></div>
+			<div class="span2"><p>.875em</p></div>
+			<div class="span2 text-size-e875m"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-e875m&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-e938m { font-size: .938em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-e938m</p></div>
+			<div class="span2"><p>.938em</p></div>
+			<div class="span2 text-size-e938m"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-e938m&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-1em { font-size:  1em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-1em</p></div>
+			<div class="span2"><p>1em</p></div>
+			<div class="span2 text-size-1em"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-1em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-1e063m { font-size: 1.063em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-1e063m</p></div>
+			<div class="span2"><p>1.063em</p></div>
+			<div class="span2 text-size-1e063m"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-1e063m&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-1e125m { font-size: 1.125em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-1e125m</p></div>
+			<div class="span2"><p>1.125em</p></div>
+			<div class="span2 text-size-1e125m"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-1e125m&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-1e188m { font-size: 1.188em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-1e188m</p></div>
+			<div class="span2"><p>1.188em</p></div>
+			<div class="span2 text-size-1e188m"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-1e188m&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-1e250m { font-size: 1.250em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-1e250m</p></div>
+			<div class="span2"><p>1.250em</p></div>
+			<div class="span2 text-size-1e250m"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-1e250m&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-1e313m { font-size: 1.313em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-1e313m</p></div>
+			<div class="span2"><p>1.313em</p></div>
+			<div class="span2 text-size-1e313m"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-1e313m&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-1e375m { font-size: 1.375em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-1e375m</p></div>
+			<div class="span2"><p>1.375em</p></div>
+			<div class="span2 text-size-1e375m"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-1e375m&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-1e438m { font-size: 1.438em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-1e438m</p></div>
+			<div class="span2"><p>1.438em</p></div>
+			<div class="span2 text-size-1e438m"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-1e438m&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-1e500m { font-size: 1.500em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-1e500m</p></div>
+			<div class="span2"><p>1.500em</p></div>
+			<div class="span2 text-size-1e500m"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-1e500m&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-1e563m { font-size: 1.563em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-1e563m</p></div>
+			<div class="span2"><p>1.563em</p></div>
+			<div class="span2 text-size-1e563m"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-1e563m&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-1e625m { font-size: 1.625em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-1e625m</p></div>
+			<div class="span2"><p>1.625em</p></div>
+			<div class="span2 text-size-1e625m"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-1e625m&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-1e688m { font-size: 1.688em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-1e688m</p></div>
+			<div class="span2"><p>1.688em</p></div>
+			<div class="span2 text-size-1e688m"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-1e688m&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-1e750m { font-size: 1.750em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-1e750m</p></div>
+			<div class="span2"><p>1.750em</p></div>
+			<div class="span2 text-size-1e750m"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-1e750m&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-1e813m { font-size: 1.813em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-1e813m</p></div>
+			<div class="span2"><p>1.813em</p></div>
+			<div class="span2 text-size-1e813m"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-1e813m&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-1e875m { font-size: 1.875em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-1e875m</p></div>
+			<div class="span2"><p>1.875em</p></div>
+			<div class="span2 text-size-1e875m"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-1e875m&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-1e938m { font-size: 1.938em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-1e938m</p></div>
+			<div class="span2"><p>1.938em</p></div>
+			<div class="span2 text-size-1e938m"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-1e938m&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-2em { font-size: 2em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>text-size-2em</p></div>
+			<div class="span2"><p>2em</p></div>
+			<div class="span2 text-size-2em"><p>Lorem ipsum</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-2em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+		<div class="row-fluid ref-divide-header">
+		<div class="span1"><strong># css</strong></div>
+		<div class="span2"><strong>selector</strong></div>
+		<div class="span2"><strong>size</strong></div>
+		<div class="span2"><strong>example</strong></div>
+		<div class="span5"><strong>note</strong></div>
+		</div><!-- row-fluid ref-header -->
+		<div class="row-fluid ref">
+		<div class="span1"><p></p></div>
+		<div class="span2"><p>.text-size</p></div>
+		<div class="span2"><p>px, em</p></div>
+		<div class="span2"></div>
+		<div class="span5 ref-note">
+<pre class="prettyprint ref-prettyprint">
+px 단위는 200px까지, em 단위는 40em까지 적용할 수 있다. 텍스트 사이즈를 크게 사용할 시 테블릿과 모바일 미디어쿼리에 사이즈의 적당한 값을 지정해주는 것이 좋다.
+
+.text-size-40em {
+	font-size: 40em;
+}
+
+// LessCSS
+@textsize-em: 3;
+    .text-size-em-loop(@index) when (@index &lt; 41) {
+      .text-size-@{index}em { font-size: unit(@index, em); }
+      .text-size-em-loop(@index + 1 );
+    }
+    // generate .text-size 2em ~ 40em by 1em
+    .text-size-em-loop(@textsize-em);
+</pre>
+		</div><!-- span5 -->
+		</div><!-- row-fluid ref -->
+		
+			
+			<div class="row-fluid ref" style="line-height: 35px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-35 { font-size:  35px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-35</p></div>
+			<div class="span2"><p>35px</p></div>
+			<div class="span2 text-size-35"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-35&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 40px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-40 { font-size:  40px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-40</p></div>
+			<div class="span2"><p>40px</p></div>
+			<div class="span2 text-size-40"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-40&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 45px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-45 { font-size:  45px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-45</p></div>
+			<div class="span2"><p>45px</p></div>
+			<div class="span2 text-size-45"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-45&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 50px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-50 { font-size:  50px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-50</p></div>
+			<div class="span2"><p>50px</p></div>
+			<div class="span2 text-size-50"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-50&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 55px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-55 { font-size:  55px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-55</p></div>
+			<div class="span2"><p>55px</p></div>
+			<div class="span2 text-size-55"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-55&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 60px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-60 { font-size:  60px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-60</p></div>
+			<div class="span2"><p>60px</p></div>
+			<div class="span2 text-size-60"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-60&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 65px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-65 { font-size:  65px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-65</p></div>
+			<div class="span2"><p>65px</p></div>
+			<div class="span2 text-size-65"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-65&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 70px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-70 { font-size:  70px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-70</p></div>
+			<div class="span2"><p>70px</p></div>
+			<div class="span2 text-size-70"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-70&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 75px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-75 { font-size:  75px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-75</p></div>
+			<div class="span2"><p>75px</p></div>
+			<div class="span2 text-size-75"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-75&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 80px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-80 { font-size:  80px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-80</p></div>
+			<div class="span2"><p>80px</p></div>
+			<div class="span2 text-size-80"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-80&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 85px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-85 { font-size:  85px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-85</p></div>
+			<div class="span2"><p>85px</p></div>
+			<div class="span2 text-size-85"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-85&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 90px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-90 { font-size:  90px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-90</p></div>
+			<div class="span2"><p>90px</p></div>
+			<div class="span2 text-size-90"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-90&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 95px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-95 { font-size:  95px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-95</p></div>
+			<div class="span2"><p>95px</p></div>
+			<div class="span2 text-size-95"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-95&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 100px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-100 { font-size:  100px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-100</p></div>
+			<div class="span2"><p>100px</p></div>
+			<div class="span2 text-size-100"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-100&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 105px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-105 { font-size:  105px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-105</p></div>
+			<div class="span2"><p>105px</p></div>
+			<div class="span2 text-size-105"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-105&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 110px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-110 { font-size:  110px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-110</p></div>
+			<div class="span2"><p>110px</p></div>
+			<div class="span2 text-size-110"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-110&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 115px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-115 { font-size:  115px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-115</p></div>
+			<div class="span2"><p>115px</p></div>
+			<div class="span2 text-size-115"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-115&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 120px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-120 { font-size:  120px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-120</p></div>
+			<div class="span2"><p>120px</p></div>
+			<div class="span2 text-size-120"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-120&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 125px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-125 { font-size:  125px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-125</p></div>
+			<div class="span2"><p>125px</p></div>
+			<div class="span2 text-size-125"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-125&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 130px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-130 { font-size:  130px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-130</p></div>
+			<div class="span2"><p>130px</p></div>
+			<div class="span2 text-size-130"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-130&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 135px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-135 { font-size:  135px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-135</p></div>
+			<div class="span2"><p>135px</p></div>
+			<div class="span2 text-size-135"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-135&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 140px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-140 { font-size:  140px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-140</p></div>
+			<div class="span2"><p>140px</p></div>
+			<div class="span2 text-size-140"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-140&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 145px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-145 { font-size:  145px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-145</p></div>
+			<div class="span2"><p>145px</p></div>
+			<div class="span2 text-size-145"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-145&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 150px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-150 { font-size:  150px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-150</p></div>
+			<div class="span2"><p>150px</p></div>
+			<div class="span2 text-size-150"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-150&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 155px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-155 { font-size:  155px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-155</p></div>
+			<div class="span2"><p>155px</p></div>
+			<div class="span2 text-size-155"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-155&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 160px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-160 { font-size:  160px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-160</p></div>
+			<div class="span2"><p>160px</p></div>
+			<div class="span2 text-size-160"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-160&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 165px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-165 { font-size:  165px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-165</p></div>
+			<div class="span2"><p>165px</p></div>
+			<div class="span2 text-size-165"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-165&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 170px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-170 { font-size:  170px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-170</p></div>
+			<div class="span2"><p>170px</p></div>
+			<div class="span2 text-size-170"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-170&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 175px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-175 { font-size:  175px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-175</p></div>
+			<div class="span2"><p>175px</p></div>
+			<div class="span2 text-size-175"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-175&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 180px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-180 { font-size:  180px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-180</p></div>
+			<div class="span2"><p>180px</p></div>
+			<div class="span2 text-size-180"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-180&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 185px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-185 { font-size:  185px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-185</p></div>
+			<div class="span2"><p>185px</p></div>
+			<div class="span2 text-size-185"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-185&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 190px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-190 { font-size:  190px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-190</p></div>
+			<div class="span2"><p>190px</p></div>
+			<div class="span2 text-size-190"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-190&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 195px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-195 { font-size:  195px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-195</p></div>
+			<div class="span2"><p>195px</p></div>
+			<div class="span2 text-size-195"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-195&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 200px">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-200 { font-size:  200px; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-200</p></div>
+			<div class="span2"><p>200px</p></div>
+			<div class="span2 text-size-200"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-200&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			
+			
+			<div class="row-fluid ref" style="line-height: 3em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-3em { font-size:  3em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-3em</p></div>
+			<div class="span2"><p>3em</p></div>
+			<div class="span2 text-size-3em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-3em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 4em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-4em { font-size:  4em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-4em</p></div>
+			<div class="span2"><p>4em</p></div>
+			<div class="span2 text-size-4em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-4em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 5em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-5em { font-size:  5em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-5em</p></div>
+			<div class="span2"><p>5em</p></div>
+			<div class="span2 text-size-5em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-5em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 6em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-6em { font-size:  6em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-6em</p></div>
+			<div class="span2"><p>6em</p></div>
+			<div class="span2 text-size-6em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-6em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 7em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-7em { font-size:  7em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-7em</p></div>
+			<div class="span2"><p>7em</p></div>
+			<div class="span2 text-size-7em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-7em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 8em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-8em { font-size:  8em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-8em</p></div>
+			<div class="span2"><p>8em</p></div>
+			<div class="span2 text-size-8em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-8em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 9em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-9em { font-size:  9em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-9em</p></div>
+			<div class="span2"><p>9em</p></div>
+			<div class="span2 text-size-9em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-9em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 10em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-10em { font-size:  10em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-10em</p></div>
+			<div class="span2"><p>10em</p></div>
+			<div class="span2 text-size-10em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-10em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 11em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-11em { font-size:  11em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-11em</p></div>
+			<div class="span2"><p>11em</p></div>
+			<div class="span2 text-size-11em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-11em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 12em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-12em { font-size:  12em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-12em</p></div>
+			<div class="span2"><p>12em</p></div>
+			<div class="span2 text-size-12em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-12em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 13em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-13em { font-size:  13em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-13em</p></div>
+			<div class="span2"><p>13em</p></div>
+			<div class="span2 text-size-13em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-13em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 14em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-14em { font-size:  14em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-14em</p></div>
+			<div class="span2"><p>14em</p></div>
+			<div class="span2 text-size-14em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-14em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 15em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-15em { font-size:  15em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-15em</p></div>
+			<div class="span2"><p>15em</p></div>
+			<div class="span2 text-size-15em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-15em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 16em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-16em { font-size:  16em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-16em</p></div>
+			<div class="span2"><p>16em</p></div>
+			<div class="span2 text-size-16em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-16em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 17em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-17em { font-size:  17em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-17em</p></div>
+			<div class="span2"><p>17em</p></div>
+			<div class="span2 text-size-17em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-17em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 18em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-18em { font-size:  18em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-18em</p></div>
+			<div class="span2"><p>18em</p></div>
+			<div class="span2 text-size-18em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-18em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 19em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-19em { font-size:  19em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-19em</p></div>
+			<div class="span2"><p>19em</p></div>
+			<div class="span2 text-size-19em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-19em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 20em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-20em { font-size:  20em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-20em</p></div>
+			<div class="span2"><p>20em</p></div>
+			<div class="span2 text-size-20em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-20em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 21em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-21em { font-size:  21em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-21em</p></div>
+			<div class="span2"><p>21em</p></div>
+			<div class="span2 text-size-21em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-21em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 22em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-22em { font-size:  22em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-22em</p></div>
+			<div class="span2"><p>22em</p></div>
+			<div class="span2 text-size-22em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-22em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 23em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-23em { font-size:  23em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-23em</p></div>
+			<div class="span2"><p>23em</p></div>
+			<div class="span2 text-size-23em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-23em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 24em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-24em { font-size:  24em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-24em</p></div>
+			<div class="span2"><p>24em</p></div>
+			<div class="span2 text-size-24em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-24em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 25em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-25em { font-size:  25em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-25em</p></div>
+			<div class="span2"><p>25em</p></div>
+			<div class="span2 text-size-25em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-25em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 26em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-26em { font-size:  26em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-26em</p></div>
+			<div class="span2"><p>26em</p></div>
+			<div class="span2 text-size-26em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-26em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 27em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-27em { font-size:  27em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-27em</p></div>
+			<div class="span2"><p>27em</p></div>
+			<div class="span2 text-size-27em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-27em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 28em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-28em { font-size:  28em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-28em</p></div>
+			<div class="span2"><p>28em</p></div>
+			<div class="span2 text-size-28em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-28em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 29em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-29em { font-size:  29em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-29em</p></div>
+			<div class="span2"><p>29em</p></div>
+			<div class="span2 text-size-29em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-29em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 30em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-30em { font-size:  30em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-30em</p></div>
+			<div class="span2"><p>30em</p></div>
+			<div class="span2 text-size-30em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-30em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 31em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-31em { font-size:  31em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-31em</p></div>
+			<div class="span2"><p>31em</p></div>
+			<div class="span2 text-size-31em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-31em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 32em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-32em { font-size:  32em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-32em</p></div>
+			<div class="span2"><p>32em</p></div>
+			<div class="span2 text-size-32em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-32em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 33em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-33em { font-size:  33em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-33em</p></div>
+			<div class="span2"><p>33em</p></div>
+			<div class="span2 text-size-33em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-33em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 34em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-34em { font-size:  34em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-34em</p></div>
+			<div class="span2"><p>34em</p></div>
+			<div class="span2 text-size-34em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-34em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 35em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-35em { font-size:  35em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-35em</p></div>
+			<div class="span2"><p>35em</p></div>
+			<div class="span2 text-size-35em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-35em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 36em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-36em { font-size:  36em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-36em</p></div>
+			<div class="span2"><p>36em</p></div>
+			<div class="span2 text-size-36em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-36em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 37em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-37em { font-size:  37em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-37em</p></div>
+			<div class="span2"><p>37em</p></div>
+			<div class="span2 text-size-37em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-37em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 38em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-38em { font-size:  38em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-38em</p></div>
+			<div class="span2"><p>38em</p></div>
+			<div class="span2 text-size-38em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-38em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 39em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-39em { font-size:  39em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-39em</p></div>
+			<div class="span2"><p>39em</p></div>
+			<div class="span2 text-size-39em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-39em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref" style="line-height: 40em">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".text-size-40em { font-size:  40em; }"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>.text-size-40em</p></div>
+			<div class="span2"><p>40em</p></div>
+			<div class="span2 text-size-40em"><p>A</p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;text-size-40em&quot;&gt;hello&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+	</div><!-- container-fluid -->
+</section><!-- ref-section -->
+<script src="/scripts/ajax.js"></script>

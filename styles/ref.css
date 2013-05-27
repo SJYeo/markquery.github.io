@@ -1,0 +1,50 @@
+﻿/* http://markquery.com/ 
+   reference.css
+   -------------------------------------------------------------------------------------------------------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Anton);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=latin);
+
+.font-anton-4em { font: 4em 'Anton' arial, sans-serif; font-weight: 300; }
+.font-anton-3em { font: 3em 'Anton' arial, sans-serif; font-weight: 300; }
+.font-opensans { font: 1em/1em 'Open Sans', arial, sans-serif; }
+.font-opensans300 { font: 2em 'Open Sans', arial, sans-serif; font-weight: 300; }
+.title-opensans { font: 2.8em 'Open Sans', arial, sans-serif; font-weight: 300; }
+
+header {
+  margin-top: 20px;
+}
+
+.ref  {
+  border-bottom:1px solid #ddd;
+}
+.ref-header {
+  border-bottom:1px solid #111;
+  /*padding-bottom:5px;*/
+  margin-top:10px;
+}
+.ref-divide-header {
+  border-bottom:1px solid #111;
+  /*padding-bottom:5px;*/
+  margin-top:200px;
+}
+.ref-section {
+  margin-bottom:50px;
+}
+.ref-note {
+  background-color: #f1f1f1;
+}
+.ref p, .ref-header strong, .ref-divide-header strong {
+  margin:15px;
+}
+.modal-body pre {
+  background-color: #fff;
+  border: none;
+  margin:0;
+  padding: 0;
+}
+.ref-prettyprint {
+  padding: 15px 15px 0px 15px !important;
+  background-color: #f1f1f1 !important;
+  border: none !important;
+}
+

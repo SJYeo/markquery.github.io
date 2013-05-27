@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lange="en">
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width">
+	<title>markquery</title>
+	<meta name="description" content="Customize your contents. markquery is markup library for web contents." />
+	<meta name="keywords" content="markquery, web, contents, editorial design, opensource, html5, css, markup" />
+	<meta name="author" content="Ungki, H" />
+	<meta http-equiv="X-Powered-By" content="DocPad v6.34.1"/>
+
+	<link rel="author" href="humans.txt" />
+	<link rel="profile" href="http://microformats.org/profile/hcard">
+	
+	<!-- Icons -->
+	<link rel="shortcut icon" href="http://markquery.com/images/favicon.ico">
+	<link rel="apple-touch-icon" href="http://markquery.com/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="http://markquery.com/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="http://markquery.com/images/apple-touch-icon-114x114.png">
+
+	<!-- Shims: IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+		<script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- docs style -->
+	<link  rel="stylesheet" href="/styles/markquery.min.css" />
+	<link  rel="stylesheet" href="/styles/docs.css" /><link  rel="stylesheet" href="/styles/github.css" />
+
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->
+<!-- Nav
+================================================== -->
+<nav role="navigation">
+	<div class="navbar navbar-static-top">
+		<div class="navbar-inner">
+			<div class="container-fluid-nomargin">
+				<a href="#content" class="skip">skip to content</a>
+				<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+					<div class="nav-collapse collapse">
+					<ul class="nav">
+					
+					<li class="inactive">
+					<a href="/">Home</a>
+					</li>
+					
+					<li class="active">
+					<a href="/docs">documentation</a>
+					</li>
+					
+					<li class="inactive">
+					<a href="/reference">reference</a>
+					</li>
+					
+					<li class="inactive">
+					<a href="/blog">blog</a>
+					</li>
+					
+					</ul>
+					</div>
+			</div>
+		</div>
+	</div>
+</nav>
+
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span3 layout-nomargin">
+ 		<!-- Header 
+		================================================== -->
+		<header role="banner">
+			<h1 class="title-opensans"><img class="bgcolor-373737" src="/images/markquery-icon-64.png" alt=" " /><a class="margin-left-20 ahover-111-555" title="markquery docs" href="http://markquery.com/docs">Docs</a></h1>
+		</header><!-- header : role="banner" -->
+		<aside role="complementary">
+			<h2 class="font-opensans300">table of contents</h2>
+			<menu class="nestedhover-111-555"> 
+			<ol class="toc">
+				<li class="toc sub-list">
+				<h5>Getting started</h5>
+					<ul>
+					<li><a href="/docs/overview">overview</a></li>
+					<li><a href="/docs/download">download</a></li>
+					<li><a href="/docs/html-css">HTML and CSS</a></li>
+					<li><a href="/docs/usage">usage</a></li>
+					<li><a href="/docs/code-guide">code guide</a></li>
+					</ul>
+				</li> 
+				<li class="toc sub-list">
+  				<h5>Layout</h5>
+					<ul>
+					<li ><a href="/docs/container">container</a></li>
+					<li ><a href="/docs/container-fluid">container-fluid</a></li>
+					<li ><a href="/docs/container-fluid-nomargin">container-fluid-nomargin</a></li>
+					<li><a data-toggle="collapse" data-target="#pin" href="#collapse">pin</a>
+						<div id="pin" class="collapse">
+						<ul>
+							<li><a href="/docs/container-pin">container-pin</a></li>
+							<li><a href="/docs/container-pin-left">container-pin-left</a></li>
+							<li><a href="/docs/container-pin-right">container-pin-right</a></li>
+						</ul>
+						</div>
+					</li>
+					<li><a data-toggle="collapse" data-target="#pin-620" href="#collapse">pin-620</a>
+						<div id="pin-620" class="collapse">
+						<ul>
+							<li><a href="/docs/container-pin-620">container-pin-620</a></li>
+							<li><a href="/docs/container-pin-620-left">container-pin-620-left</a></li>
+							<li><a href="/docs/container-pin-620-right">container-pin-620-right</a></li>
+						</ul>
+						</div>
+					</li>
+					<li><a data-toggle="collapse" data-target="#pin-820" href="#collapse">pin-820</a>
+						<div id="pin-820" class="collapse">
+						<ul>
+							<li><a href="/docs/container-pin-820">container-pin-820</a></li>
+							<li><a href="/docs/container-pin-820-left">container-pin-820-left</a></li>
+							<li><a href="/docs/container-pin-820-right">container-pin-820-right</a></li>
+						</ul>
+						</div>
+					</li>
+					<li><a data-toggle="collapse" data-target="#pin-960" href="#collapse">pin-960</a>
+						<div id="pin-960" class="collapse">
+						<ul>					
+							<li><a href="/docs/container-pin-960">container-pin-960</a></li>
+							<li><a href="/docs/container-pin-960-left">container-pin-960-left</a></li>
+							<li><a href="/docs/container-pin-960-right">container-pin-960-right</a></li>
+						</ul>
+						</div>
+					</li>
+					<li><a data-toggle="collapse" data-target="#pin-1200" href="#collapse">pin-1200</a>
+						<div id="pin-1200" class="collapse">
+						<ul>			
+							<li><a href="/docs/container-pin-1200">container-pin-1200</a></li>
+							<li><a href="/docs/container-pin-1200-left">container-pin-1200-left</a></li>
+							<li><a href="/docs/container-pin-1200-right">container-pin-1200-right</a></li>
+						</ul>
+						</div>
+					</li>
+					<li><a data-toggle="collapse" data-target="#pin-1600" href="#collapse">pin-1600</a>
+						<div id="pin-1600" class="collapse">
+						<ul>			
+							<li><a href="/docs/container-pin-1600">container-pin-1600</a></li>
+							<li><a href="/docs/container-pin-1600-left">container-pin-1600-left</a></li>
+							<li><a href="/docs/container-pin-1600-right">container-pin-1600-right</a></li>
+						</ul>
+						</div>
+					</li>
+					<li><a href="/docs/row">row</a></li>
+					<li><a href="/docs/row-nomargin">row-nomargin</a></li>
+					<li><a href="/docs/row-fluid">row-fluid</a></li>
+					<li><a href="/docs/row-fluid-nomargin">row-fluid-nomargin</a></li>  
+					<li><a href="/docs/grid-system">grid system</a></li>
+					</ul>
+				</li> 
+				<li class="toc sub-list">
+				<h5>markdown</h5>
+					<ul>
+					<li><a href="/docs/what-is-markdown">What is markdown?</a></li>
+					<li><a href="/docs/get-markdown">Get Markdown</a></li>
+					</ul>
+				</li> 
+				<li class="toc sub-list">
+				<h5>sublime text</h5>
+					<ul>
+					<li><a href="/docs/install-sublimetext">Install sublime text</a></li>
+					<li><a href="/docs/markdown-package">Markdown Package</a></li>
+					<li><a href="/docs/2byte-languages">For 2byte Languages</a></li>
+					<li><a href="/docs/theme-package">Theme Package</a></li>
+					</ul>
+				</li> 
+				<li class="toc sub-list">
+				<h5>minify</h5>
+					<ul>
+					<li><a href="/docs/css-minify">css</a></li>
+					<li><a href="/docs/js-minify">javascript</a></li>
+					<li><a href="/docs/grunt">grunt</a></li>
+					</ul>
+				</li> 
+			</ol>
+			</menu>
+		</aside>
+		</div><!-- span3 -->
+
+		<div class="span9 border-1leee layout-nomargin padding-bottom-100">
+		<!-- content 
+		================================================== -->
+		<div class="row-fluid">
+		<article role="main" id="content">
+			
+			<div class="github">
+			<div class="container-pin-820-left">
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span12 text-justify">
+			<h1 id="header 1">Sublime Text Editor</h1>
+
+			<p>sublime text 에디터는 최고의 문서 편집기 중 하나이다. 마이크로소프트의 워드, Emacs, Vim, notepad++ 심지어 윈도우즈 기본 프로그램 메모장까지 널리 쓰이는 문서편집기들이 많다. 그 중에서 하나를 추천한다면, 오늘은 sublime text 2이다. 현재 3가 베타버전으로 개발되고 있다. 완벽한 무료 프로그램은 아니지만, 이 문서 편집기의 매력에 빠진다면 기꺼이 라이센스를 얻을 만하다. </p>
+
+			<p>Licenses are per-user, rather than per-machine</p>
+
+			<h2 id="header 2">Installation</h2>
+
+			<p>Sublime Text 2 Download : <a href="http://www.sublimetext.com/" title="go to sublimetext homepage">http://www.sublimetext.com/</a></p>
+
+			<p>OS X, 윈도우즈, 리눅스 모두 다운로드 가능하다. 다운로드 후 가장 먼저 할 일은 Sublime Package Control을 설치하는 것이다. sublime text는 유저가 원하는 거의 모든 패키지를 설치할 수 있는데, package control을 먼저 설치해두면 패키지 관리를 편리하게 해준다. </p>
+
+			<h2 id="header 2">Sublime Package Control</h2>
+
+			<p>sublime package control : <a href="http://wbond.net/sublime_packages/package_control" title="go to sublime package control homepage">http://wbond.net/sublime_packages/package_control</a></p>
+
+			<p>윈도우즈 기준으로 <code>ctrol + `</code> 키를 입력하면 하단에 콘솔창이 나타난다. 명령어 라인에 다음의 코드를 입력한다. 콘솔창을 없애는 키는 Esc 버튼이다. </p>
+
+<blockquote>
+import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation') 
+</blockquote>
+
+			<img src="/docs/install-sublimetext/install-sublimetext.png" alt="sublime text2, install package control" />
+
+			<p>입력 후에 설치가 완료되면, sublime text를 재시작 한다. </p>
+			
+
+			<p><strong>sublime text에서 패키지라는 용어는 플러그인과 같고, 패키지 설치 과정은 하단 상태바에 작게 표시된다.</strong></p>
+
+			<p class="border-3teee padding-top-20">Next Page &mdash; <a href="/docs/markdown-package">markdown package</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+			</div>
+			<!-- else nomal css -->
+		</article>
+		</div>
+<div class="row-fluid">
+<section class="disqus">
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span12">
+<div id="disqus_thread"></div>
+<script>
+	(function(){
+		window.disqus_shortname = 'markquery';
+		window.disqus_developer = '1';
+		window.disqus_url = 'http://markquery.com';
+		window.disqus_identifier = 'index';
+		window.disqus_title = 'index.html';
+		if ( window.DISQUS ) {
+			return DISQUS.reset({
+				reload: true,
+				config: function () {
+					this.page.identifier = window.disqus_identifier;
+					this.page.url = window.disqus_url;
+					this.page.title = window.disqus_title;
+				}
+			});
+		}
+		else {
+		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		  dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+			</div>
+		</div>
+	</div>
+</section>	
+</div>
+
+		</div><!-- span9 -->
+	</div><!-- row-fluid-nomargin -->
+</div><!-- container-fluid-nomargin -->
+
+<!-- Footer
+================================================== -->
+<footer role="contentinfo">
+		<div class="container-fluid bgmask-diagonal-noise">
+		<div class="row-fluid height-padding-100">
+			<div class="vcard">
+			<div class="span4">
+			<h1 class="font-anton-3em"><img class="photo bgcolor-373737" src="/images/markquery-icon-64.png" alt=" " /><a class="org url margin-left-20 ahover-fff-ddd" title="http://markquery.com" href="http://markquery.com">MARKQUERY</a></h1>
+			
+			<div class="nestedhover-cfcfd5-fff">
+			<cite><p>Copyright &copy; 2013 <a class="org url" href="http://markquery.com/">markquery.com</a> project maintained  by <a class="fn email" href="mailto:ungki.h@gmail.com">Ungki, H</a></p></cite>
+			<p>Licensed under the incredibly permissive <a rel="license" href="http://markquery.com/license">MIT License</a></p>
+			<p>Documentations under <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0</a></p>
+			<p>Open sources are copyright of their respective owners  <a rel="license" href="http://markquery.com/license">About The License</a></p>
+			</div>
+			</div>
+
+			<div class="span2">
+			<h1 class="title-opensans"><img class="bgcolor-373737" src="/images/github-icon-64.png" alt=" " /><a class="margin-left-20 ahover-fff-ddd" title="github.com" href="http://github.com">GitHub</a></h1>
+			<ul class="nestedhover-cfcfd5-fff">
+			<li><a rel="directory" href="https://github.com/">markquery</a></li>
+			<li><a rel="directory" href="https://github.com/">markquery source</a></li>
+			<li><a rel="directory" href="https://github.com/">wordpress skeleton</a></li>
+			<li><a rel="directory" href="https://github.com/">tistory skeleton</a></li>
+			<li><a rel="directory" href="https://github.com/">docs &amp; reference</a></li>
+			</ul>
+			</div>
+
+			<div class="span2">
+			<h1 class="title-opensans"><a class="ahover-fff-ddd" title="download page" href="http://markquery/docs/download">Download</a></h1>
+			<ul class="nestedhover-cfcfd5-fff">
+			<li><a rel="directory" href="http://markquery.com/docs/download#markquery">markquery</a></li>
+			<li><a rel="directory" href="http://markquery.com/docs/download#markquery-source">markquery source</a></li>
+			<li><a rel="directory" href="http://markquery.com/docs/download#wordpress">wordpress skeleton</a></li>
+			<li><a rel="directory" href="http://markquery.com/docs/download#tistory">tistory skeleton</a></li>
+			</ul>
+			</div>
+
+			<div class="span4">
+			<h1 class="title-opensans"><img class="bgcolor-373737" src="/images/twitter-icon-64.png" alt=" " /><a class="margin-left-20 ahover-fff-ddd" title="twitter" href="http://twitter.com/markquery">Released Note</a></h1>
+			<div id="twitter" class="note"></div>
+			</div>
+			</div><!-- microformats -->
+		</div>
+		</div>
+</footer>
+
+<!-- source 
+================================================== -->
+<section id="source">
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+			<p>This page was last updated at 2013-05-27T05:28:11.072Z</p>
+			<h6 id="source-header"><a>Click to view this page's source</a></h6>
+			<div id="source-code">
+			<div><p>Source file extension is <code>html</code>. Outextension is <code>html</code>.</p></div>
+			<pre class="prettyprint lang-html">--- yaml
+title: 'install-sublimetext'
+layout: 'docs'
+tags: ['sublime text']
+excerpt: &quot;install sublime text editor&quot;
+isPage: true
+---
+&lt;div class=&quot;container-pin-820-left&quot;&gt;
+	&lt;div class=&quot;container-fluid&quot;&gt;
+		&lt;div class=&quot;row-fluid&quot;&gt;
+			&lt;div class=&quot;span12 text-justify&quot;&gt;
+			&lt;h1 id=&quot;header 1&quot;&gt;Sublime Text Editor&lt;/h1&gt;
+
+			&lt;p&gt;sublime text 에디터는 최고의 문서 편집기 중 하나이다. 마이크로소프트의 워드, Emacs, Vim, notepad++ 심지어 윈도우즈 기본 프로그램 메모장까지 널리 쓰이는 문서편집기들이 많다. 그 중에서 하나를 추천한다면, 오늘은 sublime text 2이다. 현재 3가 베타버전으로 개발되고 있다. 완벽한 무료 프로그램은 아니지만, 이 문서 편집기의 매력에 빠진다면 기꺼이 라이센스를 얻을 만하다. &lt;/p&gt;
+
+			&lt;p&gt;Licenses are per-user, rather than per-machine&lt;/p&gt;
+
+			&lt;h2 id=&quot;header 2&quot;&gt;Installation&lt;/h2&gt;
+
+			&lt;p&gt;Sublime Text 2 Download : &lt;a href=&quot;http://www.sublimetext.com/&quot; title=&quot;go to sublimetext homepage&quot;&gt;http://www.sublimetext.com/&lt;/a&gt;&lt;/p&gt;
+
+			&lt;p&gt;OS X, 윈도우즈, 리눅스 모두 다운로드 가능하다. 다운로드 후 가장 먼저 할 일은 Sublime Package Control을 설치하는 것이다. sublime text는 유저가 원하는 거의 모든 패키지를 설치할 수 있는데, package control을 먼저 설치해두면 패키지 관리를 편리하게 해준다. &lt;/p&gt;
+
+			&lt;h2 id=&quot;header 2&quot;&gt;Sublime Package Control&lt;/h2&gt;
+
+			&lt;p&gt;sublime package control : &lt;a href=&quot;http://wbond.net/sublime_packages/package_control&quot; title=&quot;go to sublime package control homepage&quot;&gt;http://wbond.net/sublime_packages/package_control&lt;/a&gt;&lt;/p&gt;
+
+			&lt;p&gt;윈도우즈 기준으로 &lt;code&gt;ctrol + `&lt;/code&gt; 키를 입력하면 하단에 콘솔창이 나타난다. 명령어 라인에 다음의 코드를 입력한다. 콘솔창을 없애는 키는 Esc 버튼이다. &lt;/p&gt;
+
+&lt;blockquote&gt;
+import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation') 
+&lt;/blockquote&gt;
+
+			&lt;img src=&quot;/docs/install-sublimetext/install-sublimetext.png&quot; alt=&quot;sublime text2, install package control&quot; /&gt;
+
+			&lt;p&gt;입력 후에 설치가 완료되면, sublime text를 재시작 한다. &lt;/p&gt;
+			
+
+			&lt;p&gt;&lt;strong&gt;sublime text에서 패키지라는 용어는 플러그인과 같고, 패키지 설치 과정은 하단 상태바에 작게 표시된다.&lt;/strong&gt;&lt;/p&gt;
+
+			&lt;p class=&quot;border-3teee padding-top-20&quot;&gt;Next Page &amp;mdash; &lt;a href=&quot;/docs/markdown-package&quot;&gt;markdown package&lt;/a&gt;&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+			</div>
+		</div>
+	</div>
+</div>
+</section><!-- source -->
+
+<a href="#" class="scrollup">Scroll</a>
+
+	<!-- Scripts -->
+	<script >(function(){
+	// Did we just livereload?
+var log = true && localStorage && console && console.log && true;
+if ( log && localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReloaded at', new Date())
+}
+
+// Listen for the regenerated event
+// and perform a reload of the page when the event occurs
+var listen = function(){
+	var socket = io.connect('/docpad-livereload');
+	socket.on('regenerated',function(){
+		if ( log ) {
+	localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+}
+document.location.reload();
+	});
+};
+	if ( typeof io !== 'undefined' ) {
+		listen();
+	} else {
+		// Inject socket.io into our page then listen once loaded
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = true;
+	t.src = '/socket.io/socket.io.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t,s);
+};
+		inject();
+	}
+})();</script><script defer="defer"  src="/scripts/markquery.js"></script>
+</body>
+</html>

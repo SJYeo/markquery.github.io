@@ -1,0 +1,33 @@
+// Fixed (940px)
+
+#grid-nomargin > .core(@gridColumnWidth-nomargin, @gridGutterWidth-nomargin);
+
+// Fluid (940px)
+#grid-nomargin > .fluid(@fluidGridColumnWidth-nomargin, @fluidGridGutterWidth-nomargin);
+
+// Reset utility classes due to specificity
+[class*="span"].hide,
+.row-nomargin [class*="span"].hide,
+.row-fluid [class*="span"].hide,
+.row-fluid-nomargin [class*="span"].hide {
+display: none;
+}
+
+[class*="span"].pull-right,
+.row-nomargin [class*="span"].pull-right,
+.row-fluid [class*="span"].pull-right,
+.row-fluid-nomargin [class*="span"].pull-right{
+float: right;
+}
+
+// Utility nomargin (span nomargin)
+.span-nomargin [class*="span"] {
+margin-left: 0 !important;
+*margin-left: 0 !important; 
+}
+
+// Utility nomargin (container-*, row-* nomargin)
+.layout-nomargin {
+margin-left: 0 !important;
+*margin-left: 0 !important; 
+}

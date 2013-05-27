@@ -1,0 +1,309 @@
+/* http://markquery.com/
+   docs.css
+   -------------------------------------------------------------------------------------------------------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Anton);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=latin);
+
+.font-anton-4em { font: 4em 'Anton' arial, sans-serif; font-weight: 300; }
+.font-anton-3em { font: 3em 'Anton' arial, sans-serif; font-weight: 300; }
+.font-opensans { font: 1em/1em 'Open Sans', arial, sans-serif; }
+.font-opensans300 { font: 2em 'Open Sans', arial, sans-serif; font-weight: 300; }
+.title-opensans { font: 2.8em 'Open Sans', arial, sans-serif; font-weight: 300; }
+
+header {
+  margin-top: 20px;
+}
+aside {
+  padding-right: 20px;
+}
+menu {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+.toc ol {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+.toc ol li {
+  margin-bottom: 20px;
+}
+.toc ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.toc ul li {
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+.toc ul li .sub-list {
+    position: relative;
+}
+.sub-list li:before {
+    content: "\2013";
+    position: absolute;
+    margin-left: -14px;
+}
+
+
+/* Bootstrap code examples
+-------------------------------------------------- */
+
+/* Base class */
+.bs-docs-example {
+  position: relative;
+  margin: 15px 0;
+  padding: 39px 19px 14px;
+  *padding-top: 19px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+/* Echo out a label for the example */
+.bs-docs-example:after {
+  content: "Example";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+     -moz-border-radius: 4px 0 4px 0;
+          border-radius: 4px 0 4px 0;
+}
+
+/* Remove spacing between an example and it's code */
+.bs-docs-example + .prettyprint {
+  margin-top: -20px;
+  padding-top: 15px;
+}
+
+/* Tweak examples
+------------------------- */
+.bs-docs-example > p:last-child {
+  margin-bottom: 0;
+}
+/* Special grid styles
+-------------------------------------------------- */
+.show-grid {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.show-grid [class*="span"] {
+  background-color: #eee;
+  text-align: center;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  min-height: 40px;
+  line-height: 40px;
+}
+.show-grid [class*="span"]:hover {
+  background-color: #ddd;
+}
+.show-grid .show-grid {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.show-grid .show-grid [class*="span"] {
+  margin-top: 5px;
+}
+.show-grid [class*="span"] [class*="span"] {
+  background-color: #ccc;
+}
+.show-grid [class*="span"] [class*="span"] [class*="span"] {
+  background-color: #999;
+}
+
+.container-example-h1 {
+  background-color: #626262 !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  border-bottom: 0 !important;
+  color: #fff !important;
+}
+
+/* text size
+-------------------------------------------------- */
+.text-size-18 {
+  font-size: 18px;
+}
+.text-size-20 {
+  font-size: 20px;
+}
+
+/* text color
+-------------------------------------------------- */
+.text-color-09f {
+  color: #09f;
+}
+.text-color-000 {
+  color: #000;
+}
+.text-color-c00 {
+  color: #c00;
+}
+.text-color-fff {
+  color: #fff;
+}
+/* text bgcolor
+-------------------------------------------------- */
+.text-bgcolor-fce9e7 {
+  background-color: #fce9e7;
+  padding: 2px 3px;
+  border-radius: 5px;
+}
+.text-bgcolor-27221a {
+  background-color: #27221a;
+  padding: 2px 3px;
+  border-radius: 5px;
+}
+
+/* text lineheight
+-------------------------------------------------- */
+.text-lineheight-40 {
+  line-height: 40px;
+}
+/* height padding
+-------------------------------------------------- */
+.text-indent-20 { text-indent: 20px; }
+
+
+/* alink
+--------------------------------------------------- */
+a.alink-ee2e24-210B61{color:#ee2e24;text-decoration:none;border-bottom:1px solid #ee2e24;padding-bottom:2px}a.alink-ee2e24-210B61:hover,a.alink-ee2e24-210B61:focus{color:#210b61;text-decoration:none;border-bottom:1px solid #210b61;padding-bottom:2px}
+a.alink-33ff00-29cd00{color:#3f0;text-decoration:none;border-bottom:1px solid #3f0;padding-bottom:2px}a.alink-33ff00-29cd00:hover,a.alink-33ff00-29cd00:focus{color:#29cd00;text-decoration:none;border-bottom:1px solid #29cd00;padding-bottom:2px}
+
+/* ahover
+--------------------------------------------------- */
+a.ahover-111-555{color:#111;text-decoration:none;padding-bottom:2px}a.ahover-111-555:hover,a.ahover-111-555:focus{color:#555;text-decoration:none;border-bottom:1px solid #555;padding-bottom:2px}
+a.ahover-fff-ddd{color:#fff;text-decoration:none;padding-bottom:2px}a.ahover-fff-ddd:hover,a.ahover-fff-ddd:focus{color:#ddd;text-decoration:none;border-bottom:1px solid #ddd;padding-bottom:2px}
+a.ahover-cfcfd5-fff{color:#cfcfd5;text-decoration:none;padding-bottom:2px}a.ahover-cfcfd5-fff:hover,a.ahover-cfcfd5-fff:focus{color:#fff;text-decoration:none;border-bottom:1px solid #fff;padding-bottom:2px}
+a.ahover-ee2e24-210B61{color:#ee2e24;text-decoration:none;padding-bottom:2px}a.ahover-ee2e24-210B61:hover,a.ahover-ee2e24-210B61:focus{color:#210b61;text-decoration:none;border-bottom:1px solid #210b61;padding-bottom:2px}
+a.ahover-33ff00-29cd00{color:#3f0;text-decoration:none;padding-bottom:2px}a.ahover-33ff00-29cd00:hover,a.ahover-33ff00-29cd00:focus{color:#29cd00;text-decoration:none;border-bottom:1px solid #29cd00;padding-bottom:2px}
+a.ahover-cfcfd5-666{color:#cfcfd5;text-decoration:none;padding-bottom:2px}a.ahover-cfcfd5-666:hover,a.ahover-cfcfd5-666:focus{color:#666;text-decoration:none;border-bottom:1px solid #666;padding-bottom:2px}
+
+/* nested link
+--------------------------------------------------- */
+.nestedlink-08c-005580 a {
+  color: #0088cc;
+  text-decoration: none;
+  border-bottom: 1px solid #0088cc;
+  padding-bottom: 2px;
+}
+.nestedlink-08c-005580 a:hover,
+.nestedlink-08c-005580 a:focus {
+  color: #005580;
+  text-decoration: none;
+  border-bottom: 1px solid #0d65a1;
+  padding-bottom: 2px;
+}
+/* nested hover
+--------------------------------------------------- */
+.nestedhover-111-555 a {
+  color: #111111;
+  text-decoration: none;
+  padding-bottom: 2px;
+}
+.nestedhover-111-555 a:hover,
+.nestedhover-111-555 a:focus {
+  color: #555555;
+  text-decoration: none;
+  border-bottom: 1px solid #555555;
+  padding-bottom: 2px;
+}
+/* nestedhover 
+--------------------------------------------------- */
+.nestedhover-cfcfd5-fff a{color:#cfcfd5;text-decoration:none;padding-bottom:2px}.nestedhover-cfcfd5-fff a:hover,.nestedhover-cfcfd5-fff a:focus{color:#fff;text-decoration:none;border-bottom:1px solid #fff;padding-bottom:2px}
+
+/* padding 
+--------------------------------------------------- */
+.padding-20 {
+ padding: 20px;
+}
+/* padding top
+--------------------------------------------------- */
+.padding-top-20 {
+ padding-top: 20px;
+}
+/* padding bottom 
+--------------------------------------------------- */
+.padding-bottom-100 {
+ padding-bottom: 100px;
+}
+
+/* height padding 
+--------------------------------------------------- */
+.height-padding-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.height-padding-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.height-padding-200 {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+/* margin top
+--------------------------------------------------- */
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+/* margin bottom
+--------------------------------------------------- */
+.margin-bottom-50 {
+  margin-bottom: 50px;
+}
+/* margin left
+--------------------------------------------------- */
+.margin-left-20 {
+  margin-left: 20px;
+}
+
+/* height margin
+--------------------------------------------------- */
+.height-margin-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* mask image
+--------------------------------------------------- */
+.bgmask-diagonal-noise {
+  background: url(/images/bgmask/diagonal-noise.png);
+}
+
+/* bgcolor
+--------------------------------------------------- */
+.bgcolor-373737 { background-color: #373737; }
+.bgcolor-eee { background-color: #eee; }
+.bgcolor-41464a { background-color: #41464a; }
+.bgcolor-626262 { background-color: #626262; }
+
+
+/* border top
+-------------------------------------------------- */
+.border-3teee { border-top: 3px solid #eee; }
+
+/* border left
+-------------------------------------------------- */
+.border-1leee { border-left :1px solid #eee; }
+
+/* hr
+-------------------------------------------------- */
+.hr-aaab70-c7c8a9 {
+  border-top: 1px solid #aaab70;
+  border-bottom: 1px solid #c7c8a9;
+}

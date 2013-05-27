@@ -1,0 +1,18 @@
+// Fluid nomargin layout (left aligned, with sidebar, min- & max-width content)
+.container-fluid-nomargin {
+padding: 0;
+.clearfix();
+}
+
+// Fluid pin (centered, min- & max-width content)
+.container-pin, .container-pin-620, .container-pin-820, .container-pin-960, .container-pin-1200, .container-pin-1600 {
+.container-fixed();
+}
+// Fluid pin (left aligned, min- & max-width content)
+.container-pin-left, .container-pin-620-left, .container-pin-820-left, .container-pin-960-left, .container-pin-1200-left, .container-pin-1600-left {
+.container-fixed-left();
+}
+// Fluid pin (right aligned, min- & max-width content)
+.container-pin-right, .container-pin-620-right, .container-pin-820-right, .container-pin-960-right, .container-pin-1200-right, .container-pin-1600-right {
+.container-fixed-right();
+}

@@ -1,0 +1,93 @@
+<!-- LINK -->
+<section class="ref-section">
+	<div class="container-fluid-nomargin">
+		<div class="row-fluid ref-header">
+		<div class="span1"><strong># css</strong></div>
+		<div class="span2"><strong>selector</strong></div>
+		<div class="span2"><strong>hex</strong></div>
+		<div class="span2"><strong>example</strong></div>
+		<div class="span5"><strong>note</strong></div>
+		</div><!-- row-fluid ref-header -->
+		<div class="row-fluid ref">
+		<div class="span1"><p>minified</p></div>
+		<div class="span2"><p>.nestedlink</p></div>
+		<div class="span2"><p>link, hover</p></div>
+		<div class="span2"></div>
+		<div class="span5 ref-note">
+<pre class="prettyprint ref-prettyprint">
+지정한 영역 전체에 링크 스타일을 만든다. 이미지 링크, 버튼 링크와 같은 HTML과는 겹치지 않도록 해야한다. 텍스트 요소에만 nested 되어야 한다. reference에서는 visited를 제외한다. 
+개별 링크 스타일을 만들 때는 alink를 사용. 
+
+// LessCSS 
+.nestedlink(@LinkColor, @HoverColor,@BorderColor,@VisitedColor) {
+          color: @LinkColor;
+          text-decoration: none;
+          border-bottom: 1px solid @LinkColor;
+          padding-bottom: 2px;
+  &amp;:hover,
+  &amp;:focus {
+          color: @HoverColor;
+          text-decoration: none;
+          border-bottom: 1px solid @BorderColor;
+          padding-bottom: 2px;
+  }
+  &amp;:visited {
+          color: @VisitedColor;
+          text-decoration: none;
+          border-bottom: 1px solid @VisitedColor;
+          padding-bottom: 2px; 
+  }
+}
+a {
+    .nestedlink-08c-005580 &amp; {
+    .nestedlink(#08c, #005580, #0d65a1,#b4a);
+    }
+}
+</pre>
+		</div><!-- span5 -->
+		</div><!-- row-fluid ref -->
+
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".nestedlink-08c-005580 a{color:#08c;text-decoration:none;border-bottom:1px solid #08c;padding-bottom:2px}.nestedlink-08c-005580 a:hover,.nestedlink-08c-005580 a:focus{color:#005580;text-decoration:none;border-bottom:1px solid #0d65a1;padding-bottom:2px}"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>nestedlink-08c-005580</p></div>
+			<div class="span2"><p>#08c, #005580</p></div>
+			<div class="span2 nestedlink-08c-005580"><p><a href="#none">Lorem ipsum</a></p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;nestedlink-08c-005580&quot;&gt;&lt;a href=&quot;#&quot;&gt;hello&lt;/a&gt;&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".nestedlink-111-555 a{color:#111;text-decoration:none;border-bottom:1px solid #111;padding-bottom:2px}.nestedlink-111-555 a:hover,.nestedlink-111-555 a:focus{color:#555;text-decoration:none;border-bottom:1px solid #555;padding-bottom:2px}"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>nestedlink-111-555</p></div>
+			<div class="span2"><p>#111, #555</p></div>
+			<div class="span2 nestedlink-111-555"><p><a href="#none">Lorem ipsum</a></p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;nestedlink-111-555&quot;&gt;&lt;a href=&quot;#&quot;&gt;hello&lt;/a&gt;&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".nestedlink-fff-cbd8da a{color:#fff;text-decoration:none;border-bottom:1px solid #fff;padding-bottom:2px}.nestedlink-fff-cbd8da a:hover,.nestedlink-fff-cbd8da a:focus{color:#cbd8da;text-decoration:none;border-bottom:1px solid #cbd8da;padding-bottom:2px}"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>nestedlink-fff-cbd8da</p></div>
+			<div class="span2"><p>#fff, #cbd8da</p></div>
+			<div class="span2 nestedlink-fff-cbd8da"><p><a href="#none">Lorem ipsum</a></p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;nestedlink-fff-cbd8da&quot;&gt;&lt;a href=&quot;#&quot;&gt;hello&lt;/a&gt;&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".nestedlink-2cb7c1-118991 a{color:#2cb7c1;text-decoration:none;border-bottom:1px solid #2cb7c1;padding-bottom:2px}.nestedlink-2cb7c1-118991 a:hover,.nestedlink-2cb7c1-118991 a:focus{color:#118991;text-decoration:none;border-bottom:1px solid #118991;padding-bottom:2px}"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>nestedlink-2cb7c1-118991</p></div>
+			<div class="span2"><p>#2cb7c1, #118991</p></div>
+			<div class="span2 nestedlink-2cb7c1-118991"><p><a href="#none">Lorem ipsum</a></p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;nestedlink-2cb7c1-118991&quot;&gt;&lt;a href=&quot;#&quot;&gt;hello&lt;/a&gt;&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content=".nestedlink-ee2e24-210B61 a{color:#ee2e24;text-decoration:none;border-bottom:1px solid #ee2e24;padding-bottom:2px}.nestedlink-ee2e24-210B61 a:hover,.nestedlink-ee2e24-210B61 a:focus{color:#210b61;text-decoration:none;border-bottom:1px solid #210b61;padding-bottom:2px}"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>nestedlink-ee2e24-210B61</p></div>
+			<div class="span2"><p>#ee2e24, #210B61</p></div>
+			<div class="span2 nestedlink-ee2e24-210B61"><p><a href="#none">Lorem ipsum</a></p></div>
+			<div class="span5 ref-note"><p>&lt;p class=&quot;nestedlink-ee2e24-210B61&quot;&gt;&lt;a href=&quot;#&quot;&gt;hello&lt;/a&gt;&lt;/p&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+	</div><!-- container-fluid -->
+</section><!-- ref-section -->
+<script src="/scripts/ajax.js"></script>

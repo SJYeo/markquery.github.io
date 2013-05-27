@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lange="en">
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width">
+	<title>markquery</title>
+	<meta name="description" content="Customize your contents. markquery is markup library for web contents." />
+	<meta name="keywords" content="markquery, web, contents, editorial design, opensource, html5, css, markup" />
+	<meta name="author" content="Ungki, H" />
+	<meta http-equiv="X-Powered-By" content="DocPad v6.34.1"/>
+
+	<link rel="author" href="humans.txt" />
+	<link rel="profile" href="http://microformats.org/profile/hcard">
+	<!-- Icons -->
+	<link rel="shortcut icon" href="http://markquery.com/images/favicon.ico">
+	<link rel="apple-touch-icon" href="http://markquery.com/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="http://markquery.com/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="http://markquery.com/images/apple-touch-icon-114x114.png">
+
+	<!-- Shims: IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+		<script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- ref style -->
+	<link  rel="stylesheet" href="/styles/markquery.min.css" />
+	<link  rel="stylesheet" href="/styles/ref.css" /><link  rel="stylesheet" href="/styles/reference.min.css" />
+
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->
+<!-- Nav
+================================================== -->
+<nav role="navigation">
+	<div class="navbar navbar-static-top">
+		<div class="navbar-inner">
+			<div class="container-fluid-nomargin">
+				<a href="#content" class="skip">skip to content</a>
+				<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+					<div class="nav-collapse collapse">
+					<ul class="nav">
+					
+					<li class="inactive">
+					<a href="/">Home</a>
+					</li>
+					
+					<li class="inactive">
+					<a href="/docs">documentation</a>
+					</li>
+					
+					<li class="active">
+					<a href="/reference">reference</a>
+					</li>
+					
+					<li class="inactive">
+					<a href="/blog">blog</a>
+					</li>
+					
+					</ul>
+					</div>
+			</div>
+		</div>
+	</div>
+</nav>	
+
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+		<header role="banner">
+			<h1 class="title-opensans"><img class="bgcolor-373737" src="/images/markquery-icon-64.png" alt=" " /><a class="margin-left-20 ahover-111-555" title="markquery reference" href="http://markquery.com/reference">Reference</a></h1>
+		</header>
+		</div>
+	</div>
+</div>
+
+<!-- content 
+================================================== -->
+<article role="main" id="content">
+<div class="container-fluid height-margin-10">
+	<div class="row-fluid">
+	<div class="span12">
+
+	<ul id="referenceTab" class="nav nav-tabs">
+	<li class="active"><a href="#intro" data-toggle="tab">Reference</a></li>
+	<li><a href="#layout-tab" data-href="/reference/layout.html" data-toggle="tab">Layout</a></li>
+
+	<li class="dropdown">
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Llink<b class="caret"></b></a>
+		<ul class="dropdown-menu">
+		<li><a href="#alink" data-href="/reference/alink.html" data-toggle="tab">alink</a></li>
+		<li><a href="#ahover" data-href="/reference/ahover.html" data-toggle="tab">ahover</a></li>
+		<li><a href="#nestedlink" data-href="/reference/nestedlink.html" data-toggle="tab">nested link</a></li>
+		<li><a href="#nestedhover" data-href="/reference/nestedhover.html" data-toggle="tab">nested hover</a></li>
+		</ul>
+	</li>
+
+	<li class="dropdown">
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Text<b class="caret"></b></a>
+		<ul class="dropdown-menu">
+		<li><a href="#text-color" data-href="/reference/text-color.html" data-toggle="tab">text color</a></li>
+		<li><a href="#text-size" data-href="/reference/text-size.html" data-toggle="tab">text size</a></li>
+		<li><a href="#text-lineheight" data-href="/reference/text-lineheight.html" data-toggle="tab">text line height</a></li>
+		</ul>
+	</li>
+
+	<li class="dropdown">
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Box Model<b class="caret"></b></a>
+		<ul class="dropdown-menu">
+		<li><a href="#padding" data-href="/reference/padding.html" data-toggle="tab">padding</a></li>
+		<li><a href="#padding-top" data-href="/reference/padding-top.html" data-toggle="tab">padding top</a></li>
+		<li><a href="#padding-right" data-href="/reference/padding-right.html" data-toggle="tab">padding right</a></li>
+		<li><a href="#padding-bottom" data-href="/reference/padding-bottom.html" data-toggle="tab">padding bottom</a></li>
+		<li><a href="#padding-left" data-href="/reference/padding-left.html" data-toggle="tab">padding left</a></li>
+		<li><a href="#height-padding" data-href="/reference/height-padding.html" data-toggle="tab">height padding</a></li>
+		<li><a href="#width-padding" data-href="/reference/width-padding.html" data-toggle="tab">width padding</a></li>
+		<li><a href="#margin" data-href="/reference/margin.html" data-toggle="tab">margin</a></li>
+		<li><a href="#margin-top" data-href="/reference/margin-top.html" data-toggle="tab">margin top</a></li>
+		<li><a href="#margin-right" data-href="/reference/margin-right.html" data-toggle="tab">margin right</a></li>
+		<li><a href="#margin-bottom" data-href="/reference/margin-bottom.html" data-toggle="tab">margin bottom</a></li>
+		<li><a href="#margin-left" data-href="/reference/margin-left.html" data-toggle="tab">margin left</a></li>
+		<li><a href="#height-margin" data-href="/reference/height-margin.html" data-toggle="tab">height margin</a></li>
+		<li><a href="#width-margin" data-href="/reference/width-margin.html" data-toggle="tab">width margin</a></li>
+		</ul>
+	</li>
+
+	<li class="dropdown">
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Background<b class="caret"></b></a>
+		<ul class="dropdown-menu">
+		<li><a href="#bgcolor" data-href="/reference/bgcolor.html" data-toggle="tab">background color</a></li>
+		<li><a href="#bgmask" data-href="/reference/bgmask.html" data-toggle="tab">background mask image</a></li>
+		</ul>
+	</li>
+	</ul>
+
+
+	<div id="referenceTabContent" class="tab-content">
+	<div class="tab-pane fade in active" id="intro">
+	<h1>Usage Reference<small>이 페이지는 현재 초안 작성 중입니다.</small></h1>
+	<hr />
+	<dl>
+	<dt>bootstrap.css</dt>
+	<dd>bootstrap의 코드는 reference에서 CSS를 표기하지 않고 HTML 사용법만 표기한다.</dd>
+	<dt>Naming</dt>
+	<dd>속성값은 네이밍 자체로 속성을 읽을 수 있게 만든다. <a href="/docs/code-guide">Code Guide</a></dd>
+	<dt>How to get CSS?</dt>
+	<dd>각 CSS는 reference 페이지 왼쪽 <i class="icon-minus"></i> 버튼을 클릭하면 CSS를 얻을 수 있다.</dd>
+	<dt>Duplication Issue</dt>
+	<dd>다운로드에는 CSSO가 포함되어 있다. 자동으로 중복되는 코드를 결합, 삭제하고 압축한다.</dd>
+	</dl>
+	<hr />
+	<h2>JSON DATA <small><a href="http://jsonlint.com/">JSON Validator</a></small></h2>
+	<ul>
+		<li>text color : <code>/data/text-color.json</code></li>
+		<li>alink : <code>/data/alink.json</code></li>
+		<li>ahover: <code>/data/ahover.json</code></li>
+		<li>nestedlink : <code>/data/nestedlink.json</code></li>
+		<li>nestedhover: <code>/data/nestedhover.json</code></li>
+		<li>background mask image : <code>/data/bgmask.json</code></li>
+		<li>background color : <code>/data/bgcolor.json</code></li>
+	</ul>
+	<hr />
+	<p>Reference Page Structure Inspired by <a href="http://alloyui.com/">alloyui</a></p>
+	</div>
+
+	<div class="tab-pane fade" id="layout-tab"><!-- ajax loading page --></div>
+	<div class="tab-pane fade" id="alink"><!-- ajax loading page --></div>
+	<div class="tab-pane fade" id="ahover"><!-- ajax loading page --></div>
+	<div class="tab-pane fade" id="nestedlink"><!-- ajax loading page --></div>
+	<div class="tab-pane fade" id="nestedhover"><!-- ajax loading page --></div>	
+	<div class="tab-pane fade" id="text-color"><!-- ajax loading page --></div>	
+	<div class="tab-pane fade" id="text-size"><!-- ajax loading page --></div>	
+	<div class="tab-pane fade" id="text-lineheight"><!-- ajax loading page --></div>
+	<div class="tab-pane fade" id="padding"><!-- ajax loading page --></div>
+	<div class="tab-pane fade" id="padding-top"><!-- ajax loading page --></div>
+	<div class="tab-pane fade" id="padding-right"><!-- ajax loading page --></div>
+	<div class="tab-pane fade" id="padding-bottom"><!-- ajax loading page --></div>
+	<div class="tab-pane fade" id="padding-left"><!-- ajax loading page --></div>
+	<div class="tab-pane fade" id="height-padding"><!-- ajax loading page --></div>
+	<div class="tab-pane fade" id="width-padding"><!-- ajax loading page --></div>
+	<div class="tab-pane fade" id="margin"><!-- ajax loading page --></div>
+	<div class="tab-pane fade" id="margin-top"><!-- ajax loading page --></div>
+	<div class="tab-pane fade" id="margin-right"><!-- ajax loading page --></div>
+	<div class="tab-pane fade" id="margin-bottom"><!-- ajax loading page --></div>
+	<div class="tab-pane fade" id="margin-left"><!-- ajax loading page --></div>
+	<div class="tab-pane fade" id="height-margin"><!-- ajax loading page --></div>
+	<div class="tab-pane fade" id="width-margin"><!-- ajax loading page --></div>
+	<div class="tab-pane fade" id="bgcolor"><!-- ajax loading page --></div>
+	<div class="tab-pane fade" id="bgmask"><!-- ajax loading page --></div>
+
+	</div><!-- referenceTabContent -->
+	</div>
+	</div>
+</div><!-- container-fluid -->
+</article>
+
+<!-- Footer
+================================================== -->
+<footer role="contentinfo">
+		<div class="container-fluid bgmask-diagonal-noise">
+		<div class="row-fluid height-padding-100">
+			<div class="vcard">
+			<div class="span4">
+			<h1 class="font-anton-3em"><img class="photo bgcolor-373737" src="/images/markquery-icon-64.png" alt=" " /><a class="org url margin-left-20 ahover-fff-ddd" title="http://markquery.com" href="http://markquery.com">MARKQUERY</a></h1>
+			
+			<div class="nestedhover-cfcfd5-fff">
+			<cite><p>Copyright &copy; 2013 <a class="org url" href="http://markquery.com/">markquery.com</a> project maintained  by <a class="fn email" href="mailto:ungki.h@gmail.com">Ungki, H</a></p></cite>
+			<p>Licensed under the incredibly permissive <a rel="license" href="http://markquery.com/license">MIT License</a></p>
+			<p>Documentations under <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0</a></p>
+			<p>Open sources are copyright of their respective owners  <a rel="license" href="http://markquery.com/license">About The License</a></p>
+			</div>
+			</div>
+
+			<div class="span2">
+			<h1 class="title-opensans"><img class="bgcolor-373737" src="/images/github-icon-64.png" alt=" " /><a class="margin-left-20 ahover-fff-ddd" title="github.com" href="http://github.com">GitHub</a></h1>
+			<ul class="nestedhover-cfcfd5-fff">
+			<li><a rel="directory" href="https://github.com/">markquery</a></li>
+			<li><a rel="directory" href="https://github.com/">markquery source</a></li>
+			<li><a rel="directory" href="https://github.com/">wordpress skeleton</a></li>
+			<li><a rel="directory" href="https://github.com/">tistory skeleton</a></li>
+			<li><a rel="directory" href="https://github.com/">docs &amp; reference</a></li>
+			</ul>
+			</div>
+
+			<div class="span2">
+			<h1 class="title-opensans"><a class="ahover-fff-ddd" title="download page" href="http://markquery/docs/download">Download</a></h1>
+			<ul class="nestedhover-cfcfd5-fff">
+			<li><a rel="directory" href="http://markquery.com/docs/download#markquery">markquery</a></li>
+			<li><a rel="directory" href="http://markquery.com/docs/download#markquery-source">markquery source</a></li>
+			<li><a rel="directory" href="http://markquery.com/docs/download#wordpress">wordpress skeleton</a></li>
+			<li><a rel="directory" href="http://markquery.com/docs/download#tistory">tistory skeleton</a></li>
+			</ul>
+			</div>
+
+			<div class="span4">
+			<h1 class="title-opensans"><img class="bgcolor-373737" src="/images/twitter-icon-64.png" alt=" " /><a class="margin-left-20 ahover-fff-ddd" title="twitter" href="http://twitter.com/markquery">Released Note</a></h1>
+			<div id="twitter" class="note"></div>
+			</div>
+			</div><!-- microformats -->
+		</div>
+		</div>
+</footer>
+
+<!-- source 
+================================================== -->
+<section id="source">
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+			<p>This page was last updated at 2013-05-27T05:28:11.072Z</p>
+			<h6 id="source-header"><a>Click to view this page's source</a></h6>
+			<div id="source-code">
+			<div><p>Source file extension is <code>html</code>. Outextension is <code>html</code>.</p></div>
+			<pre class="prettyprint lang-html">﻿--- 
+title: 'reference'
+layout: 'reference'
+tags: ['reference']
+nav: true
+navOrder: 3
+---
+&lt;div class=&quot;container-fluid height-margin-10&quot;&gt;
+	&lt;div class=&quot;row-fluid&quot;&gt;
+	&lt;div class=&quot;span12&quot;&gt;
+
+	&lt;ul id=&quot;referenceTab&quot; class=&quot;nav nav-tabs&quot;&gt;
+	&lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#intro&quot; data-toggle=&quot;tab&quot;&gt;Reference&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;#layout-tab&quot; data-href=&quot;/reference/layout.html&quot; data-toggle=&quot;tab&quot;&gt;Layout&lt;/a&gt;&lt;/li&gt;
+
+	&lt;li class=&quot;dropdown&quot;&gt;
+		&lt;a href=&quot;#&quot; class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;Llink&lt;b class=&quot;caret&quot;&gt;&lt;/b&gt;&lt;/a&gt;
+		&lt;ul class=&quot;dropdown-menu&quot;&gt;
+		&lt;li&gt;&lt;a href=&quot;#alink&quot; data-href=&quot;/reference/alink.html&quot; data-toggle=&quot;tab&quot;&gt;alink&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#ahover&quot; data-href=&quot;/reference/ahover.html&quot; data-toggle=&quot;tab&quot;&gt;ahover&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#nestedlink&quot; data-href=&quot;/reference/nestedlink.html&quot; data-toggle=&quot;tab&quot;&gt;nested link&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#nestedhover&quot; data-href=&quot;/reference/nestedhover.html&quot; data-toggle=&quot;tab&quot;&gt;nested hover&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+
+	&lt;li class=&quot;dropdown&quot;&gt;
+		&lt;a href=&quot;#&quot; class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;Text&lt;b class=&quot;caret&quot;&gt;&lt;/b&gt;&lt;/a&gt;
+		&lt;ul class=&quot;dropdown-menu&quot;&gt;
+		&lt;li&gt;&lt;a href=&quot;#text-color&quot; data-href=&quot;/reference/text-color.html&quot; data-toggle=&quot;tab&quot;&gt;text color&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#text-size&quot; data-href=&quot;/reference/text-size.html&quot; data-toggle=&quot;tab&quot;&gt;text size&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#text-lineheight&quot; data-href=&quot;/reference/text-lineheight.html&quot; data-toggle=&quot;tab&quot;&gt;text line height&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+
+	&lt;li class=&quot;dropdown&quot;&gt;
+		&lt;a href=&quot;#&quot; class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;Box Model&lt;b class=&quot;caret&quot;&gt;&lt;/b&gt;&lt;/a&gt;
+		&lt;ul class=&quot;dropdown-menu&quot;&gt;
+		&lt;li&gt;&lt;a href=&quot;#padding&quot; data-href=&quot;/reference/padding.html&quot; data-toggle=&quot;tab&quot;&gt;padding&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#padding-top&quot; data-href=&quot;/reference/padding-top.html&quot; data-toggle=&quot;tab&quot;&gt;padding top&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#padding-right&quot; data-href=&quot;/reference/padding-right.html&quot; data-toggle=&quot;tab&quot;&gt;padding right&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#padding-bottom&quot; data-href=&quot;/reference/padding-bottom.html&quot; data-toggle=&quot;tab&quot;&gt;padding bottom&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#padding-left&quot; data-href=&quot;/reference/padding-left.html&quot; data-toggle=&quot;tab&quot;&gt;padding left&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#height-padding&quot; data-href=&quot;/reference/height-padding.html&quot; data-toggle=&quot;tab&quot;&gt;height padding&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#width-padding&quot; data-href=&quot;/reference/width-padding.html&quot; data-toggle=&quot;tab&quot;&gt;width padding&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#margin&quot; data-href=&quot;/reference/margin.html&quot; data-toggle=&quot;tab&quot;&gt;margin&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#margin-top&quot; data-href=&quot;/reference/margin-top.html&quot; data-toggle=&quot;tab&quot;&gt;margin top&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#margin-right&quot; data-href=&quot;/reference/margin-right.html&quot; data-toggle=&quot;tab&quot;&gt;margin right&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#margin-bottom&quot; data-href=&quot;/reference/margin-bottom.html&quot; data-toggle=&quot;tab&quot;&gt;margin bottom&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#margin-left&quot; data-href=&quot;/reference/margin-left.html&quot; data-toggle=&quot;tab&quot;&gt;margin left&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#height-margin&quot; data-href=&quot;/reference/height-margin.html&quot; data-toggle=&quot;tab&quot;&gt;height margin&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#width-margin&quot; data-href=&quot;/reference/width-margin.html&quot; data-toggle=&quot;tab&quot;&gt;width margin&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+
+	&lt;li class=&quot;dropdown&quot;&gt;
+		&lt;a href=&quot;#&quot; class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;Background&lt;b class=&quot;caret&quot;&gt;&lt;/b&gt;&lt;/a&gt;
+		&lt;ul class=&quot;dropdown-menu&quot;&gt;
+		&lt;li&gt;&lt;a href=&quot;#bgcolor&quot; data-href=&quot;/reference/bgcolor.html&quot; data-toggle=&quot;tab&quot;&gt;background color&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#bgmask&quot; data-href=&quot;/reference/bgmask.html&quot; data-toggle=&quot;tab&quot;&gt;background mask image&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;/ul&gt;
+
+
+	&lt;div id=&quot;referenceTabContent&quot; class=&quot;tab-content&quot;&gt;
+	&lt;div class=&quot;tab-pane fade in active&quot; id=&quot;intro&quot;&gt;
+	&lt;h1&gt;Usage Reference&lt;small&gt;이 페이지는 현재 초안 작성 중입니다.&lt;/small&gt;&lt;/h1&gt;
+	&lt;hr /&gt;
+	&lt;dl&gt;
+	&lt;dt&gt;bootstrap.css&lt;/dt&gt;
+	&lt;dd&gt;bootstrap의 코드는 reference에서 CSS를 표기하지 않고 HTML 사용법만 표기한다.&lt;/dd&gt;
+	&lt;dt&gt;Naming&lt;/dt&gt;
+	&lt;dd&gt;속성값은 네이밍 자체로 속성을 읽을 수 있게 만든다. &lt;a href=&quot;/docs/code-guide&quot;&gt;Code Guide&lt;/a&gt;&lt;/dd&gt;
+	&lt;dt&gt;How to get CSS?&lt;/dt&gt;
+	&lt;dd&gt;각 CSS는 reference 페이지 왼쪽 &lt;i class=&quot;icon-minus&quot;&gt;&lt;/i&gt; 버튼을 클릭하면 CSS를 얻을 수 있다.&lt;/dd&gt;
+	&lt;dt&gt;Duplication Issue&lt;/dt&gt;
+	&lt;dd&gt;다운로드에는 CSSO가 포함되어 있다. 자동으로 중복되는 코드를 결합, 삭제하고 압축한다.&lt;/dd&gt;
+	&lt;/dl&gt;
+	&lt;hr /&gt;
+	&lt;h2&gt;JSON DATA &lt;small&gt;&lt;a href=&quot;http://jsonlint.com/&quot;&gt;JSON Validator&lt;/a&gt;&lt;/small&gt;&lt;/h2&gt;
+	&lt;ul&gt;
+		&lt;li&gt;text color : &lt;code&gt;/data/text-color.json&lt;/code&gt;&lt;/li&gt;
+		&lt;li&gt;alink : &lt;code&gt;/data/alink.json&lt;/code&gt;&lt;/li&gt;
+		&lt;li&gt;ahover: &lt;code&gt;/data/ahover.json&lt;/code&gt;&lt;/li&gt;
+		&lt;li&gt;nestedlink : &lt;code&gt;/data/nestedlink.json&lt;/code&gt;&lt;/li&gt;
+		&lt;li&gt;nestedhover: &lt;code&gt;/data/nestedhover.json&lt;/code&gt;&lt;/li&gt;
+		&lt;li&gt;background mask image : &lt;code&gt;/data/bgmask.json&lt;/code&gt;&lt;/li&gt;
+		&lt;li&gt;background color : &lt;code&gt;/data/bgcolor.json&lt;/code&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;hr /&gt;
+	&lt;p&gt;Reference Page Structure Inspired by &lt;a href=&quot;http://alloyui.com/&quot;&gt;alloyui&lt;/a&gt;&lt;/p&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;tab-pane fade&quot; id=&quot;layout-tab&quot;&gt;&lt;!-- ajax loading page --&gt;&lt;/div&gt;
+	&lt;div class=&quot;tab-pane fade&quot; id=&quot;alink&quot;&gt;&lt;!-- ajax loading page --&gt;&lt;/div&gt;
+	&lt;div class=&quot;tab-pane fade&quot; id=&quot;ahover&quot;&gt;&lt;!-- ajax loading page --&gt;&lt;/div&gt;
+	&lt;div class=&quot;tab-pane fade&quot; id=&quot;nestedlink&quot;&gt;&lt;!-- ajax loading page --&gt;&lt;/div&gt;
+	&lt;div class=&quot;tab-pane fade&quot; id=&quot;nestedhover&quot;&gt;&lt;!-- ajax loading page --&gt;&lt;/div&gt;	
+	&lt;div class=&quot;tab-pane fade&quot; id=&quot;text-color&quot;&gt;&lt;!-- ajax loading page --&gt;&lt;/div&gt;	
+	&lt;div class=&quot;tab-pane fade&quot; id=&quot;text-size&quot;&gt;&lt;!-- ajax loading page --&gt;&lt;/div&gt;	
+	&lt;div class=&quot;tab-pane fade&quot; id=&quot;text-lineheight&quot;&gt;&lt;!-- ajax loading page --&gt;&lt;/div&gt;
+	&lt;div class=&quot;tab-pane fade&quot; id=&quot;padding&quot;&gt;&lt;!-- ajax loading page --&gt;&lt;/div&gt;
+	&lt;div class=&quot;tab-pane fade&quot; id=&quot;padding-top&quot;&gt;&lt;!-- ajax loading page --&gt;&lt;/div&gt;
+	&lt;div class=&quot;tab-pane fade&quot; id=&quot;padding-right&quot;&gt;&lt;!-- ajax loading page --&gt;&lt;/div&gt;
+	&lt;div class=&quot;tab-pane fade&quot; id=&quot;padding-bottom&quot;&gt;&lt;!-- ajax loading page --&gt;&lt;/div&gt;
+	&lt;div class=&quot;tab-pane fade&quot; id=&quot;padding-left&quot;&gt;&lt;!-- ajax loading page --&gt;&lt;/div&gt;
+	&lt;div class=&quot;tab-pane fade&quot; id=&quot;height-padding&quot;&gt;&lt;!-- ajax loading page --&gt;&lt;/div&gt;
+	&lt;div class=&quot;tab-pane fade&quot; id=&quot;width-padding&quot;&gt;&lt;!-- ajax loading page --&gt;&lt;/div&gt;
+	&lt;div class=&quot;tab-pane fade&quot; id=&quot;margin&quot;&gt;&lt;!-- ajax loading page --&gt;&lt;/div&gt;
+	&lt;div class=&quot;tab-pane fade&quot; id=&quot;margin-top&quot;&gt;&lt;!-- ajax loading page --&gt;&lt;/div&gt;
+	&lt;div class=&quot;tab-pane fade&quot; id=&quot;margin-right&quot;&gt;&lt;!-- ajax loading page --&gt;&lt;/div&gt;
+	&lt;div class=&quot;tab-pane fade&quot; id=&quot;margin-bottom&quot;&gt;&lt;!-- ajax loading page --&gt;&lt;/div&gt;
+	&lt;div class=&quot;tab-pane fade&quot; id=&quot;margin-left&quot;&gt;&lt;!-- ajax loading page --&gt;&lt;/div&gt;
+	&lt;div class=&quot;tab-pane fade&quot; id=&quot;height-margin&quot;&gt;&lt;!-- ajax loading page --&gt;&lt;/div&gt;
+	&lt;div class=&quot;tab-pane fade&quot; id=&quot;width-margin&quot;&gt;&lt;!-- ajax loading page --&gt;&lt;/div&gt;
+	&lt;div class=&quot;tab-pane fade&quot; id=&quot;bgcolor&quot;&gt;&lt;!-- ajax loading page --&gt;&lt;/div&gt;
+	&lt;div class=&quot;tab-pane fade&quot; id=&quot;bgmask&quot;&gt;&lt;!-- ajax loading page --&gt;&lt;/div&gt;
+
+	&lt;/div&gt;&lt;!-- referenceTabContent --&gt;
+	&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;&lt;!-- container-fluid --&gt;
+
+</pre>
+			</div>
+		</div>
+	</div>
+</div>
+</section><!-- source -->
+
+<a href="#" class="scrollup">Scroll</a>
+	
+	<!-- Scripts -->
+	<script >(function(){
+	// Did we just livereload?
+var log = true && localStorage && console && console.log && true;
+if ( log && localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReloaded at', new Date())
+}
+
+// Listen for the regenerated event
+// and perform a reload of the page when the event occurs
+var listen = function(){
+	var socket = io.connect('/docpad-livereload');
+	socket.on('regenerated',function(){
+		if ( log ) {
+	localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+}
+document.location.reload();
+	});
+};
+	if ( typeof io !== 'undefined' ) {
+		listen();
+	} else {
+		// Inject socket.io into our page then listen once loaded
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = true;
+	t.src = '/socket.io/socket.io.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t,s);
+};
+		inject();
+	}
+})();</script><script defer="defer"  src="/scripts/reference.js"></script>
+</body>
+</html>

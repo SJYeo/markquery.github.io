@@ -1,0 +1,78 @@
+/* http://markquery.com/
+   blog.css
+   -------------------------------------------------------------------------------------------------------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Anton);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=latin);
+
+.font-anton-4em { font: 4em 'Anton' arial, sans-serif; font-weight: 300; }
+.font-anton-3em { font: 3em 'Anton' arial, sans-serif; font-weight: 300; }
+.font-opensans { font: 1em/1em 'Open Sans', arial, sans-serif; }
+.font-opensans300 { font: 2em 'Open Sans', arial, sans-serif; font-weight: 300; }
+.title-opensans { font: 2.8em 'Open Sans', arial, sans-serif; font-weight: 300; }
+
+header {
+  margin-top: 20px;
+}
+aside {
+  padding-right: 20px;
+}
+menu {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+
+/* blog listing
+-------------------------------------------------- */
+.media-list h2 {
+  margin-bottom: 5px;
+  padding: 0;
+  font-size:20px;
+  line-height: 20px;
+}
+
+
+/* ahover
+--------------------------------------------------- */
+a.ahover-fff-ddd{color:#fff;text-decoration:none;padding-bottom:2px}a.ahover-fff-ddd:hover,a.ahover-fff-ddd:focus{color:#ddd;text-decoration:none;border-bottom:1px solid #ddd;padding-bottom:2px}
+a.ahover-111-555{color:#111;text-decoration:none;padding-bottom:2px}a.ahover-111-555:hover,a.ahover-111-555:focus{color:#555;text-decoration:none;border-bottom:1px solid #555;padding-bottom:2px}
+
+/* nestedhover 
+--------------------------------------------------- */
+.nestedhover-cfcfd5-fff a{color:#cfcfd5;text-decoration:none;padding-bottom:2px}.nestedhover-cfcfd5-fff a:hover,.nestedhover-cfcfd5-fff a:focus{color:#fff;text-decoration:none;border-bottom:1px solid #fff;padding-bottom:2px}
+
+
+/* padding bottom 
+--------------------------------------------------- */
+.padding-bottom-100 {
+ padding-bottom: 100px;
+}
+/* height padding 
+--------------------------------------------------- */
+.height-padding-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.height-padding-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+/* margin left
+--------------------------------------------------- */
+.margin-left-20 {
+  margin-left: 20px;
+}
+
+/* mask image
+--------------------------------------------------- */
+.bgmask-diagonal-noise {
+  background: url(/images/bgmask/diagonal-noise.png);
+}
+
+/* bgcolor
+--------------------------------------------------- */
+.bgcolor-373737 { background-color: #373737; }
+/* border left
+-------------------------------------------------- */
+.border-1leee { border-left :1px solid #eee; }

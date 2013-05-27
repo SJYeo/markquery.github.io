@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM 
+markquery : ungki, H    
+Site: http://markquery.com/, ungki.h@gmail.com   
+Twitter: @markquery
+Location: seoul, South Korea.
+
+# THANKS 
+all human beings.
+
+/# SITE 
+Standards: HTML5, CSS3.
+Components: Modernizr, bootstrap, jquery, Normalize, LessCSS, coffeescript, eco, markdown, etc.
+Software : docpad, nodejs, CSSO, wordpress, tistory, etc.

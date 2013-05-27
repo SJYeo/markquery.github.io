@@ -1,0 +1,16 @@
+// Fixed grid
+#grid-nomargin > .core(@gridColumnWidth768-nomargin, @gridGutterWidth768-nomargin);
+
+// Fluid grid
+#grid-nomargin > .fluid(@fluidGridColumnWidth768-nomargin, @fluidGridGutterWidth768-nomargin);
+
+// Input grid
+#grid-nomargin > .input(@gridColumnWidth768-nomargin, @gridGutterWidth768-nomargin);
+
+// Fluid pin
+.container-pin, .container-pin-left, .container-pin-right { max-width:724px; }
+.container-pin-620, .container-pin-620-left, .container-pin-620-right { max-width:620px; }
+.container-pin-820, .container-pin-820-left, .container-pin-820-right { max-width:724px; }
+.container-pin-960, .container-pin-960-left, .container-pin-960-right { max-width:724px; }
+.container-pin-1200, .container-pin-1200-left, .container-pin-1200-right { max-width:724px; }
+.container-pin-1600, .container-pin-1600-left, .container-pin-1600-right { max-width:724px; }

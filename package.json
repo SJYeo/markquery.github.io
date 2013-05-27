@@ -1,0 +1,50 @@
+{
+  "name": "markquery",
+  "version": "1.0",
+  "description": "Customize your contents. markquery is markup library for web contents",
+  "homepage": "http://markquery.com",
+  "keywords": [
+    "markquery",
+    "web contents",
+    "html5",
+    "css",
+    "editorial design",
+    "markup library",
+    "bootstrap"
+  ],
+  "author": "Ungki Hong <ungki.h@gmail.com> (http://markquery.com)",
+  "maintainers": [
+    "Ungki Hong <ungki.h@gmail.com> (http://markquery.com)"
+  ],
+  "bugs": {
+    "url": "https://github.com/markquery/markquery.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markquery/markquery.github.io.git"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
+  "dependencies": {
+    "docpad": "6.x",
+    "docpad-plugin-cleanurls": "2.x",
+    "docpad-plugin-coffeescript": "~2.2.1",
+    "docpad-plugin-coffeekup": "2.x",
+    "docpad-plugin-eco": "2.x",
+    "docpad-plugin-less": "2.x",
+    "docpad-plugin-marked": "2.x",
+    "docpad-plugin-partials": "~2.6.2",
+    "docpad-plugin-partials": "~2.6.2",
+    "docpad-plugin-cachr": "~2.1.6",
+    "moment": "~2.0.0",
+    "underscore": "~1.4.4",
+    "bal-util": "~2.0.5",
+    "docpad-plugin-feedr": "~2.4.2"
+  },
+  "devDependencies": {
+    "docpad-plugin-livereload": "2.x"
+  },
+  "main": "node_modules/docpad/bin/docpad-server"
+}

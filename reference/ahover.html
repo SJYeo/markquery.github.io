@@ -1,0 +1,117 @@
+<!-- LINK -->
+<section class="ref-section">
+	<div class="container-fluid-nomargin">
+		<div class="row-fluid ref-header">
+		<div class="span1"><strong># css</strong></div>
+		<div class="span2"><strong>selector</strong></div>
+		<div class="span2"><strong>hex</strong></div>
+		<div class="span2"><strong>example</strong></div>
+		<div class="span5"><strong>note</strong></div>
+		</div><!-- row-fluid ref-header -->
+		<div class="row-fluid ref">
+		<div class="span1"><p>minified</p></div>
+		<div class="span2"><p>.ahover</p></div>
+		<div class="span2"><p>link, hover</p></div>
+		<div class="span2"></div>
+		<div class="span5 ref-note">
+<pre class="prettyprint ref-prettyprint">
+기본 링크 스타일 text-decoration: underline; 대신에 예쁜 링크 스타일을 만든다. 마우스오버 시 border가 표시된다. 개별 링크에만 스타일이 적용된다. 콘텐츠 전체에 마우스오버 링크 스타일을 적용할 떄는 .nestedhover를 사용. 
+
+// LessCSS
+.ahover(@LinkColor, @HoverColor,@BorderColor) {
+     color:@LinkColor;
+     text-decoration: none;
+     padding-bottom: 2px;
+  &amp;:hover,
+  &amp;:focus {
+          color: @HoverColor;
+          text-decoration: none;
+          border-bottom: 1px solid @BorderColor;
+          padding-bottom: 2px;
+  }
+}
+
+a.ahover-08c-005580 { 
+  .ahover(#08c, #005580, #0d65a1);
+}
+</pre>
+		</div><!-- span5 -->
+		</div><!-- row-fluid ref -->
+
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="a.ahover-fff-ddd{color:#fff;text-decoration:none;padding-bottom:2px}a.ahover-fff-ddd:hover,a.ahover-fff-ddd:focus{color:#ddd;text-decoration:none;border-bottom:1px solid #ddd;padding-bottom:2px}"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>ahover-fff-ddd</p></div>
+			<div class="span2"><p>#fff, #ddd</p></div>
+			<div class="span2"><p><a class="ahover-fff-ddd" href="#none">Lorem ipsum</a></p></div>
+			<div class="span5 ref-note"><p>&lt;a class=&quot;ahover-fff-ddd&quot;&gt;Lorem ipsum&lt;/a&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="a.ahover-111-555{color:#111;text-decoration:none;padding-bottom:2px}a.ahover-111-555:hover,a.ahover-111-555:focus{color:#555;text-decoration:none;border-bottom:1px solid #555;padding-bottom:2px}"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>ahover-111-555</p></div>
+			<div class="span2"><p>#111, #555</p></div>
+			<div class="span2"><p><a class="ahover-111-555" href="#none">Lorem ipsum</a></p></div>
+			<div class="span5 ref-note"><p>&lt;a class=&quot;ahover-111-555&quot;&gt;Lorem ipsum&lt;/a&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="a.ahover-cfcfd5-fff{color:#cfcfd5;text-decoration:none;padding-bottom:2px}a.ahover-cfcfd5-fff:hover,a.ahover-cfcfd5-fff:focus{color:#fff;text-decoration:none;border-bottom:1px solid #fff;padding-bottom:2px}"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>ahover-cfcfd5-fff</p></div>
+			<div class="span2"><p>#cfcfd5, #fff</p></div>
+			<div class="span2"><p><a class="ahover-cfcfd5-fff" href="#none">Lorem ipsum</a></p></div>
+			<div class="span5 ref-note"><p>&lt;a class=&quot;ahover-cfcfd5-fff&quot;&gt;Lorem ipsum&lt;/a&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="a.ahover-cfcfd5-666{color:#cfcfd5;text-decoration:none;padding-bottom:2px}a.ahover-cfcfd5-666:hover,a.ahover-cfcfd5-666:focus{color:#666;text-decoration:none;border-bottom:1px solid #666;padding-bottom:2px}"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>ahover-cfcfd5-666</p></div>
+			<div class="span2"><p>#cfcfd5, #666</p></div>
+			<div class="span2"><p><a class="ahover-cfcfd5-666" href="#none">Lorem ipsum</a></p></div>
+			<div class="span5 ref-note"><p>&lt;a class=&quot;ahover-cfcfd5-666&quot;&gt;Lorem ipsum&lt;/a&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="a.ahover-08c-005580{color:#08c;text-decoration:none;padding-bottom:2px}a.ahover-08c-005580:hover,a.ahover-08c-005580:focus{color:#005580;text-decoration:none;border-bottom:1px solid #0d65a1;padding-bottom:2px}"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>ahover-08c-005580</p></div>
+			<div class="span2"><p>#08c, #005580</p></div>
+			<div class="span2"><p><a class="ahover-08c-005580" href="#none">Lorem ipsum</a></p></div>
+			<div class="span5 ref-note"><p>&lt;a class=&quot;ahover-08c-005580&quot;&gt;Lorem ipsum&lt;/a&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="a.ahover-8fbcdb-685642{color:#0009ff;text-decoration:none;padding-bottom:2px}a.ahover-8fbcdb-685642:hover,a.ahover-8fbcdb-685642:focus{color:#685642;text-decoration:none;border-bottom:1px solid #685642;padding-bottom:2px}"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>ahover-8fbcdb-685642</p></div>
+			<div class="span2"><p>#8fbcdb, #685642</p></div>
+			<div class="span2"><p><a class="ahover-8fbcdb-685642" href="#none">Lorem ipsum</a></p></div>
+			<div class="span5 ref-note"><p>&lt;a class=&quot;ahover-8fbcdb-685642&quot;&gt;Lorem ipsum&lt;/a&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="a.ahover-33ff00-29cd00{color:#3f0;text-decoration:none;padding-bottom:2px}a.ahover-33ff00-29cd00:hover,a.ahover-33ff00-29cd00:focus{color:#29cd00;text-decoration:none;border-bottom:1px solid #29cd00;padding-bottom:2px}"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>ahover-33ff00-29cd00</p></div>
+			<div class="span2"><p>#33ff00, #29cd00</p></div>
+			<div class="span2"><p><a class="ahover-33ff00-29cd00" href="#none">Lorem ipsum</a></p></div>
+			<div class="span5 ref-note"><p>&lt;a class=&quot;ahover-33ff00-29cd00&quot;&gt;Lorem ipsum&lt;/a&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="a.ahover-ee2e24-210B61{color:#ee2e24;text-decoration:none;padding-bottom:2px}a.ahover-ee2e24-210B61:hover,a.ahover-ee2e24-210B61:focus{color:#210b61;text-decoration:none;border-bottom:1px solid #210b61;padding-bottom:2px}"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>ahover-ee2e24-210B61</p></div>
+			<div class="span2"><p>#ee2e24, #210B61</p></div>
+			<div class="span2"><p><a class="ahover-ee2e24-210B61" href="#none">Lorem ipsum</a></p></div>
+			<div class="span5 ref-note"><p>&lt;a class=&quot;ahover-ee2e24-210B61&quot;&gt;Lorem ipsum&lt;/a&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+			<div class="row-fluid ref">
+			<div class="span1"><p><a href="#" data-toggle="popover" data-placement="right" data-content="a.ahover-ee2e24-b94a48{color:#ee2e24;text-decoration:none;padding-bottom:2px}a.ahover-ee2e24-b94a48:hover,a.ahover-ee2e24-b94a48:focus{color:#b94a48;text-decoration:none;border-bottom:1px solid #b94a48;padding-bottom:2px}"><i class="icon-minus"></i></a></p></div>
+			<div class="span2"><p>ahover-ee2e24-b94a48</p></div>
+			<div class="span2"><p>#ee2e24, #b94a48</p></div>
+			<div class="span2"><p><a class="ahover-ee2e24-b94a48" href="#none">Lorem ipsum</a></p></div>
+			<div class="span5 ref-note"><p>&lt;a class=&quot;ahover-ee2e24-b94a48&quot;&gt;Lorem ipsum&lt;/a&gt;</p></div>
+			</div><!-- row-fluid ref -->
+			
+
+	</div><!-- container-fluid -->
+</section><!-- ref-section -->
+<script src="/scripts/ajax.js"></script>

@@ -1,0 +1,29 @@
+// nomargin 940px grid
+// -------------------------
+@gridColumnWidth-nomargin: 78.3px;
+@gridGutterWidth-nomargin: 0px;
+@gridRowWidth-nomargin: (@gridColumns * @gridColumnWidth-nomargin) + (@gridGutterWidth-nomargin * (@gridColumns - 1));
+
+// nomargin 1200px min
+@gridColumnWidth1200-nomargin: 97.5px;
+@gridGutterWidth1200-nomargin: 0px;
+@gridRowWidth1200-nomargin: (@gridColumns * @gridColumnWidth1200-nomargin) + (@gridGutterWidth1200-nomargin * (@gridColumns - 1));
+
+// nomargin 768px-979px
+@gridColumnWidth768-nomargin: 60.5px;
+@gridGutterWidth768-nomargin: 0px;
+@gridRowWidth768-nomargin: (@gridColumns * @gridColumnWidth768-nomargin) + (@gridGutterWidth768-nomargin * (@gridColumns - 1));
+
+
+// Fluid nomargin grid
+// -------------------------
+@fluidGridColumnWidth-nomargin: percentage(@gridColumnWidth-nomargin/@gridRowWidth-nomargin);
+@fluidGridGutterWidth-nomargin: percentage(@gridGutterWidth-nomargin/@gridRowWidth-nomargin);
+
+// nomargin 1200px min
+@fluidGridColumnWidth1200-nomargin: percentage(@gridColumnWidth1200-nomargin/@gridRowWidth1200-nomargin);
+@fluidGridGutterWidth1200-nomargin: percentage(@gridGutterWidth1200-nomargin/@gridRowWidth1200-nomargin);
+
+// nomargin 768px-979px
+@fluidGridColumnWidth768-nomargin: percentage(@gridColumnWidth768-nomargin/@gridRowWidth768-nomargin);
+@fluidGridGutterWidth768-nomargin: percentage(@gridGutterWidth768-nomargin/@gridRowWidth768-nomargin);

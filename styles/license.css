@@ -1,0 +1,72 @@
+﻿/* http://markquery.com/
+   license.css
+   -------------------------------------------------------------------------------------------------------------------------------------------- */
+ @import url(http://fonts.googleapis.com/css?family=Anton);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=latin);
+
+.font-anton-4em { font: 4em 'Anton' arial, sans-serif; font-weight: 300; }
+.font-anton-3em { font: 3em 'Anton' arial, sans-serif; font-weight: 300; }
+.font-opensans { font: 1em/1em 'Open Sans', arial, sans-serif; }
+.font-opensans300 { font: 2em 'Open Sans', arial, sans-serif; font-weight: 300; }
+.title-opensans { font: 2.8em 'Open Sans', arial, sans-serif; font-weight: 300; }
+
+ .license {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 100%;
+	line-height: 1.3;
+	color: #f6e6cc;
+	background: #27221a;
+	position: relative;
+	padding: 30px;
+}
+ 
+.license p, .license ul, .license ol, .license dl, .license table, .license pre { margin-bottom: 1em; }
+.license ul { margin-left: 20px; }
+.license a { text-decoration: none; cursor: pointer; color: #ba832c; font-weight: bold; }
+.license a:focus { outline: 1px dotted; }
+.license a:visited {  }
+.license a:hover, .license a:focus { color: #d3a459; text-decoration: none; }
+.license a *, .license button * { cursor: pointer; }
+.license small { font-size: 90%; }
+.license sup { font-size: 80%; line-height: 1; vertical-align: super; }
+
+.license h1, .license h2, .license h3, .license h4, .license h5, .license h6 { 
+    line-height: 1.1; 
+	margin: 1em 0 0.1em;
+    font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif;
+}
+ 
+.license h2 { font-size: 22pt; }
+.license h3 { font-size: 20pt; }
+.license h4 { font-size: 18pt; }
+.license h5 { font-size: 16pt; }
+.license h6 { font-size: 14pt; }
+ 
+::selection { background: #745626; }
+::-moz-selection { background: #745626; }
+ 
+.license h1 {
+	font-size: 300%;
+	font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif;
+}
+ 
+.license h1 a,
+.license h1 a:hover {
+	color: #d7af72;
+	font-weight: normal;
+	text-decoration: none;
+}
+ 
+.license pre {
+	background: rgba(0,0,0,0.3);
+	color: #fff;
+	padding: 8px 10px;
+	border-radius: 0.4em;
+	-moz-border-radius: 0.4em;
+	-webkit-border-radius: 0.4em;
+	overflow-x: hidden;
+}
+ 
+.license pre code {
+	font-size: 10pt;
+}

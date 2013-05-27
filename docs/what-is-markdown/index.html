@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lange="en">
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width">
+	<title>markquery</title>
+	<meta name="description" content="Customize your contents. markquery is markup library for web contents." />
+	<meta name="keywords" content="markquery, web, contents, editorial design, opensource, html5, css, markup" />
+	<meta name="author" content="Ungki, H" />
+	<meta http-equiv="X-Powered-By" content="DocPad v6.34.1"/>
+
+	<link rel="author" href="humans.txt" />
+	<link rel="profile" href="http://microformats.org/profile/hcard">
+	
+	<!-- Icons -->
+	<link rel="shortcut icon" href="http://markquery.com/images/favicon.ico">
+	<link rel="apple-touch-icon" href="http://markquery.com/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="http://markquery.com/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="http://markquery.com/images/apple-touch-icon-114x114.png">
+
+	<!-- Shims: IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+		<script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- docs style -->
+	<link  rel="stylesheet" href="/styles/markquery.min.css" />
+	<link  rel="stylesheet" href="/styles/docs.css" /><link  rel="stylesheet" href="/styles/github.css" />
+
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->
+<!-- Nav
+================================================== -->
+<nav role="navigation">
+	<div class="navbar navbar-static-top">
+		<div class="navbar-inner">
+			<div class="container-fluid-nomargin">
+				<a href="#content" class="skip">skip to content</a>
+				<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+					<div class="nav-collapse collapse">
+					<ul class="nav">
+					
+					<li class="inactive">
+					<a href="/">Home</a>
+					</li>
+					
+					<li class="active">
+					<a href="/docs">documentation</a>
+					</li>
+					
+					<li class="inactive">
+					<a href="/reference">reference</a>
+					</li>
+					
+					<li class="inactive">
+					<a href="/blog">blog</a>
+					</li>
+					
+					</ul>
+					</div>
+			</div>
+		</div>
+	</div>
+</nav>
+
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span3 layout-nomargin">
+ 		<!-- Header 
+		================================================== -->
+		<header role="banner">
+			<h1 class="title-opensans"><img class="bgcolor-373737" src="/images/markquery-icon-64.png" alt=" " /><a class="margin-left-20 ahover-111-555" title="markquery docs" href="http://markquery.com/docs">Docs</a></h1>
+		</header><!-- header : role="banner" -->
+		<aside role="complementary">
+			<h2 class="font-opensans300">table of contents</h2>
+			<menu class="nestedhover-111-555"> 
+			<ol class="toc">
+				<li class="toc sub-list">
+				<h5>Getting started</h5>
+					<ul>
+					<li><a href="/docs/overview">overview</a></li>
+					<li><a href="/docs/download">download</a></li>
+					<li><a href="/docs/html-css">HTML and CSS</a></li>
+					<li><a href="/docs/usage">usage</a></li>
+					<li><a href="/docs/code-guide">code guide</a></li>
+					</ul>
+				</li> 
+				<li class="toc sub-list">
+  				<h5>Layout</h5>
+					<ul>
+					<li ><a href="/docs/container">container</a></li>
+					<li ><a href="/docs/container-fluid">container-fluid</a></li>
+					<li ><a href="/docs/container-fluid-nomargin">container-fluid-nomargin</a></li>
+					<li><a data-toggle="collapse" data-target="#pin" href="#collapse">pin</a>
+						<div id="pin" class="collapse">
+						<ul>
+							<li><a href="/docs/container-pin">container-pin</a></li>
+							<li><a href="/docs/container-pin-left">container-pin-left</a></li>
+							<li><a href="/docs/container-pin-right">container-pin-right</a></li>
+						</ul>
+						</div>
+					</li>
+					<li><a data-toggle="collapse" data-target="#pin-620" href="#collapse">pin-620</a>
+						<div id="pin-620" class="collapse">
+						<ul>
+							<li><a href="/docs/container-pin-620">container-pin-620</a></li>
+							<li><a href="/docs/container-pin-620-left">container-pin-620-left</a></li>
+							<li><a href="/docs/container-pin-620-right">container-pin-620-right</a></li>
+						</ul>
+						</div>
+					</li>
+					<li><a data-toggle="collapse" data-target="#pin-820" href="#collapse">pin-820</a>
+						<div id="pin-820" class="collapse">
+						<ul>
+							<li><a href="/docs/container-pin-820">container-pin-820</a></li>
+							<li><a href="/docs/container-pin-820-left">container-pin-820-left</a></li>
+							<li><a href="/docs/container-pin-820-right">container-pin-820-right</a></li>
+						</ul>
+						</div>
+					</li>
+					<li><a data-toggle="collapse" data-target="#pin-960" href="#collapse">pin-960</a>
+						<div id="pin-960" class="collapse">
+						<ul>					
+							<li><a href="/docs/container-pin-960">container-pin-960</a></li>
+							<li><a href="/docs/container-pin-960-left">container-pin-960-left</a></li>
+							<li><a href="/docs/container-pin-960-right">container-pin-960-right</a></li>
+						</ul>
+						</div>
+					</li>
+					<li><a data-toggle="collapse" data-target="#pin-1200" href="#collapse">pin-1200</a>
+						<div id="pin-1200" class="collapse">
+						<ul>			
+							<li><a href="/docs/container-pin-1200">container-pin-1200</a></li>
+							<li><a href="/docs/container-pin-1200-left">container-pin-1200-left</a></li>
+							<li><a href="/docs/container-pin-1200-right">container-pin-1200-right</a></li>
+						</ul>
+						</div>
+					</li>
+					<li><a data-toggle="collapse" data-target="#pin-1600" href="#collapse">pin-1600</a>
+						<div id="pin-1600" class="collapse">
+						<ul>			
+							<li><a href="/docs/container-pin-1600">container-pin-1600</a></li>
+							<li><a href="/docs/container-pin-1600-left">container-pin-1600-left</a></li>
+							<li><a href="/docs/container-pin-1600-right">container-pin-1600-right</a></li>
+						</ul>
+						</div>
+					</li>
+					<li><a href="/docs/row">row</a></li>
+					<li><a href="/docs/row-nomargin">row-nomargin</a></li>
+					<li><a href="/docs/row-fluid">row-fluid</a></li>
+					<li><a href="/docs/row-fluid-nomargin">row-fluid-nomargin</a></li>  
+					<li><a href="/docs/grid-system">grid system</a></li>
+					</ul>
+				</li> 
+				<li class="toc sub-list">
+				<h5>markdown</h5>
+					<ul>
+					<li><a href="/docs/what-is-markdown">What is markdown?</a></li>
+					<li><a href="/docs/get-markdown">Get Markdown</a></li>
+					</ul>
+				</li> 
+				<li class="toc sub-list">
+				<h5>sublime text</h5>
+					<ul>
+					<li><a href="/docs/install-sublimetext">Install sublime text</a></li>
+					<li><a href="/docs/markdown-package">Markdown Package</a></li>
+					<li><a href="/docs/2byte-languages">For 2byte Languages</a></li>
+					<li><a href="/docs/theme-package">Theme Package</a></li>
+					</ul>
+				</li> 
+				<li class="toc sub-list">
+				<h5>minify</h5>
+					<ul>
+					<li><a href="/docs/css-minify">css</a></li>
+					<li><a href="/docs/js-minify">javascript</a></li>
+					<li><a href="/docs/grunt">grunt</a></li>
+					</ul>
+				</li> 
+			</ol>
+			</menu>
+		</aside>
+		</div><!-- span3 -->
+
+		<div class="span9 border-1leee layout-nomargin padding-bottom-100">
+		<!-- content 
+		================================================== -->
+		<div class="row-fluid">
+		<article role="main" id="content">
+			
+			<div class="github">
+			<div class="container-pin-820-left">
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span12 text-justify">
+
+			<h1 id="header 1">What is Markdown?</h1>
+			<p>마크다운은 텍스트를 HTML로 변환하는 도구이다. HTML 대신에 읽기 쉽고 쓰기 쉬운 텍스트 문법이 특징이다. 마크다운 문법을 살펴보고, HTML 변환을 위한 도구를 소개한다. </p>
+
+			<h2 id="header 2">How To Find A Great Editor</h2>
+
+			<p>편집디자인 프로그램인 Indesign이나 QuarkXPress처럼 markquery 에디터가 있으면 좋겠지만, 에디터를 개발하는 것은 매우 오랜 시간이 필요하다. markquery 로드맵에는 에디터 개발이 포함되어 있다. 레이아웃과 디자인, 콘텐츠를 분리하고 결합할 수 있는 형태, inline 에디터와 비슷할 것이다. dreamweaver 같은 웹사이트 저작 프로그램은 절대 아니다. 하지만 콘텐츠를 위한 에디터가 당장 준비되어 있더라도 세계의 모든 CMS 플렛폼을 지원할 수 없다. 모두를 만족시킬 수 없다. 웹의 기본을 인지하자면, 결국 구조 문서인 HTML과 표현 문서인 CSS를 유저 스스로 발전시킬 수밖에 없다. 그런 의미에서 markquery 에디터는 영원히 로드맵에만 존재할지 모른다. 왜냐하면 이미 유저들을 위한 훌륭한 에디터가 있기 때문이다. HTML을 모르는 유저들을 위한 markdown 도구들과, 유용한 기능들이 많은 sublime text와 같은 에디터가 있다. </p>
+
+			<h2 id="header 2">Markdown Syntax</h2>
+
+			<p>마크다운 사용법은 너무 쉬워서 마크다운 제작자 John Gruber의 홈페이지를 방문하거나 위키피디아를 참고하는 것이 더욱 좋다. 이 문서에서는 마크다운의 편리함의 맛을 느낄 정도만 살펴볼 것이다. </p>
+
+			<ol>
+			<li><p>Daring Fireball : <a href="http://daringfireball.net/projects/markdown/">http://daringfireball.net/projects/markdown/</a></p></li>
+			<li><p>wikipedia : <a href="http://en.wikipedia.org/wiki/Markdown">http://en.wikipedia.org/wiki/Markdown</a></p></li>
+			</ol>
+
+			<h3 id="header 3">1. Heading</h3>
+
+			<p>HTML에서 제목은 &lt;h&gt; 태그로 만들어진다. 마크다운에서는 <code>#</code> 하나를 텍스트 앞에 넣는 것만으로 <code>&lt;h1&gt;title&lt;/h1&gt;</code>과 똑같은 표현이 된다.</p>
+			<div class="bs-docs-example">
+			<h1>title <small>&lt;h1&gt;title&lt;/h1&gt;</small></h1>
+			</div>
+<pre class="prettyprint lang-html">
+# title
+</pre>
+
+			<p>HTML 제목은 중요도 순서에 따라 h1 부터 h6까지 태그를 쓸 수 있다. 마크다운에서는 <code>#</code> 개수로 숫자를 대신한다. &lt;h3&gt;subtitle&lt;/h3&gt;는 <code>#</code> 세 개를 텍스트 앞에 넣으면 된다. </p>
+			<div class="bs-docs-example">
+			<h1>This is an H1 <small>&lt;h1&gt;title&lt;/h1&gt;</small></h1>
+			<h2>This is an H2 <small>&lt;h2&gt;title&lt;/h2&gt;</small></h2>
+			<h3>This is an H3 <small>&lt;h3&gt;title&lt;/h3&gt;</small></h3>
+			<h4>This is an H4 <small>&lt;h4&gt;title&lt;/h4&gt;</small></h4>
+			<h5>This is an H5 <small>&lt;h5&gt;title&lt;/h5&gt;</small></h5>
+			<h6>This is an H6 <small>&lt;h6&gt;title&lt;/h6&gt;</small></h6>
+			</div>
+<pre class="prettyprint lang-html">
+# This is an H1
+## This is an H2
+### This is an H3
+#### This is an H4
+##### This is an H5
+###### This is an H6
+</pre>
+
+
+			<h3 id="header 3">2. BLOCKQUOTES</h3>
+
+			<p>콘텐츠를 제작하다보면 인용문이 많이 사용된다. 이지윅 에디터에서 텍스트를 드레그 후 버튼을 눌렀던 것처럼 마크다운도 편리하다. <code>&gt;</code>를 텍스트 앞에 넣으면 된다. 
+			<div class="bs-docs-example">
+			<blockquote>
+			This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+			consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+			Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.<br><br>
+						  
+			Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+			id sem consectetuer libero luctus adipiscing.
+			</blockquote>
+			&lt;blockquote&gt;<br>
+			  This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+			  consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+			  Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.<br><br>
+			  
+			  Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+			  id sem consectetuer libero luctus adipiscing.<br>
+			&lt;/blockquote&gt;
+			</div>
+<pre class="prettyprint lang-html">
+> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+			  
+> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.
+</pre>
+
+
+
+			<p>인용문 속의 인용문(nested)는 <code>&gt;</code>를 두 번 넣으면 된다. </p>
+			<div class="bs-docs-example">
+			<blockquote>
+			This is the first level of quoting.
+				<blockquote>
+				This is nested blockquote.
+				</blockquote>
+  			Back to the first level.
+			</blockquote>
+			&lt;blockquote&gt;<br>
+			This is the first level of quoting.<br>
+				&lt;blockquote&gt;This is nested blockquote.&lt;/blockquote&gt;<br>
+			Back to the first level.<br>
+			&lt;/blockquote&gt;
+			</div>
+<pre class="prettyprint lang-html">
+> This is the first level of quoting.
+>> This is nested blockquote.
+> Back to the first level.
+</pre>	
+
+
+			<h3 id="header 3">3. LISTS</h3>
+
+			<p>HTML에서 리스트 <code>&lt;li&gt;</code>는 여러 요소가 있다. 마크다운에서는 <code>-</code>, <code>+</code> 등을 텍스트 앞에 넣는다</p>
+			<div class="bs-docs-example">
+			<ul>
+			<li>Red</li>
+			<li>Green</li>
+			<li>Blue</li>
+			</ul>
+			<ul>
+			<li>Red</li>
+			<li>Green</li>
+			<li>Blue</li>
+			</ul>
+			&lt;ul&gt;<br>
+			&lt;li&gt;Red&lt;/li&gt;<br>
+			&lt;li&gt;Green&lt;/li&gt;<br>
+			&lt;li&gt;Blue&lt;/li&gt;<br>
+			&lt;/ul&gt;
+			</div>
+<pre class="prettyprint lang-html">
+- Red
+- Green
+- Blue
++ Red
++ Green
++ Blud
+</pre>	
+
+			<p>nested lists는 tab 키를 눌러 들여쓰기를 하면 된다.</p>
+			<div class="bs-docs-example">
+			<ul>
+			<li>Red</li>
+			<li>Green</li>
+			<li>Blue
+				<ul>
+				<li>Red</li>
+				<li>Green</li>
+				<li>Blue</li>
+				</ul>
+			</ul>
+			&lt;ul&gt;<br/>			
+			&lt;li&gt;Red&lt;/li&gt;<br/>			
+			&lt;li&gt;Green&lt;/li&gt;<br/>			
+			&lt;li&gt;Blue<br/>				
+			&lt;ul&gt;<br/>				
+			&lt;li&gt;Red&lt;/li&gt;<br/>				
+			&lt;li&gt;Green&lt;/li&gt;<br/>				
+			&lt;li&gt;Blue&lt;/li&gt;<br/>				
+			&lt;/ul&gt;<br/>			
+			&lt;/ul&gt;
+			</div>
+<pre class="prettyprint lang-html">
++   Red
++   Green
++   Blue
+	-   Red
+	-   Green
+	-   Blue
+</pre>	
+
+
+			<h3 id="header 3">4. Links</h3>
+
+			<p>HTML에서 링크를 만들 떄는 &lt;a&gt; 태그가 사용된다. 마크다운에서는 [ ]로 링크를 만들고 () 안에 링크 urI를 넣는다.</p>
+			<div class="bs-docs-example">
+			<a href="#none">Markquery Link</a><br>
+			&lt;a href=&quot;#none/&quot;&gt;markquery link&lt;/a&gt;
+			</div>
+<pre class="prettyprint lang-html">
+[Markquery Link](http://markquery.com/).
+</pre>	
+
+
+			<h3 id="header 3">5. Text Basics</h3>
+
+			<p>텍스트에 간단한 효과를 넣는 표현 방법이다. italic으로 텍스트를 만들 때 *를 텍스트 앞뒤에 넣으면 된다. 강조를 할 경우 -를 텍스트 앞뒤에 넣는다.</p>
+
+			<div class="bs-docs-example">
+			<p>this is <em>italic</em> and this is <strong>bold</strong> .  another <em>italic</em> and another <strong>bold</strong></p>
+			<p>this is <code>important</code> text. and percentage signs : % and <code>%</code></p>
+			<p>This is a paragraph with a footnote (builtin parser only). [^note-id] </p>
+			<p>Insert <code>[ toc ]</code> without spaces to generate a table of contents (builtin parser only).</p>
+			<p>[^note-id]: This is the text of the note. </p>
+			&lt;p&gt;this is &lt;em&gt;italic&lt;/em&gt; and this is &lt;strong&gt;bold&lt;/strong&gt; .  another &lt;em&gt;italic&lt;/em&gt; and another &lt;strong&gt;bold&lt;/strong&gt;&lt;/p&gt;<br/>			
+			&lt;p&gt;this is &lt;code&gt;important&lt;/code&gt; text. and percentage signs : % and &lt;code&gt;%&lt;/code&gt;&lt;/p&gt;<br/>			
+			&lt;p&gt;This is a paragraph with a footnote (builtin parser only). [^note-id] &lt;/p&gt;<br/>			
+			&lt;p&gt;Insert &lt;code&gt;[ toc ]&lt;/code&gt; without spaces to generate a table of contents (builtin parser only).&lt;/p&gt;<br/>			
+			&lt;p&gt;[^note-id]: This is the text of the note. &lt;/p&gt;
+			</div>
+<pre class="prettyprint lang-html">
+this is *italic* and this is **bold** .  another -italic- and another --bold--
+
+this is `important` text. and percentage signs : % and `%`
+
+This is a paragraph with a footnote (builtin parser only). [^note-id] 
+
+Insert `[ toc ]` without spaces to generate a table of contents (builtin parser only).
+
+[^note-id]: This is the text of the note. 
+</pre>
+
+			<h3 id="header 3">6. Image</h3>
+			<p>HTML에서 이미지는 &lt;img src=&quot;/path/img.jpg&quot; /&gt; 태그와 같이 만들어진다. 마크다운에서는 <code>![이미지 설명](img path)</code>으로 사용된다.</p>
+			<div class="bs-docs-example">
+			<img src="/docs/docs-example1.jpg" alt="example image" />
+			&lt;img src=&quot;/docs/docs-example1.jpg&quot; alt=&quot;example image&quot; /&gt;
+			</div>
+<pre class="prettyprint lang-html">
+![example image](/docs/docs-example1.jpg)
+</pre>
+
+			<p>대략 이 정도만 markdown을 사용해도 이지윅 에디터로 했던 거의 모든 것을 할 수 있다. markdown으로 콘텐츠를 만든면 문서 관리도 편리하고, 콘텐츠 수정도 훨씬 빠르게 진행될 것이다. 무엇보다 markdown은 깨끗한 HTML을 얻을 수 있다.</p>
+
+			<p class="border-3teee padding-top-20">Next Page &mdash; <a href="/docs/get-markdown">Get Markdown</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+			</div>
+			<!-- else nomal css -->
+		</article>
+		</div>
+<div class="row-fluid">
+<section class="disqus">
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span12">
+<div id="disqus_thread"></div>
+<script>
+	(function(){
+		window.disqus_shortname = 'markquery';
+		window.disqus_developer = '1';
+		window.disqus_url = 'http://markquery.com';
+		window.disqus_identifier = 'index';
+		window.disqus_title = 'index.html';
+		if ( window.DISQUS ) {
+			return DISQUS.reset({
+				reload: true,
+				config: function () {
+					this.page.identifier = window.disqus_identifier;
+					this.page.url = window.disqus_url;
+					this.page.title = window.disqus_title;
+				}
+			});
+		}
+		else {
+		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		  dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+			</div>
+		</div>
+	</div>
+</section>	
+</div>
+
+		</div><!-- span9 -->
+	</div><!-- row-fluid-nomargin -->
+</div><!-- container-fluid-nomargin -->
+
+<!-- Footer
+================================================== -->
+<footer role="contentinfo">
+		<div class="container-fluid bgmask-diagonal-noise">
+		<div class="row-fluid height-padding-100">
+			<div class="vcard">
+			<div class="span4">
+			<h1 class="font-anton-3em"><img class="photo bgcolor-373737" src="/images/markquery-icon-64.png" alt=" " /><a class="org url margin-left-20 ahover-fff-ddd" title="http://markquery.com" href="http://markquery.com">MARKQUERY</a></h1>
+			
+			<div class="nestedhover-cfcfd5-fff">
+			<cite><p>Copyright &copy; 2013 <a class="org url" href="http://markquery.com/">markquery.com</a> project maintained  by <a class="fn email" href="mailto:ungki.h@gmail.com">Ungki, H</a></p></cite>
+			<p>Licensed under the incredibly permissive <a rel="license" href="http://markquery.com/license">MIT License</a></p>
+			<p>Documentations under <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0</a></p>
+			<p>Open sources are copyright of their respective owners  <a rel="license" href="http://markquery.com/license">About The License</a></p>
+			</div>
+			</div>
+
+			<div class="span2">
+			<h1 class="title-opensans"><img class="bgcolor-373737" src="/images/github-icon-64.png" alt=" " /><a class="margin-left-20 ahover-fff-ddd" title="github.com" href="http://github.com">GitHub</a></h1>
+			<ul class="nestedhover-cfcfd5-fff">
+			<li><a rel="directory" href="https://github.com/">markquery</a></li>
+			<li><a rel="directory" href="https://github.com/">markquery source</a></li>
+			<li><a rel="directory" href="https://github.com/">wordpress skeleton</a></li>
+			<li><a rel="directory" href="https://github.com/">tistory skeleton</a></li>
+			<li><a rel="directory" href="https://github.com/">docs &amp; reference</a></li>
+			</ul>
+			</div>
+
+			<div class="span2">
+			<h1 class="title-opensans"><a class="ahover-fff-ddd" title="download page" href="http://markquery/docs/download">Download</a></h1>
+			<ul class="nestedhover-cfcfd5-fff">
+			<li><a rel="directory" href="http://markquery.com/docs/download#markquery">markquery</a></li>
+			<li><a rel="directory" href="http://markquery.com/docs/download#markquery-source">markquery source</a></li>
+			<li><a rel="directory" href="http://markquery.com/docs/download#wordpress">wordpress skeleton</a></li>
+			<li><a rel="directory" href="http://markquery.com/docs/download#tistory">tistory skeleton</a></li>
+			</ul>
+			</div>
+
+			<div class="span4">
+			<h1 class="title-opensans"><img class="bgcolor-373737" src="/images/twitter-icon-64.png" alt=" " /><a class="margin-left-20 ahover-fff-ddd" title="twitter" href="http://twitter.com/markquery">Released Note</a></h1>
+			<div id="twitter" class="note"></div>
+			</div>
+			</div><!-- microformats -->
+		</div>
+		</div>
+</footer>
+
+<!-- source 
+================================================== -->
+<section id="source">
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+			<p>This page was last updated at 2013-05-27T05:28:11.072Z</p>
+			<h6 id="source-header"><a>Click to view this page's source</a></h6>
+			<div id="source-code">
+			<div><p>Source file extension is <code>html</code>. Outextension is <code>html</code>.</p></div>
+			<pre class="prettyprint lang-html">--- yaml
+title: 'what is markdown'
+layout: 'docs'
+tags: ['markdown']
+excerpt: &quot;what is markdown&quot;
+isPage: true
+---
+&lt;div class=&quot;container-pin-820-left&quot;&gt;
+	&lt;div class=&quot;container-fluid&quot;&gt;
+		&lt;div class=&quot;row-fluid&quot;&gt;
+			&lt;div class=&quot;span12 text-justify&quot;&gt;
+
+			&lt;h1 id=&quot;header 1&quot;&gt;What is Markdown?&lt;/h1&gt;
+			&lt;p&gt;마크다운은 텍스트를 HTML로 변환하는 도구이다. HTML 대신에 읽기 쉽고 쓰기 쉬운 텍스트 문법이 특징이다. 마크다운 문법을 살펴보고, HTML 변환을 위한 도구를 소개한다. &lt;/p&gt;
+
+			&lt;h2 id=&quot;header 2&quot;&gt;How To Find A Great Editor&lt;/h2&gt;
+
+			&lt;p&gt;편집디자인 프로그램인 Indesign이나 QuarkXPress처럼 markquery 에디터가 있으면 좋겠지만, 에디터를 개발하는 것은 매우 오랜 시간이 필요하다. markquery 로드맵에는 에디터 개발이 포함되어 있다. 레이아웃과 디자인, 콘텐츠를 분리하고 결합할 수 있는 형태, inline 에디터와 비슷할 것이다. dreamweaver 같은 웹사이트 저작 프로그램은 절대 아니다. 하지만 콘텐츠를 위한 에디터가 당장 준비되어 있더라도 세계의 모든 CMS 플렛폼을 지원할 수 없다. 모두를 만족시킬 수 없다. 웹의 기본을 인지하자면, 결국 구조 문서인 HTML과 표현 문서인 CSS를 유저 스스로 발전시킬 수밖에 없다. 그런 의미에서 markquery 에디터는 영원히 로드맵에만 존재할지 모른다. 왜냐하면 이미 유저들을 위한 훌륭한 에디터가 있기 때문이다. HTML을 모르는 유저들을 위한 markdown 도구들과, 유용한 기능들이 많은 sublime text와 같은 에디터가 있다. &lt;/p&gt;
+
+			&lt;h2 id=&quot;header 2&quot;&gt;Markdown Syntax&lt;/h2&gt;
+
+			&lt;p&gt;마크다운 사용법은 너무 쉬워서 마크다운 제작자 John Gruber의 홈페이지를 방문하거나 위키피디아를 참고하는 것이 더욱 좋다. 이 문서에서는 마크다운의 편리함의 맛을 느낄 정도만 살펴볼 것이다. &lt;/p&gt;
+
+			&lt;ol&gt;
+			&lt;li&gt;&lt;p&gt;Daring Fireball : &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;http://daringfireball.net/projects/markdown/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;p&gt;wikipedia : &lt;a href=&quot;http://en.wikipedia.org/wiki/Markdown&quot;&gt;http://en.wikipedia.org/wiki/Markdown&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+			&lt;/ol&gt;
+
+			&lt;h3 id=&quot;header 3&quot;&gt;1. Heading&lt;/h3&gt;
+
+			&lt;p&gt;HTML에서 제목은 &amp;lt;h&amp;gt; 태그로 만들어진다. 마크다운에서는 &lt;code&gt;#&lt;/code&gt; 하나를 텍스트 앞에 넣는 것만으로 &lt;code&gt;&amp;lt;h1&amp;gt;title&amp;lt;/h1&amp;gt;&lt;/code&gt;과 똑같은 표현이 된다.&lt;/p&gt;
+			&lt;div class=&quot;bs-docs-example&quot;&gt;
+			&lt;h1&gt;title &lt;small&gt;&amp;lt;h1&amp;gt;title&amp;lt;/h1&amp;gt;&lt;/small&gt;&lt;/h1&gt;
+			&lt;/div&gt;
+&lt;pre class=&quot;prettyprint lang-html&quot;&gt;
+# title
+&lt;/pre&gt;
+
+			&lt;p&gt;HTML 제목은 중요도 순서에 따라 h1 부터 h6까지 태그를 쓸 수 있다. 마크다운에서는 &lt;code&gt;#&lt;/code&gt; 개수로 숫자를 대신한다. &amp;lt;h3&amp;gt;subtitle&amp;lt;/h3&amp;gt;는 &lt;code&gt;#&lt;/code&gt; 세 개를 텍스트 앞에 넣으면 된다. &lt;/p&gt;
+			&lt;div class=&quot;bs-docs-example&quot;&gt;
+			&lt;h1&gt;This is an H1 &lt;small&gt;&amp;lt;h1&amp;gt;title&amp;lt;/h1&amp;gt;&lt;/small&gt;&lt;/h1&gt;
+			&lt;h2&gt;This is an H2 &lt;small&gt;&amp;lt;h2&amp;gt;title&amp;lt;/h2&amp;gt;&lt;/small&gt;&lt;/h2&gt;
+			&lt;h3&gt;This is an H3 &lt;small&gt;&amp;lt;h3&amp;gt;title&amp;lt;/h3&amp;gt;&lt;/small&gt;&lt;/h3&gt;
+			&lt;h4&gt;This is an H4 &lt;small&gt;&amp;lt;h4&amp;gt;title&amp;lt;/h4&amp;gt;&lt;/small&gt;&lt;/h4&gt;
+			&lt;h5&gt;This is an H5 &lt;small&gt;&amp;lt;h5&amp;gt;title&amp;lt;/h5&amp;gt;&lt;/small&gt;&lt;/h5&gt;
+			&lt;h6&gt;This is an H6 &lt;small&gt;&amp;lt;h6&amp;gt;title&amp;lt;/h6&amp;gt;&lt;/small&gt;&lt;/h6&gt;
+			&lt;/div&gt;
+&lt;pre class=&quot;prettyprint lang-html&quot;&gt;
+# This is an H1
+## This is an H2
+### This is an H3
+#### This is an H4
+##### This is an H5
+###### This is an H6
+&lt;/pre&gt;
+
+
+			&lt;h3 id=&quot;header 3&quot;&gt;2. BLOCKQUOTES&lt;/h3&gt;
+
+			&lt;p&gt;콘텐츠를 제작하다보면 인용문이 많이 사용된다. 이지윅 에디터에서 텍스트를 드레그 후 버튼을 눌렀던 것처럼 마크다운도 편리하다. &lt;code&gt;&amp;gt;&lt;/code&gt;를 텍스트 앞에 넣으면 된다. 
+			&lt;div class=&quot;bs-docs-example&quot;&gt;
+			&lt;blockquote&gt;
+			This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+			consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+			Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.&lt;br&gt;&lt;br&gt;
+						  
+			Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+			id sem consectetuer libero luctus adipiscing.
+			&lt;/blockquote&gt;
+			&amp;lt;blockquote&amp;gt;&lt;br&gt;
+			  This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+			  consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+			  Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.&lt;br&gt;&lt;br&gt;
+			  
+			  Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+			  id sem consectetuer libero luctus adipiscing.&lt;br&gt;
+			&amp;lt;/blockquote&amp;gt;
+			&lt;/div&gt;
+&lt;pre class=&quot;prettyprint lang-html&quot;&gt;
+&gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+			  
+&gt; Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.
+&lt;/pre&gt;
+
+
+
+			&lt;p&gt;인용문 속의 인용문(nested)는 &lt;code&gt;&amp;gt;&lt;/code&gt;를 두 번 넣으면 된다. &lt;/p&gt;
+			&lt;div class=&quot;bs-docs-example&quot;&gt;
+			&lt;blockquote&gt;
+			This is the first level of quoting.
+				&lt;blockquote&gt;
+				This is nested blockquote.
+				&lt;/blockquote&gt;
+  			Back to the first level.
+			&lt;/blockquote&gt;
+			&amp;lt;blockquote&amp;gt;&lt;br&gt;
+			This is the first level of quoting.&lt;br&gt;
+				&amp;lt;blockquote&amp;gt;This is nested blockquote.&amp;lt;/blockquote&amp;gt;&lt;br&gt;
+			Back to the first level.&lt;br&gt;
+			&amp;lt;/blockquote&amp;gt;
+			&lt;/div&gt;
+&lt;pre class=&quot;prettyprint lang-html&quot;&gt;
+&gt; This is the first level of quoting.
+&gt;&gt; This is nested blockquote.
+&gt; Back to the first level.
+&lt;/pre&gt;	
+
+
+			&lt;h3 id=&quot;header 3&quot;&gt;3. LISTS&lt;/h3&gt;
+
+			&lt;p&gt;HTML에서 리스트 &lt;code&gt;&amp;lt;li&amp;gt;&lt;/code&gt;는 여러 요소가 있다. 마크다운에서는 &lt;code&gt;-&lt;/code&gt;, &lt;code&gt;+&lt;/code&gt; 등을 텍스트 앞에 넣는다&lt;/p&gt;
+			&lt;div class=&quot;bs-docs-example&quot;&gt;
+			&lt;ul&gt;
+			&lt;li&gt;Red&lt;/li&gt;
+			&lt;li&gt;Green&lt;/li&gt;
+			&lt;li&gt;Blue&lt;/li&gt;
+			&lt;/ul&gt;
+			&lt;ul&gt;
+			&lt;li&gt;Red&lt;/li&gt;
+			&lt;li&gt;Green&lt;/li&gt;
+			&lt;li&gt;Blue&lt;/li&gt;
+			&lt;/ul&gt;
+			&amp;lt;ul&amp;gt;&lt;br&gt;
+			&amp;lt;li&amp;gt;Red&amp;lt;/li&amp;gt;&lt;br&gt;
+			&amp;lt;li&amp;gt;Green&amp;lt;/li&amp;gt;&lt;br&gt;
+			&amp;lt;li&amp;gt;Blue&amp;lt;/li&amp;gt;&lt;br&gt;
+			&amp;lt;/ul&amp;gt;
+			&lt;/div&gt;
+&lt;pre class=&quot;prettyprint lang-html&quot;&gt;
+- Red
+- Green
+- Blue
++ Red
++ Green
++ Blud
+&lt;/pre&gt;	
+
+			&lt;p&gt;nested lists는 tab 키를 눌러 들여쓰기를 하면 된다.&lt;/p&gt;
+			&lt;div class=&quot;bs-docs-example&quot;&gt;
+			&lt;ul&gt;
+			&lt;li&gt;Red&lt;/li&gt;
+			&lt;li&gt;Green&lt;/li&gt;
+			&lt;li&gt;Blue
+				&lt;ul&gt;
+				&lt;li&gt;Red&lt;/li&gt;
+				&lt;li&gt;Green&lt;/li&gt;
+				&lt;li&gt;Blue&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/ul&gt;
+			&amp;lt;ul&amp;gt;&lt;br/&gt;			
+			&amp;lt;li&amp;gt;Red&amp;lt;/li&amp;gt;&lt;br/&gt;			
+			&amp;lt;li&amp;gt;Green&amp;lt;/li&amp;gt;&lt;br/&gt;			
+			&amp;lt;li&amp;gt;Blue&lt;br/&gt;				
+			&amp;lt;ul&amp;gt;&lt;br/&gt;				
+			&amp;lt;li&amp;gt;Red&amp;lt;/li&amp;gt;&lt;br/&gt;				
+			&amp;lt;li&amp;gt;Green&amp;lt;/li&amp;gt;&lt;br/&gt;				
+			&amp;lt;li&amp;gt;Blue&amp;lt;/li&amp;gt;&lt;br/&gt;				
+			&amp;lt;/ul&amp;gt;&lt;br/&gt;			
+			&amp;lt;/ul&amp;gt;
+			&lt;/div&gt;
+&lt;pre class=&quot;prettyprint lang-html&quot;&gt;
++   Red
++   Green
++   Blue
+	-   Red
+	-   Green
+	-   Blue
+&lt;/pre&gt;	
+
+
+			&lt;h3 id=&quot;header 3&quot;&gt;4. Links&lt;/h3&gt;
+
+			&lt;p&gt;HTML에서 링크를 만들 떄는 &amp;lt;a&amp;gt; 태그가 사용된다. 마크다운에서는 [ ]로 링크를 만들고 () 안에 링크 urI를 넣는다.&lt;/p&gt;
+			&lt;div class=&quot;bs-docs-example&quot;&gt;
+			&lt;a href=&quot;#none&quot;&gt;Markquery Link&lt;/a&gt;&lt;br&gt;
+			&amp;lt;a href=&amp;quot;#none/&amp;quot;&amp;gt;markquery link&amp;lt;/a&amp;gt;
+			&lt;/div&gt;
+&lt;pre class=&quot;prettyprint lang-html&quot;&gt;
+[Markquery Link](http://markquery.com/).
+&lt;/pre&gt;	
+
+
+			&lt;h3 id=&quot;header 3&quot;&gt;5. Text Basics&lt;/h3&gt;
+
+			&lt;p&gt;텍스트에 간단한 효과를 넣는 표현 방법이다. italic으로 텍스트를 만들 때 *를 텍스트 앞뒤에 넣으면 된다. 강조를 할 경우 -를 텍스트 앞뒤에 넣는다.&lt;/p&gt;
+
+			&lt;div class=&quot;bs-docs-example&quot;&gt;
+			&lt;p&gt;this is &lt;em&gt;italic&lt;/em&gt; and this is &lt;strong&gt;bold&lt;/strong&gt; .  another &lt;em&gt;italic&lt;/em&gt; and another &lt;strong&gt;bold&lt;/strong&gt;&lt;/p&gt;
+			&lt;p&gt;this is &lt;code&gt;important&lt;/code&gt; text. and percentage signs : % and &lt;code&gt;%&lt;/code&gt;&lt;/p&gt;
+			&lt;p&gt;This is a paragraph with a footnote (builtin parser only). [^note-id] &lt;/p&gt;
+			&lt;p&gt;Insert &lt;code&gt;[ toc ]&lt;/code&gt; without spaces to generate a table of contents (builtin parser only).&lt;/p&gt;
+			&lt;p&gt;[^note-id]: This is the text of the note. &lt;/p&gt;
+			&amp;lt;p&amp;gt;this is &amp;lt;em&amp;gt;italic&amp;lt;/em&amp;gt; and this is &amp;lt;strong&amp;gt;bold&amp;lt;/strong&amp;gt; .  another &amp;lt;em&amp;gt;italic&amp;lt;/em&amp;gt; and another &amp;lt;strong&amp;gt;bold&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&lt;br/&gt;			
+			&amp;lt;p&amp;gt;this is &amp;lt;code&amp;gt;important&amp;lt;/code&amp;gt; text. and percentage signs : % and &amp;lt;code&amp;gt;%&amp;lt;/code&amp;gt;&amp;lt;/p&amp;gt;&lt;br/&gt;			
+			&amp;lt;p&amp;gt;This is a paragraph with a footnote (builtin parser only). [^note-id] &amp;lt;/p&amp;gt;&lt;br/&gt;			
+			&amp;lt;p&amp;gt;Insert &amp;lt;code&amp;gt;[ toc ]&amp;lt;/code&amp;gt; without spaces to generate a table of contents (builtin parser only).&amp;lt;/p&amp;gt;&lt;br/&gt;			
+			&amp;lt;p&amp;gt;[^note-id]: This is the text of the note. &amp;lt;/p&amp;gt;
+			&lt;/div&gt;
+&lt;pre class=&quot;prettyprint lang-html&quot;&gt;
+this is *italic* and this is **bold** .  another -italic- and another --bold--
+
+this is `important` text. and percentage signs : % and `%`
+
+This is a paragraph with a footnote (builtin parser only). [^note-id] 
+
+Insert `[ toc ]` without spaces to generate a table of contents (builtin parser only).
+
+[^note-id]: This is the text of the note. 
+&lt;/pre&gt;
+
+			&lt;h3 id=&quot;header 3&quot;&gt;6. Image&lt;/h3&gt;
+			&lt;p&gt;HTML에서 이미지는 &amp;lt;img src=&amp;quot;/path/img.jpg&amp;quot; /&amp;gt; 태그와 같이 만들어진다. 마크다운에서는 &lt;code&gt;![이미지 설명](img path)&lt;/code&gt;으로 사용된다.&lt;/p&gt;
+			&lt;div class=&quot;bs-docs-example&quot;&gt;
+			&lt;img src=&quot;/docs/docs-example1.jpg&quot; alt=&quot;example image&quot; /&gt;
+			&amp;lt;img src=&amp;quot;/docs/docs-example1.jpg&amp;quot; alt=&amp;quot;example image&amp;quot; /&amp;gt;
+			&lt;/div&gt;
+&lt;pre class=&quot;prettyprint lang-html&quot;&gt;
+![example image](/docs/docs-example1.jpg)
+&lt;/pre&gt;
+
+			&lt;p&gt;대략 이 정도만 markdown을 사용해도 이지윅 에디터로 했던 거의 모든 것을 할 수 있다. markdown으로 콘텐츠를 만든면 문서 관리도 편리하고, 콘텐츠 수정도 훨씬 빠르게 진행될 것이다. 무엇보다 markdown은 깨끗한 HTML을 얻을 수 있다.&lt;/p&gt;
+
+			&lt;p class=&quot;border-3teee padding-top-20&quot;&gt;Next Page &amp;mdash; &lt;a href=&quot;/docs/get-markdown&quot;&gt;Get Markdown&lt;/a&gt;&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</pre>
+			</div>
+		</div>
+	</div>
+</div>
+</section><!-- source -->
+
+<a href="#" class="scrollup">Scroll</a>
+
+	<!-- Scripts -->
+	<script >(function(){
+	// Did we just livereload?
+var log = true && localStorage && console && console.log && true;
+if ( log && localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReloaded at', new Date())
+}
+
+// Listen for the regenerated event
+// and perform a reload of the page when the event occurs
+var listen = function(){
+	var socket = io.connect('/docpad-livereload');
+	socket.on('regenerated',function(){
+		if ( log ) {
+	localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+}
+document.location.reload();
+	});
+};
+	if ( typeof io !== 'undefined' ) {
+		listen();
+	} else {
+		// Inject socket.io into our page then listen once loaded
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = true;
+	t.src = '/socket.io/socket.io.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t,s);
+};
+		inject();
+	}
+})();</script><script defer="defer"  src="/scripts/markquery.js"></script>
+</body>
+</html>
