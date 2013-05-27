@@ -1,0 +1,1777 @@
+{
+  "textcolor": [
+    {
+      "css": ".text-color-84596b { color: #84596b; }",
+      "selector": "text-color-84596b",
+      "hex": "#84596b",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-84596b&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-b58aa5 { color: #b58aa5; }",
+      "selector": "text-color-b58aa5",
+      "hex": "#b58aa5",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-b58aa5&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-cecfce { color: #cecfce; }",
+      "selector": "text-color-cecfce",
+      "hex": "#cecfce",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-cecfce&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-9c0063 { color: #9c0063; }",
+      "selector": "text-color-9c0063",
+      "hex": "#9c0063",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-9c0063&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-efd3e7 { color: #efd3e7; }",
+      "selector": "text-color-efd3e7",
+      "hex": "#efd3e7",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-efd3e7&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-b7c68b { color: #b7c68b; }",
+      "selector": "text-color-b7c68b",
+      "hex": "#b7c68b",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-b7c68b&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f4f0cb { color: #f4f0cb; }",
+      "selector": "text-color-f4f0cb",
+      "hex": "#f4f0cb",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f4f0cb&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-ded29e { color: #ded29e; }",
+      "selector": "text-color-ded29e",
+      "hex": "#ded29e",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-ded29e&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-b3a580 { color: #b3a580; }",
+      "selector": "text-color-b3a580",
+      "hex": "#b3a580",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-b3a580&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-685642 { color: #685642; }",
+      "selector": "text-color-685642",
+      "hex": "#685642",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-685642&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-5f9ea0 { color: #5f9ea0; }",
+      "selector": "text-color-5f9ea0",
+      "hex": "#5f9ea0",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-5f9ea0&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-ffff99 { color: #ffff99; }",
+      "selector": "text-color-ffff99",
+      "hex": "#ffff99",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-ffff99&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-b22222 { color: #b22222; }",
+      "selector": "text-color-b22222",
+      "hex": "#b22222",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-b22222&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-153450 { color: #153450; }",
+      "selector": "text-color-153450",
+      "hex": "#153450",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-153450&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-447294 { color: #447294; }",
+      "selector": "text-color-447294",
+      "hex": "#447294",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-447294&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-8fbcdb { color: #8fbcdb; }",
+      "selector": "text-color-8fbcdb",
+      "hex": "#8fbcdb",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-8fbcdb&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-397249 { color: #397249; }",
+      "selector": "text-color-397249",
+      "hex": "#397249",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-397249&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-628b61 { color: #628b61; }",
+      "selector": "text-color-628b61",
+      "hex": "#628b61",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-628b61&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-9cb770 { color: #9cb770; }",
+      "selector": "text-color-9cb770",
+      "hex": "#9cb770",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-9cb770&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-c7e1ba { color: #c7e1ba; }",
+      "selector": "text-color-c7e1ba",
+      "hex": "#c7e1ba",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-c7e1ba&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-e44d2e { color: #e44d2e; }",
+      "selector": "text-color-e44d2e",
+      "hex": "#e44d2e",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-e44d2e&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-ec6c3f { color: #ec6c3f; }",
+      "selector": "text-color-ec6c3f",
+      "hex": "#ec6c3f",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-ec6c3f&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f9d654 { color: #f9d654; }",
+      "selector": "text-color-f9d654",
+      "hex": "#f9d654",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f9d654&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-4f2412 { color: #4f2412; }",
+      "selector": "text-color-4f2412",
+      "hex": "#4f2412",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-4f2412&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f9e5cc { color: #f9e5cc; }",
+      "selector": "text-color-f9e5cc",
+      "hex": "#f9e5cc",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f9e5cc&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-c9a798 { color: #c9a798; }",
+      "selector": "text-color-c9a798",
+      "hex": "#c9a798",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-c9a798&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-e9e0db { color: #e9e0db; }",
+      "selector": "text-color-e9e0db",
+      "hex": "#e9e0db",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-e9e0db&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f1f1f1 { color: #f1f1f1; }",
+      "selector": "text-color-f1f1f1",
+      "hex": "#f1f1f1",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f1f1f1&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-eee { color: #eee; }",
+      "selector": "text-color-eee",
+      "hex": "#eee",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-eee&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-ddd { color: #ddd; }",
+      "selector": "text-color-ddd",
+      "hex": "#ddd",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-ddd&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-155 { color: #155; }",
+      "selector": "text-color-155",
+      "hex": "#155",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-155&quot;&gt;hello&lt;/p&gt;"
+    },
+   {
+      "css": ".text-color-111 { color: #111; }",
+      "selector": "text-color-111",
+      "hex": "#111",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-111&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-success { color: #468847; }",
+      "selector": "text-success",
+      "hex": "#468847",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-success&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-info { color: #3a87ad; }",
+      "selector": "text-info",
+      "hex": "#3a87ad",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-info&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-error { color: #b94a48; }",
+      "selector": "text-error",
+      "hex": "#b94a48",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-error&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-warning { color: #c09853; }",
+      "selector": "text-warning",
+      "hex": "#c09853",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-warning&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-muted { color: #999; }",
+      "selector": "text-muted",
+      "hex": "#999",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-muted&quot;&gt;hello&lt;/p&gt;"
+    }
+	],
+  "websafecolors": [
+    {
+      "css": ".text-color-fff { color: #fff; }",
+      "selector": "text-color-fff",
+      "hex": "#fff",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-fff&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-ffc { color: #ffc; }",
+      "selector": "text-color-ffc",
+      "hex": "#ffc",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-ffc&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-ff9 { color: #ff9; }",
+      "selector": "text-color-ff9",
+      "hex": "#ff9",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-ff9&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-ff6 { color: #ff6; }",
+      "selector": "text-color-ff6",
+      "hex": "#ff6",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-ff6&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-ff3 { color: #ff3; }",
+      "selector": "text-color-ff3",
+      "hex": "#ff3",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-ff3&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-ff0 { color: #ff0; }",
+      "selector": "text-color-ff0",
+      "hex": "#ff0",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-ff0&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-fcf { color: #fcf; }",
+      "selector": "text-color-fcf",
+      "hex": "#fcf",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-fcf&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-fcc { color: #fcc; }",
+      "selector": "text-color-fcc",
+      "hex": "#fcc",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-fcc&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-fc9 { color: #fc9; }",
+      "selector": "text-color-fc9",
+      "hex": "#fc9",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-fc9&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-fc6 { color: #fc6; }",
+      "selector": "text-color-fc6",
+      "hex": "#fc6",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-fc6&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-fc3 { color: #fc3; }",
+      "selector": "text-color-fc3",
+      "hex": "#fc3",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-fc3&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-fc0 { color: #fc0; }",
+      "selector": "text-color-fc0",
+      "hex": "#fc0",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-fc0&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f9f { color: #f9f; }",
+      "selector": "text-color-f9f",
+      "hex": "#f9f",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f9f&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f9c { color: #f9c; }",
+      "selector": "text-color-f9c",
+      "hex": "#f9c",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f9c&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f99 { color: #f99; }",
+      "selector": "text-color-f99",
+      "hex": "#f99",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f99&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f96 { color: #f96; }",
+      "selector": "text-color-f96",
+      "hex": "#f96",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f96&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f93 { color: #f93; }",
+      "selector": "text-color-f93",
+      "hex": "#f93",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f93&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f90 { color: #f90; }",
+      "selector": "text-color-f90",
+      "hex": "#f90",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f90&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f6f { color: #f6f; }",
+      "selector": "text-color-f6f",
+      "hex": "#f6f",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f6f&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f6c { color: #f6c; }",
+      "selector": "text-color-f6c",
+      "hex": "#f6c",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f6c&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f69 { color: #f69; }",
+      "selector": "text-color-f69",
+      "hex": "#f69",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f69&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f66 { color: #f66; }",
+      "selector": "text-color-f66",
+      "hex": "#f66",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f66&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f63 { color: #f63; }",
+      "selector": "text-color-f63",
+      "hex": "#f63",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f63&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f60 { color: #f60; }",
+      "selector": "text-color-f60",
+      "hex": "#f60",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f60&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f3f { color: #f3f; }",
+      "selector": "text-color-f3f",
+      "hex": "#f3f",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f3f&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f3c { color: #f3c; }",
+      "selector": "text-color-f3c",
+      "hex": "#f3c",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f3c&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f39 { color: #f39; }",
+      "selector": "text-color-f39",
+      "hex": "#f39",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f39&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f36 { color: #f36; }",
+      "selector": "text-color-f36",
+      "hex": "#f36",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f36&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f33 { color: #f33; }",
+      "selector": "text-color-f33",
+      "hex": "#f33",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f33&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f30 { color: #f30; }",
+      "selector": "text-color-f30",
+      "hex": "#f30",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f30&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f0f { color: #f0f; }",
+      "selector": "text-color-f0f",
+      "hex": "#f0f",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f0f&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f0c { color: #f0c; }",
+      "selector": "text-color-f0c",
+      "hex": "#f0c",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f0c&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f09 { color: #f09; }",
+      "selector": "text-color-f09",
+      "hex": "#f09",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f09&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f06 { color: #f06; }",
+      "selector": "text-color-f06",
+      "hex": "#f06",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f06&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f03 { color: #f03; }",
+      "selector": "text-color-f03",
+      "hex": "#f03",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f03&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-f00 { color: #f00; }",
+      "selector": "text-color-f00",
+      "hex": "#f00",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-f00&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-cff { color: #cff; }",
+      "selector": "text-color-cff",
+      "hex": "#cff",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-cff&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-cfc { color: #cfc; }",
+      "selector": "text-color-cfc",
+      "hex": "#cfc",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-cfc&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-cf9 { color: #cf9; }",
+      "selector": "text-color-cf9",
+      "hex": "#cf9",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-cf9&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-cf6 { color: #cf6; }",
+      "selector": "text-color-cf6",
+      "hex": "#cf6",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-cf6&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-cf3 { color: #cf3; }",
+      "selector": "text-color-cf3",
+      "hex": "#cf3",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-cf3&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-cf0 { color: #cf0; }",
+      "selector": "text-color-cf0",
+      "hex": "#cf0",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-cf0&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-ccf { color: #ccf; }",
+      "selector": "text-color-ccf",
+      "hex": "#ccf",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-ccf&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-ccc { color: #ccc; }",
+      "selector": "text-color-ccc",
+      "hex": "#ccc",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-ccc&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-cc9 { color: #cc9; }",
+      "selector": "text-color-cc9",
+      "hex": "#cc9",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-cc9&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-cc6 { color: #cc6; }",
+      "selector": "text-color-cc6",
+      "hex": "#cc6",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-cc6&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-cc3 { color: #cc3; }",
+      "selector": "text-color-cc3",
+      "hex": "#cc3",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-cc3&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-cc0 { color: #cc0; }",
+      "selector": "text-color-cc0",
+      "hex": "#cc0",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-cc0&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-c9f { color: #c9f; }",
+      "selector": "text-color-c9f",
+      "hex": "#c9f",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-c9f&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-c9c { color: #c9c; }",
+      "selector": "text-color-c9c",
+      "hex": "#c9c",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-c9c&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-c99 { color: #c99; }",
+      "selector": "text-color-c99",
+      "hex": "#c99",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-c99&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-c96 { color: #c96; }",
+      "selector": "text-color-c96",
+      "hex": "#c96",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-c96&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-c93 { color: #c93; }",
+      "selector": "text-color-c93",
+      "hex": "#c93",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-c93&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-c90 { color: #c90; }",
+      "selector": "text-color-c90",
+      "hex": "#c90",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-c90&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-c6f { color: #c6f; }",
+      "selector": "text-color-c6f",
+      "hex": "#c6f",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-c6f&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-c6c { color: #c6c; }",
+      "selector": "text-color-c6c",
+      "hex": "#c6c",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-c6c&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-c69 { color: #c69; }",
+      "selector": "text-color-c69",
+      "hex": "#c69",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-c69&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-c66 { color: #c66; }",
+      "selector": "text-color-c66",
+      "hex": "#c66",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-c66&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-c63 { color: #c63; }",
+      "selector": "text-color-c63",
+      "hex": "#c63",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-c63&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-c60 { color: #c60; }",
+      "selector": "text-color-c60",
+      "hex": "#c60",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-c60&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-c3f { color: #c3f; }",
+      "selector": "text-color-c3f",
+      "hex": "#c3f",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-c3f&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-c3c { color: #c3c; }",
+      "selector": "text-color-c3c",
+      "hex": "#c3c",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-c3c&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-c39 { color: #c39; }",
+      "selector": "text-color-c39",
+      "hex": "#c39",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-c39&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-c36 { color: #c36; }",
+      "selector": "text-color-c36",
+      "hex": "#c36",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-c36&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-c33 { color: #c33; }",
+      "selector": "text-color-c33",
+      "hex": "#c33",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-c33&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-c30 { color: #c30; }",
+      "selector": "text-color-c30",
+      "hex": "#c30",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-c30&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-c0f { color: #c0f; }",
+      "selector": "text-color-c0f",
+      "hex": "#c0f",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-c0f&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-c0c { color: #c0c; }",
+      "selector": "text-color-c0c",
+      "hex": "#c0c",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-c0c&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-c09 { color: #c09; }",
+      "selector": "text-color-c09",
+      "hex": "#c09",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-c09&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-c06 { color: #c06; }",
+      "selector": "text-color-c06",
+      "hex": "#c06",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-c06&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-c03 { color: #c03; }",
+      "selector": "text-color-c03",
+      "hex": "#c03",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-c03&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-c00 { color: #c00; }",
+      "selector": "text-color-c00",
+      "hex": "#c00",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-c00&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-9ff { color: #9ff; }",
+      "selector": "text-color-9ff",
+      "hex": "#9ff",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-9ff&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-9fc { color: #9fc; }",
+      "selector": "text-color-9fc",
+      "hex": "#9fc",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-9fc&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-9f9 { color: #9f9; }",
+      "selector": "text-color-9f9",
+      "hex": "#9f9",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-9f9&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-9f6 { color: #9f6; }",
+      "selector": "text-color-9f6",
+      "hex": "#9f6",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-9f6&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-9f3 { color: #9f3; }",
+      "selector": "text-color-9f3",
+      "hex": "#9f3",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-9f3&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-9f0 { color: #9f0; }",
+      "selector": "text-color-9f0",
+      "hex": "#9f0",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-9f0&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-9cf { color: #9cf; }",
+      "selector": "text-color-9cf",
+      "hex": "#9cf",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-9cf&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-9cc { color: #9cc; }",
+      "selector": "text-color-9cc",
+      "hex": "#9cc",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-9cc&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-9c9 { color: #9c9; }",
+      "selector": "text-color-9c9",
+      "hex": "#9c9",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-9c9&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-9c6 { color: #9c6; }",
+      "selector": "text-color-9c6",
+      "hex": "#9c6",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-9c6&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-9c3 { color: #9c3; }",
+      "selector": "text-color-9c3",
+      "hex": "#9c3",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-9c3&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-9c0 { color: #9c0; }",
+      "selector": "text-color-9c0",
+      "hex": "#9c0",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-9c0&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-99f { color: #99f; }",
+      "selector": "text-color-99f",
+      "hex": "#99f",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-99f&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-99c { color: #99c; }",
+      "selector": "text-color-99c",
+      "hex": "#99c",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-99c&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-999 { color: #999; }",
+      "selector": "text-color-999",
+      "hex": "#999",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-999&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-996 { color: #996; }",
+      "selector": "text-color-996",
+      "hex": "#996",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-996&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-993 { color: #993; }",
+      "selector": "text-color-993",
+      "hex": "#993",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-993&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-990 { color: #990; }",
+      "selector": "text-color-990",
+      "hex": "#990",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-990&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-96f { color: #96f; }",
+      "selector": "text-color-96f",
+      "hex": "#96f",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-96f&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-96c { color: #96c; }",
+      "selector": "text-color-96c",
+      "hex": "#96c",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-96c&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-969 { color: #969; }",
+      "selector": "text-color-969",
+      "hex": "#969",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-969&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-966 { color: #966; }",
+      "selector": "text-color-966",
+      "hex": "#966",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-966&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-963 { color: #963; }",
+      "selector": "text-color-963",
+      "hex": "#963",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-963&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-960 { color: #960; }",
+      "selector": "text-color-960",
+      "hex": "#960",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-960&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-93f { color: #93f; }",
+      "selector": "text-color-93f",
+      "hex": "#93f",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-93f&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-93c { color: #93c; }",
+      "selector": "text-color-93c",
+      "hex": "#93c",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-93c&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-939 { color: #939; }",
+      "selector": "text-color-939",
+      "hex": "#939",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-939&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-936 { color: #936; }",
+      "selector": "text-color-936",
+      "hex": "#936",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-936&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-933 { color: #933; }",
+      "selector": "text-color-933",
+      "hex": "#933",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-933&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-930 { color: #930; }",
+      "selector": "text-color-930",
+      "hex": "#930",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-930&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-90f { color: #90f; }",
+      "selector": "text-color-90f",
+      "hex": "#90f",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-90f&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-90c { color: #90c; }",
+      "selector": "text-color-90c",
+      "hex": "#90c",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-90c&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-909 { color: #909; }",
+      "selector": "text-color-909",
+      "hex": "#909",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-909&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-906 { color: #906; }",
+      "selector": "text-color-906",
+      "hex": "#906",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-906&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-903 { color: #903; }",
+      "selector": "text-color-903",
+      "hex": "#903",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-903&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-900 { color: #900; }",
+      "selector": "text-color-900",
+      "hex": "#900",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-900&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-6ff { color: #6ff; }",
+      "selector": "text-color-6ff",
+      "hex": "#6ff",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-6ff&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-6fc { color: #6fc; }",
+      "selector": "text-color-6fc",
+      "hex": "#6fc",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-6fc&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-6f9 { color: #6f9; }",
+      "selector": "text-color-6f9",
+      "hex": "#6f9",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-6f9&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-6f6 { color: #6f6; }",
+      "selector": "text-color-6f6",
+      "hex": "#6f6",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-6f6&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-6f3 { color: #6f3; }",
+      "selector": "text-color-6f3",
+      "hex": "#6f3",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-6f3&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-6f0 { color: #6f0; }",
+      "selector": "text-color-6f0",
+      "hex": "#6f0",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-6f0&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-6cf { color: #6cf; }",
+      "selector": "text-color-6cf",
+      "hex": "#6cf",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-6cf&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-6cc { color: #6cc; }",
+      "selector": "text-color-6cc",
+      "hex": "#6cc",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-6cc&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-6c9 { color: #6c9; }",
+      "selector": "text-color-6c9",
+      "hex": "#6c9",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-6c9&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-6c6 { color: #6c6; }",
+      "selector": "text-color-6c6",
+      "hex": "#6c6",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-6c6&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-6c3 { color: #6c3; }",
+      "selector": "text-color-6c3",
+      "hex": "#6c3",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-6c3&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-6c0 { color: #6c0; }",
+      "selector": "text-color-6c0",
+      "hex": "#6c0",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-6c0&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-69f { color: #69f; }",
+      "selector": "text-color-69f",
+      "hex": "#69f",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-69f&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-69c { color: #69c; }",
+      "selector": "text-color-69c",
+      "hex": "#69c",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-69c&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-699 { color: #699; }",
+      "selector": "text-color-699",
+      "hex": "#699",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-699&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-696 { color: #696; }",
+      "selector": "text-color-696",
+      "hex": "#696",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-696&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-693 { color: #693; }",
+      "selector": "text-color-693",
+      "hex": "#693",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-693&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-690 { color: #690; }",
+      "selector": "text-color-690",
+      "hex": "#690",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-690&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-66f { color: #66f; }",
+      "selector": "text-color-66f",
+      "hex": "#66f",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-66f&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-66c { color: #66c; }",
+      "selector": "text-color-66c",
+      "hex": "#66c",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-66c&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-669 { color: #669; }",
+      "selector": "text-color-669",
+      "hex": "#669",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-669&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-666 { color: #666; }",
+      "selector": "text-color-666",
+      "hex": "#666",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-666&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-663 { color: #663; }",
+      "selector": "text-color-663",
+      "hex": "#663",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-663&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-660 { color: #660; }",
+      "selector": "text-color-660",
+      "hex": "#660",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-660&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-63f { color: #63f; }",
+      "selector": "text-color-63f",
+      "hex": "#63f",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-63f&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-63c { color: #63c; }",
+      "selector": "text-color-63c",
+      "hex": "#63c",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-63c&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-639 { color: #639; }",
+      "selector": "text-color-639",
+      "hex": "#639",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-639&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-636 { color: #636; }",
+      "selector": "text-color-636",
+      "hex": "#636",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-636&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-633 { color: #633; }",
+      "selector": "text-color-633",
+      "hex": "#633",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-633&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-630 { color: #630; }",
+      "selector": "text-color-630",
+      "hex": "#630",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-630&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-60f { color: #60f; }",
+      "selector": "text-color-60f",
+      "hex": "#60f",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-60f&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-60c { color: #60c; }",
+      "selector": "text-color-60c",
+      "hex": "#60c",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-60c&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-609 { color: #609; }",
+      "selector": "text-color-609",
+      "hex": "#609",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-609&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-606 { color: #606; }",
+      "selector": "text-color-606",
+      "hex": "#606",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-606&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-603 { color: #603; }",
+      "selector": "text-color-603",
+      "hex": "#603",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-603&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-600 { color: #600; }",
+      "selector": "text-color-600",
+      "hex": "#600",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-600&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-3ff { color: #3ff; }",
+      "selector": "text-color-3ff",
+      "hex": "#3ff",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-3ff&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-3fc { color: #3fc; }",
+      "selector": "text-color-3fc",
+      "hex": "#3fc",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-3fc&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-3f9 { color: #3f9; }",
+      "selector": "text-color-3f9",
+      "hex": "#3f9",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-3f9&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-3f6 { color: #3f6; }",
+      "selector": "text-color-3f6",
+      "hex": "#3f6",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-3f6&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-3f3 { color: #3f3; }",
+      "selector": "text-color-3f3",
+      "hex": "#3f3",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-3f3&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-3f0 { color: #3f0; }",
+      "selector": "text-color-3f0",
+      "hex": "#3f0",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-3f0&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-3cf { color: #3cf; }",
+      "selector": "text-color-3cf",
+      "hex": "#3cf",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-3cf&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-3cc { color: #3cc; }",
+      "selector": "text-color-3cc",
+      "hex": "#3cc",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-3cc&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-3c9 { color: #3c9; }",
+      "selector": "text-color-3c9",
+      "hex": "#3c9",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-3c9&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-3c6 { color: #3c6; }",
+      "selector": "text-color-3c6",
+      "hex": "#3c6",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-3c6&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-3c3 { color: #3c3; }",
+      "selector": "text-color-3c3",
+      "hex": "#3c3",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-3c3&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-3c0 { color: #3c0; }",
+      "selector": "text-color-3c0",
+      "hex": "#3c0",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-3c0&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-39f { color: #39f; }",
+      "selector": "text-color-39f",
+      "hex": "#39f",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-39f&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-39c { color: #39c; }",
+      "selector": "text-color-39c",
+      "hex": "#39c",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-39c&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-399 { color: #399; }",
+      "selector": "text-color-399",
+      "hex": "#399",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-399&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-396 { color: #396; }",
+      "selector": "text-color-396",
+      "hex": "#396",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-396&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-393 { color: #393; }",
+      "selector": "text-color-393",
+      "hex": "#393",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-393&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-390 { color: #390; }",
+      "selector": "text-color-390",
+      "hex": "#390",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-390&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-36f { color: #36f; }",
+      "selector": "text-color-36f",
+      "hex": "#36f",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-36f&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-36c { color: #36c; }",
+      "selector": "text-color-36c",
+      "hex": "#36c",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-36c&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-369 { color: #369; }",
+      "selector": "text-color-369",
+      "hex": "#369",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-369&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-366 { color: #366; }",
+      "selector": "text-color-366",
+      "hex": "#366",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-366&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-363 { color: #363; }",
+      "selector": "text-color-363",
+      "hex": "#363",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-363&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-360 { color: #360; }",
+      "selector": "text-color-360",
+      "hex": "#360",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-360&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-33f { color: #33f; }",
+      "selector": "text-color-33f",
+      "hex": "#33f",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-33f&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-33c { color: #33c; }",
+      "selector": "text-color-33c",
+      "hex": "#33c",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-33c&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-339 { color: #339; }",
+      "selector": "text-color-339",
+      "hex": "#339",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-339&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-336 { color: #336; }",
+      "selector": "text-color-336",
+      "hex": "#336",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-336&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-333 { color: #333; }",
+      "selector": "text-color-333",
+      "hex": "#333",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-333&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-330 { color: #330; }",
+      "selector": "text-color-330",
+      "hex": "#330",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-330&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-30f { color: #30f; }",
+      "selector": "text-color-30f",
+      "hex": "#30f",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-30f&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-30c { color: #30c; }",
+      "selector": "text-color-30c",
+      "hex": "#30c",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-30c&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-309 { color: #309; }",
+      "selector": "text-color-309",
+      "hex": "#309",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-309&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-306 { color: #306; }",
+      "selector": "text-color-306",
+      "hex": "#306",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-306&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-303 { color: #303; }",
+      "selector": "text-color-303",
+      "hex": "#303",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-303&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-300 { color: #300; }",
+      "selector": "text-color-300",
+      "hex": "#300",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-300&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-0ff { color: #0ff; }",
+      "selector": "text-color-0ff",
+      "hex": "#0ff",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-0ff&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-0fc { color: #0fc; }",
+      "selector": "text-color-0fc",
+      "hex": "#0fc",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-0fc&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-0f9 { color: #0f9; }",
+      "selector": "text-color-0f9",
+      "hex": "#0f9",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-0f9&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-0f6 { color: #0f6; }",
+      "selector": "text-color-0f6",
+      "hex": "#0f6",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-0f6&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-0f3 { color: #0f3; }",
+      "selector": "text-color-0f3",
+      "hex": "#0f3",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-0f3&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-0f0 { color: #0f0; }",
+      "selector": "text-color-0f0",
+      "hex": "#0f0",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-0f0&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-0cf { color: #0cf; }",
+      "selector": "text-color-0cf",
+      "hex": "#0cf",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-0cf&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-0cc { color: #0cc; }",
+      "selector": "text-color-0cc",
+      "hex": "#0cc",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-0cc&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-0c9 { color: #0c9; }",
+      "selector": "text-color-0c9",
+      "hex": "#0c9",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-0c9&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-0c6 { color: #0c6; }",
+      "selector": "text-color-0c6",
+      "hex": "#0c6",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-0c6&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-0c3 { color: #0c3; }",
+      "selector": "text-color-0c3",
+      "hex": "#0c3",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-0c3&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-0c0 { color: #0c0; }",
+      "selector": "text-color-0c0",
+      "hex": "#0c0",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-0c0&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-09f { color: #09f; }",
+      "selector": "text-color-09f",
+      "hex": "#09f",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-09f&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-09c { color: #09c; }",
+      "selector": "text-color-09c",
+      "hex": "#09c",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-09c&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-099 { color: #099; }",
+      "selector": "text-color-099",
+      "hex": "#099",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-099&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-096 { color: #096; }",
+      "selector": "text-color-096",
+      "hex": "#096",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-096&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-093 { color: #093; }",
+      "selector": "text-color-093",
+      "hex": "#093",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-093&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-090 { color: #090; }",
+      "selector": "text-color-090",
+      "hex": "#090",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-090&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-06f { color: #06f; }",
+      "selector": "text-color-06f",
+      "hex": "#06f",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-06f&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-06c { color: #06c; }",
+      "selector": "text-color-06c",
+      "hex": "#06c",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-06c&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-069 { color: #069; }",
+      "selector": "text-color-069",
+      "hex": "#069",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-069&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-066 { color: #066; }",
+      "selector": "text-color-066",
+      "hex": "#066",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-066&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-063 { color: #063; }",
+      "selector": "text-color-063",
+      "hex": "#063",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-063&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-060 { color: #060; }",
+      "selector": "text-color-060",
+      "hex": "#060",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-060&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-03f { color: #03f; }",
+      "selector": "text-color-03f",
+      "hex": "#03f",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-03f&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-03c { color: #03c; }",
+      "selector": "text-color-03c",
+      "hex": "#03c",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-03c&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-039 { color: #039; }",
+      "selector": "text-color-039",
+      "hex": "#039",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-039&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-036 { color: #036; }",
+      "selector": "text-color-036",
+      "hex": "#036",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-036&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-033 { color: #033; }",
+      "selector": "text-color-033",
+      "hex": "#033",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-033&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-030 { color: #030; }",
+      "selector": "text-color-030",
+      "hex": "#030",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-030&quot;&gt;hello&lt;/p&gt;"
+    },
+	{
+     "css": ".text-color-00f { color: #00f; }",
+      "selector": "text-color-00f",
+      "hex": "#00f",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-00f&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-00c { color: #00c; }",
+      "selector": "text-color-00c",
+      "hex": "#00c",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-00c&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-009 { color: #009; }",
+      "selector": "text-color-009",
+      "hex": "#009",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-009&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-006 { color: #006; }",
+      "selector": "text-color-006",
+      "hex": "#006",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-006&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-003 { color: #003; }",
+      "selector": "text-color-003",
+      "hex": "#003",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-003&quot;&gt;hello&lt;/p&gt;"
+    },
+    {
+      "css": ".text-color-000 { color: #000; }",
+      "selector": "text-color-000",
+      "hex": "#000",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;text-color-000&quot;&gt;hello&lt;/p&gt;"
+    }
+	]
+}

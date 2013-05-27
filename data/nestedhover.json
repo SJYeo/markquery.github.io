@@ -1,0 +1,46 @@
+{
+  "nestedhover": [
+    {
+      "css": ".nestedhover-cfcfd5-fff a{color:#cfcfd5;text-decoration:none;padding-bottom:2px}.nestedhover-cfcfd5-fff a:hover,.nestedhover-cfcfd5-fff a:focus{color:#fff;text-decoration:none;border-bottom:1px solid #fff;padding-bottom:2px}",
+      "selector": "nestedhover-cfcfd5-fff",
+      "hex": "#cfcfd5, #fff",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;nestedhover-cfcfd5-fff&quot;&gt;&lt;a href=&quot;#&quot;&gt;hello&lt;/a&gt;&lt;/p&gt;"
+    },
+    {
+      "css": ".nestedhover-08c-005580 a{color:#08c;text-decoration:none;padding-bottom:2px}.nestedhover-08c-005580 a:hover,.nestedhover-08c-005580 a:focus{color:#005580;text-decoration:none;border-bottom:1px solid #0d65a1;padding-bottom:2px}",
+      "selector": "nestedhover-08c-005580",
+      "hex": "#08c, #005580",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;nestedhover-08c-005580&quot;&gt;&lt;a href=&quot;#&quot;&gt;hello&lt;/a&gt;&lt;/p&gt;"
+    },
+    {
+      "css": ".nestedhover-111-555 a{color:#111;text-decoration:none;padding-bottom:2px}.nestedhover-111-555 a:hover,.nestedhover-111-555 a:focus{color:#555;text-decoration:none;border-bottom:1px solid #555;padding-bottom:2px}",
+      "selector": "nestedhover-111-555",
+      "hex": "#111, #555",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;nestedhover-111-555&quot;&gt;&lt;a href=&quot;#&quot;&gt;hello&lt;/a&gt;&lt;/p&gt;"
+    },
+    {
+      "css": ".nestedhover-fff-cbd8da a{color:#fff;text-decoration:none;padding-bottom:2px}.nestedhover-fff-cbd8da a:hover,.nestedhover-fff-cbd8da a:focus{color:#cbd8da;text-decoration:none;border-bottom:1px solid #cbd8da;padding-bottom:2px}",
+      "selector": "nestedhover-fff-cbd8da",
+      "hex": "#fff, #cbd8da",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;nestedhover-fff-cbd8da&quot;&gt;&lt;a href=&quot;#&quot;&gt;hello&lt;/a&gt;&lt;/p&gt;"
+    },
+    {
+      "css": ".nestedhover-2cb7c1-118991 a{color:#2cb7c1;text-decoration:none;padding-bottom:2px}.nestedhover-2cb7c1-118991 a:hover,.nestedhover-2cb7c1-118991 a:focus{color:#118991;text-decoration:none;border-bottom:1px solid #118991;padding-bottom:2px}",
+      "selector": "nestedhover-2cb7c1-118991",
+      "hex": "#2cb7c1, #118991",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;nestedhover-2cb7c1-118991&quot;&gt;&lt;a href=&quot;#&quot;&gt;hello&lt;/a&gt;&lt;/p&gt;"
+    },
+    {
+      "css": ".nestedhover-ee2e24-210B61 a{color:#ee2e24;text-decoration:none;padding-bottom:2px}.nestedhover-ee2e24-210B61 a:hover,.nestedhover-ee2e24-210B61 a:focus{color:#210b61;text-decoration:none;border-bottom:1px solid #210b61;padding-bottom:2px}",
+      "selector": "nestedhover-ee2e24-210B61",
+      "hex": "#ee2e24, #210B61",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;nestedhover-ee2e24-210B61&quot;&gt;&lt;a href=&quot;#&quot;&gt;hello&lt;/a&gt;&lt;/p&gt;"
+    }
+	]
+ }

@@ -1,0 +1,25 @@
+{
+  "bgmask": [
+     {
+      "css": ".bgmask-texturetastic-gray{background:url(/images/bgmask/texturetastic-gray.png)}",
+      "selector": "bgmask-texturetastic-gray",
+      "image": "/images/bgmask/texturetastic-gray.png",
+      "example": "/images/bgmask/texturetastic-gray.png",
+      "note": "&lt;div class=&quot;row-fluid bgmask-texturetastic-gray bgcolor-eee&quot;&gt;&lt;p&gt; ... &lt;/p&gt;&lt;/div&gt;"
+    },
+    {
+      "css": ".bgmask-billie-holiday{background:url(/images/bgmask/billie-holiday.png)}",
+      "selector": "bgmask-billie-holiday",
+      "image": "/images/bgmask/billie-holiday.png",
+      "example": "/images/bgmask/billie-holiday.png",
+      "note": "&lt;div class=&quot;row-fluid bgmask-billie-holiday bgcolor-eee&quot;&gt;&lt;p&gt; ... &lt;/p&gt;&lt;/div&gt;"
+    },
+    {
+      "css": ".bgmask-diagonal-noise{background:url(/images/bgmask/diagonal-noise.png)}",
+      "selector": "bgmask-diagonal-noise",
+      "image": "/images/bgmask/diagonal-noise.png",
+      "example": "/images/bgmask/diagonal-noise.png",
+      "note": "&lt;div class=&quot;row-fluid bgmask-diagonal-noise bgcolor-eee&quot;&gt;&lt;p&gt; ... &lt;/p&gt;&lt;/div&gt;"
+    }
+	]
+}

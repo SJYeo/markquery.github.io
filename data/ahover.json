@@ -1,0 +1,67 @@
+{
+  "ahover": [
+    {
+      "css": "a.ahover-fff-ddd{color:#fff;text-decoration:none;padding-bottom:2px}a.ahover-fff-ddd:hover,a.ahover-fff-ddd:focus{color:#ddd;text-decoration:none;border-bottom:1px solid #ddd;padding-bottom:2px}",
+      "selector": "ahover-fff-ddd",
+      "hex": "#fff, #ddd",
+      "example": "Lorem ipsum",
+      "note": "&lt;a class=&quot;ahover-fff-ddd&quot;&gt;Lorem ipsum&lt;/a&gt;"
+    },
+    {
+      "css": "a.ahover-111-555{color:#111;text-decoration:none;padding-bottom:2px}a.ahover-111-555:hover,a.ahover-111-555:focus{color:#555;text-decoration:none;border-bottom:1px solid #555;padding-bottom:2px}",
+      "selector": "ahover-111-555",
+      "hex": "#111, #555",
+      "example": "Lorem ipsum",
+      "note": "&lt;a class=&quot;ahover-111-555&quot;&gt;Lorem ipsum&lt;/a&gt;"
+    },
+    {
+      "css": "a.ahover-cfcfd5-fff{color:#cfcfd5;text-decoration:none;padding-bottom:2px}a.ahover-cfcfd5-fff:hover,a.ahover-cfcfd5-fff:focus{color:#fff;text-decoration:none;border-bottom:1px solid #fff;padding-bottom:2px}",
+      "selector": "ahover-cfcfd5-fff",
+      "hex": "#cfcfd5, #fff",
+      "example": "Lorem ipsum",
+      "note": "&lt;a class=&quot;ahover-cfcfd5-fff&quot;&gt;Lorem ipsum&lt;/a&gt;"
+    },
+    {
+      "css": "a.ahover-cfcfd5-666{color:#cfcfd5;text-decoration:none;padding-bottom:2px}a.ahover-cfcfd5-666:hover,a.ahover-cfcfd5-666:focus{color:#666;text-decoration:none;border-bottom:1px solid #666;padding-bottom:2px}",
+      "selector": "ahover-cfcfd5-666",
+      "hex": "#cfcfd5, #666",
+      "example": "Lorem ipsum",
+      "note": "&lt;a class=&quot;ahover-cfcfd5-666&quot;&gt;Lorem ipsum&lt;/a&gt;"
+    },
+    {
+      "css": "a.ahover-08c-005580{color:#08c;text-decoration:none;padding-bottom:2px}a.ahover-08c-005580:hover,a.ahover-08c-005580:focus{color:#005580;text-decoration:none;border-bottom:1px solid #0d65a1;padding-bottom:2px}",
+      "selector": "ahover-08c-005580",
+      "hex": "#08c, #005580",
+      "example": "Lorem ipsum",
+      "note": "&lt;a class=&quot;ahover-08c-005580&quot;&gt;Lorem ipsum&lt;/a&gt;"
+    },
+    {
+      "css": "a.ahover-8fbcdb-685642{color:#0009ff;text-decoration:none;padding-bottom:2px}a.ahover-8fbcdb-685642:hover,a.ahover-8fbcdb-685642:focus{color:#685642;text-decoration:none;border-bottom:1px solid #685642;padding-bottom:2px}",
+      "selector": "ahover-8fbcdb-685642",
+      "hex": "#8fbcdb, #685642",
+      "example": "Lorem ipsum",
+      "note": "&lt;a class=&quot;ahover-8fbcdb-685642&quot;&gt;Lorem ipsum&lt;/a&gt;"
+    },
+    {
+      "css": "a.ahover-33ff00-29cd00{color:#3f0;text-decoration:none;padding-bottom:2px}a.ahover-33ff00-29cd00:hover,a.ahover-33ff00-29cd00:focus{color:#29cd00;text-decoration:none;border-bottom:1px solid #29cd00;padding-bottom:2px}",
+      "selector": "ahover-33ff00-29cd00",
+      "hex": "#33ff00, #29cd00",
+      "example": "Lorem ipsum",
+      "note": "&lt;a class=&quot;ahover-33ff00-29cd00&quot;&gt;Lorem ipsum&lt;/a&gt;"
+    },
+    {
+      "css": "a.ahover-ee2e24-210B61{color:#ee2e24;text-decoration:none;padding-bottom:2px}a.ahover-ee2e24-210B61:hover,a.ahover-ee2e24-210B61:focus{color:#210b61;text-decoration:none;border-bottom:1px solid #210b61;padding-bottom:2px}",
+      "selector": "ahover-ee2e24-210B61",
+      "hex": "#ee2e24, #210B61",
+      "example": "Lorem ipsum",
+      "note": "&lt;a class=&quot;ahover-ee2e24-210B61&quot;&gt;Lorem ipsum&lt;/a&gt;"
+    },
+    {
+      "css": "a.ahover-ee2e24-b94a48{color:#ee2e24;text-decoration:none;padding-bottom:2px}a.ahover-ee2e24-b94a48:hover,a.ahover-ee2e24-b94a48:focus{color:#b94a48;text-decoration:none;border-bottom:1px solid #b94a48;padding-bottom:2px}",
+      "selector": "ahover-ee2e24-b94a48",
+      "hex": "#ee2e24, #b94a48",
+      "example": "Lorem ipsum",
+      "note": "&lt;a class=&quot;ahover-ee2e24-b94a48&quot;&gt;Lorem ipsum&lt;/a&gt;"
+    }
+	]
+ }

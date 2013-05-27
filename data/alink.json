@@ -1,0 +1,60 @@
+{
+  "alink": [
+    {
+      "css": "a.alink-111-555{color:#111;text-decoration:none;padding-bottom:2px}a.alink-111-555:hover,a.alink-111-555:focus{color:#555;text-decoration:none;border-bottom:1px solid #555;padding-bottom:2px}",
+      "selector": "alink-111-555",
+      "hex": "#111, #555",
+      "example": "Lorem ipsum",
+      "note": "&lt;a class=&quot;alink-111-555&quot;&gt;Lorem ipsum&lt;/a&gt;"
+    },
+    {
+      "css": "a.alink-cfcfd5-fff{color:#cfcfd5;text-decoration:none;border-bottom:1px solid #cfcfd5;padding-bottom:2px}a.alink-cfcfd5-fff:hover,a.alink-cfcfd5-fff:focus{color:#fff;text-decoration:none;border-bottom:1px solid #fff;padding-bottom:2px}",
+      "selector": "alink-cfcfd5-fff",
+      "hex": "#cfcfd5, #fff",
+      "example": "Lorem ipsum",
+      "note": "&lt;a class=&quot;alink-cfcfd5-fff&quot;&gt;Lorem ipsum&lt;/a&gt;"
+    },
+    {
+      "css": "a.alink-cfcfd5-666{color:#cfcfd5;text-decoration:none;border-bottom:1px solid #cfcfd5;padding-bottom:2px}a.alink-cfcfd5-666:hover,a.alink-cfcfd5-666:focus{color:#666;text-decoration:none;border-bottom:1px solid #666;padding-bottom:2px}",
+      "selector": "alink-cfcfd5-666",
+      "hex": "#cfcfd5, #666",
+      "example": "Lorem ipsum",
+      "note": "&lt;a class=&quot;alink-cfcfd5-666&quot;&gt;Lorem ipsum&lt;/a&gt;"
+    },
+    {
+      "css": "a.alink-08c-005580{color:#08c;text-decoration:none;border-bottom:1px solid #08c;padding-bottom:2px}a.alink-08c-005580:hover,a.alink-08c-005580:focus{color:#005580;text-decoration:none;border-bottom:1px solid #0d65a1;padding-bottom:2px}",
+      "selector": "alink-08c-005580",
+      "hex": "#08c, #005580",
+      "example": "Lorem ipsum",
+      "note": "&lt;a class=&quot;alink-08c-005580&quot;&gt;Lorem ipsum&lt;/a&gt;"
+    },
+    {
+      "css": "a.alink-8fbcdb-685642{color:#0009ff;text-decoration:none;border-bottom:1px solid #0009ff;padding-bottom:2px}a.alink-8fbcdb-685642:hover,a.alink-8fbcdb-685642:focus{color:#685642;text-decoration:none;border-bottom:1px solid #685642;padding-bottom:2px}",
+      "selector": "alink-8fbcdb-685642",
+      "hex": "#8fbcdb, #685642",
+      "example": "Lorem ipsum",
+      "note": "&lt;a class=&quot;alink-8fbcdb-685642&quot;&gt;Lorem ipsum&lt;/a&gt;"
+    },
+    {
+      "css": "a.alink-33ff00-29cd00{color:#3f0;text-decoration:none;border-bottom:1px solid #3f0;padding-bottom:2px}a.alink-33ff00-29cd00:hover,a.alink-33ff00-29cd00:focus{color:#29cd00;text-decoration:none;border-bottom:1px solid #29cd00;padding-bottom:2px}",
+      "selector": "alink-33ff00-29cd00",
+      "hex": "#33ff00, #29cd00",
+      "example": "Lorem ipsum",
+      "note": "&lt;a class=&quot;alink-33ff00-29cd00&quot;&gt;Lorem ipsum&lt;/a&gt;"
+    },
+    {
+      "css": "a.alink-ee2e24-210B61{color:#ee2e24;text-decoration:none;border-bottom:1px solid #ee2e24;padding-bottom:2px}a.alink-ee2e24-210B61:hover,a.alink-ee2e24-210B61:focus{color:#210b61;text-decoration:none;border-bottom:1px solid #210b61;padding-bottom:2px}",
+      "selector": "alink-ee2e24-210B61",
+      "hex": "#ee2e24, #210B61",
+      "example": "Lorem ipsum",
+      "note": "&lt;a class=&quot;alink-ee2e24-210B61&quot;&gt;Lorem ipsum&lt;/a&gt;"
+    },
+    {
+      "css": "a.alink-ee2e24-b94a48{color:#ee2e24;text-decoration:none;border-bottom:1px solid #ee2e24;padding-bottom:2px}a.alink-ee2e24-b94a48:hover,a.alink-ee2e24-b94a48:focus{color:#b94a48;text-decoration:none;border-bottom:1px solid #b94a48;padding-bottom:2px}",
+      "selector": "alink-ee2e24-b94a48",
+      "hex": "#ee2e24, #b94a48",
+      "example": "Lorem ipsum",
+      "note": "&lt;a class=&quot;alink-ee2e24-b94a48&quot;&gt;Lorem ipsum&lt;/a&gt;"
+    }
+	]
+ }
