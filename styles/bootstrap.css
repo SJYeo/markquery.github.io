@@ -1217,7 +1217,7 @@ code {
   color: #d14;
   background-color: #f7f7f9;
   border: 1px solid #e1e1e8;
-  white-space: nowrap;
+  white-space: pre;
 }
 pre {
   display: block;
@@ -1227,7 +1227,7 @@ pre {
   line-height: 20px;
 
   white-space: pre;
-  white-space: pre-wrap;
+
   background-color: #f5f5f5;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -1237,7 +1237,7 @@ pre {
   overflow:auto;
 }
 pre.prettyprint {
-  margin-bottom: 20px;
+  margin-bottom: 20px;  white-space: pre;
   overflow: auto;
 width: 98%;
 }
