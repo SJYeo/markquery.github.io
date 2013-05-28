@@ -1239,6 +1239,8 @@ pre {
 }
 pre.prettyprint {
   margin-bottom: 20px;
+  overflow: auto;
+width: 98%;
 }
 pre code {
   padding: 0;
