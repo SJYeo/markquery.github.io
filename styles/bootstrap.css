@@ -1237,7 +1237,7 @@ pre {
   overflow:auto;
 }
 pre.prettyprint {
-  margin-bottom: 20px;  white-space: pre;
+  margin-bottom: 20px; 
   overflow: auto;
 width: 98%;
 }
