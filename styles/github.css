@@ -220,7 +220,11 @@
   line-height: 19px;
   overflow: auto;
   padding: 6px 10px;
-  border-radius: 3px; }
+  border-radius: 3px; 
+    overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+  }
   .github pre code, .github pre tt {
     background-color: transparent;
     border: none; }
