@@ -33,6 +33,7 @@ header {
   text-align: right;
 }
 
+
 /* section
 --------------------------------------------------- */
 .intro {
@@ -42,6 +43,20 @@ header {
 .like {
   padding: 50px 0;
   background-color: #33342d;
+}
+
+.img-fadein-grayscale img
+{
+opacity:0.5;
+filter:alpha(opacity=50); /* For IE8 and earlier */
+ -webkit-filter: grayscale(100%);  
+}
+.img-fadein-grayscale img:hover{
+opacity: 1;
+filter:alpha(opacity=1); /* For IE8 and earlier */
+-webkit-transition: opacity;
+ -webkit-filter: grayscale(1%);  
+-webkit-transition-duration: 1s;
 }
 article ul {
   list-style: square;

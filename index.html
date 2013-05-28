@@ -27,7 +27,7 @@
 	<![endif]-->
 
 	<!-- home style -->
-	<link  rel="stylesheet" href="/styles/markquery.min.css" />
+	<link  rel="stylesheet" href="/styles/style.css" /><link  rel="stylesheet" href="/styles/utility.css" /><link  rel="stylesheet" href="/styles/prettify.css" /><link  rel="stylesheet" href="/styles/bootstrap.css" /><link  rel="stylesheet" href="/styles/responsive.css" />
 	<link  rel="stylesheet" href="/styles/home.css" />
 
 </head>
@@ -142,13 +142,13 @@
 			<div class="span12">
 			<p class="text-center padding-20"><a class="ahover-cfcfd5-fff" href="http://markquery.com/license">About The License</a> Hosted by GitHub, Powered by DOCPAD on node.js, Based on front-end framework bootstrap, LessCSS, CoffeeScript, etc</p>
 			</div><!-- span12 -->
-			<div class="span12">
-			<div class="thumb2"><img class="grayimg" src="/images/github-logo.png" alt="github logo"></div>
-			<div class="thumb2"><img class="grayimg" src="/images/bootstrap-logo.png" alt="bootstrap logo"></div>
-			<div class="thumb2"><img class="grayimg" src="/images/lesscss-logo.png" alt="lesscss logo"></div>
-			<div class="thumb2"><img class="grayimg" src="/images/docpad-logo.png" alt="docpad logo"></div>
-			<div class="thumb2"><img class="grayimg" src="/images/nodejs-logo.png" alt="nodejs logo"></div>
-			<div class="thumb2"><img class="grayimg" src="/images/coffeescript-logo.png" alt="coffeescript logo"></div>
+			<div class="span12 img-fadein-grayscale">
+			<div class="thumb2"><img src="/images/github-logo.png" alt="bootstrap logo"></div>
+			<div class="thumb2"><img src="/images/bootstrap-logo.png" alt="bootstrap logo"></div>
+			<div class="thumb2"><img src="/images/lesscss-logo.png" alt="lesscss logo"></div>
+			<div class="thumb2"><img src="/images/docpad-logo.png" alt="docpad logo"></div>
+			<div class="thumb2"><img src="/images/nodejs-logo.png" alt="nodejs logo"></div>
+			<div class="thumb2"><img src="/images/coffeescript-logo.png" alt="coffeescript logo"></div>
 			</div>
 		</div><!-- row-fluid-nomargin -->
 	</div><!-- container-pin -->
@@ -324,7 +324,7 @@
 		<div class="row-fluid height-padding-100">
 			<div class="vcard">
 			<div class="span4">
-			<h1 class="font-anton-3em"><img class="photo bgcolor-373737" src="/images/markquery-icon-64.png" alt=" " /><a class="org url margin-left-20 ahover-fff-ddd" title="http://markquery.com" href="http://markquery.com">MARKQUERY</a></h1>
+			<h1 class="font-anton-3em"><img class="photo bgcolor-373737" src="/images/markquery-icon-64.png" alt=" " /><a class="org url p-right-20 ahover-fff-ddd" title="http://markquery.com" href="http://markquery.com">MARKQUERY</a></h1>
 			
 			<div class="nestedhover-cfcfd5-fff">
 			<cite><p>Copyright &copy; 2013 <a class="org url" href="http://markquery.com/">markquery.com</a> project maintained  by <a class="fn email" href="mailto:ungki.h@gmail.com">Ungki, H</a></p></cite>
@@ -370,11 +370,10 @@
 <div class="container-fluid">
 	<div class="row-fluid">
 		<div class="span12">
-			<p>This page was last updated at 2013-05-27T05:38:01.504Z</p>
 			<h6 id="source-header"><a>Click to view this page's source</a></h6>
 			<div id="source-code">
 			<div><p>Source file extension is <code>html</code>. Outextension is <code>html</code>.</p></div>
-			<pre class="prettyprint lang-html">--- yaml
+			<pre class="prettyprint linenums lang-html">--- yaml
 title: &quot;Home&quot;
 layout: &quot;home&quot;
 nav: true
@@ -446,13 +445,13 @@ navOrder: 1
 			&lt;div class=&quot;span12&quot;&gt;
 			&lt;p class=&quot;text-center padding-20&quot;&gt;&lt;a class=&quot;ahover-cfcfd5-fff&quot; href=&quot;http://markquery.com/license&quot;&gt;About The License&lt;/a&gt; Hosted by GitHub, Powered by DOCPAD on node.js, Based on front-end framework bootstrap, LessCSS, CoffeeScript, etc&lt;/p&gt;
 			&lt;/div&gt;&lt;!-- span12 --&gt;
-			&lt;div class=&quot;span12&quot;&gt;
-			&lt;div class=&quot;thumb2&quot;&gt;&lt;img class=&quot;grayimg&quot; src=&quot;/images/github-logo.png&quot; alt=&quot;github logo&quot;&gt;&lt;/div&gt;
-			&lt;div class=&quot;thumb2&quot;&gt;&lt;img class=&quot;grayimg&quot; src=&quot;/images/bootstrap-logo.png&quot; alt=&quot;bootstrap logo&quot;&gt;&lt;/div&gt;
-			&lt;div class=&quot;thumb2&quot;&gt;&lt;img class=&quot;grayimg&quot; src=&quot;/images/lesscss-logo.png&quot; alt=&quot;lesscss logo&quot;&gt;&lt;/div&gt;
-			&lt;div class=&quot;thumb2&quot;&gt;&lt;img class=&quot;grayimg&quot; src=&quot;/images/docpad-logo.png&quot; alt=&quot;docpad logo&quot;&gt;&lt;/div&gt;
-			&lt;div class=&quot;thumb2&quot;&gt;&lt;img class=&quot;grayimg&quot; src=&quot;/images/nodejs-logo.png&quot; alt=&quot;nodejs logo&quot;&gt;&lt;/div&gt;
-			&lt;div class=&quot;thumb2&quot;&gt;&lt;img class=&quot;grayimg&quot; src=&quot;/images/coffeescript-logo.png&quot; alt=&quot;coffeescript logo&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;span12 img-fadein-grayscale&quot;&gt;
+			&lt;div class=&quot;thumb2&quot;&gt;&lt;img src=&quot;/images/github-logo.png&quot; alt=&quot;bootstrap logo&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;thumb2&quot;&gt;&lt;img src=&quot;/images/bootstrap-logo.png&quot; alt=&quot;bootstrap logo&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;thumb2&quot;&gt;&lt;img src=&quot;/images/lesscss-logo.png&quot; alt=&quot;lesscss logo&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;thumb2&quot;&gt;&lt;img src=&quot;/images/docpad-logo.png&quot; alt=&quot;docpad logo&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;thumb2&quot;&gt;&lt;img src=&quot;/images/nodejs-logo.png&quot; alt=&quot;nodejs logo&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;thumb2&quot;&gt;&lt;img src=&quot;/images/coffeescript-logo.png&quot; alt=&quot;coffeescript logo&quot;&gt;&lt;/div&gt;
 			&lt;/div&gt;
 		&lt;/div&gt;&lt;!-- row-fluid-nomargin --&gt;
 	&lt;/div&gt;&lt;!-- container-pin --&gt;
@@ -664,6 +663,16 @@ var inject = function(){
 };
 		inject();
 	}
-})();</script><script defer="defer"  src="/scripts/markquery.js"></script>
+})();</script><script defer="defer"  src="/scripts/jquery.js"></script><script defer="defer"  src="/scripts/bootstrap.js"></script><script defer="defer"  src="/scripts/prettify.js"></script><script defer="defer"  src="/scripts/holder.js"></script><script defer="defer"  src="/scripts/script.js"></script><script defer="defer"  src="/scripts/jtwt.js"></script><script defer="defer"  src="/scripts/modernizr.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-39665704-1', 'markquery.com');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>

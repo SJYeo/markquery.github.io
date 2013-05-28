@@ -1,7 +1,7 @@
 ﻿/* http://markquery.com/
    license.css
    -------------------------------------------------------------------------------------------------------------------------------------------- */
- @import url(http://fonts.googleapis.com/css?family=Anton);
+@import url(http://fonts.googleapis.com/css?family=Anton);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=latin);
 
 .font-anton-4em { font: 4em 'Anton' arial, sans-serif; font-weight: 300; }
@@ -9,6 +9,7 @@
 .font-opensans { font: 1em/1em 'Open Sans', arial, sans-serif; }
 .font-opensans300 { font: 2em 'Open Sans', arial, sans-serif; font-weight: 300; }
 .title-opensans { font: 2.8em 'Open Sans', arial, sans-serif; font-weight: 300; }
+
 
  .license {
 	font-family: Helvetica, Arial, sans-serif;
@@ -69,4 +70,28 @@
  
 .license pre code {
 	font-size: 10pt;
+}
+
+/* ahover  
+--------------------------------------------------- */
+a.ahover-fff-ddd{color:#fff;text-decoration:none;padding-bottom:2px}a.ahover-fff-ddd:hover,a.ahover-fff-ddd:focus{color:#ddd;text-decoration:none;border-bottom:1px solid #ddd;padding-bottom:2px}
+/* nestedhover 
+--------------------------------------------------- */
+.nestedhover-cfcfd5-fff a{color:#cfcfd5;text-decoration:none;padding-bottom:2px}.nestedhover-cfcfd5-fff a:hover,.nestedhover-cfcfd5-fff a:focus{color:#fff;text-decoration:none;border-bottom:1px solid #fff;padding-bottom:2px}
+
+/* height padding 
+--------------------------------------------------- */
+.height-padding-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+/* mask image
+--------------------------------------------------- */
+.bgmask-diagonal-noise {
+  background: url(/images/bgmask/diagonal-noise.png);
+}
+/* bgcolor
+--------------------------------------------------- */
+.bgcolor-373737 {
+  background-color: #373737;
 }
