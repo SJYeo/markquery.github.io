@@ -208,7 +208,7 @@
   border: 1px solid #cccccc;
   font-size: 13px;
   line-height: 19px;
-  overflow: auto;
+  overflow: auto;white-space: pre;
   padding: 6px 10px;
   border-radius: 3px; }
 
@@ -217,7 +217,7 @@
   border: 1px solid #cccccc;
   font-size: 13px;
   line-height: 19px;
-  overflow: auto;
+  overflow: auto;white-space: pre;
   padding: 6px 10px;
   border-radius: 3px; }
   .github pre code, .github pre tt {
