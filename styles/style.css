@@ -44,16 +44,38 @@ footer ul li {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.markquery-icon:hover {
+  background-color:  #b94a48;
+  -webkit-transition-duration: 1s;
+}
+.github-icon:hover {
+  background-color:  #fc0;
+  -webkit-transition-duration: 1s;
+}
+.docs-icon:hover {
+  background-color:  #090;
+  -webkit-transition-duration: 1s;
+}
+.twtter-icon:hover {
+  background-color:  #08c;
+  -webkit-transition-duration: 1s;
+}
 
 #source {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .jtwt { list-style: none; }
 .jtwt li { margin-bottom: 10px; }
 .jtwt li:last-child { margin-bottom: 0px; }
 .jtwt-loader { font-weight: bold; }
-.jtwt-picture { float: left; margin-right: 10px; }
+img.jtwt-profile { 
+float: left; margin-right: 10px;
+opacity:0.5;
+filter:alpha(opacity=50); /* For IE8 and earlier */
+ -webkit-filter: grayscale(100%);  
+}
 p.jtwt-tweet-text { text-align: justify; }
 a.jtwt-date { font-size: 12px; }
 .jtwt a { 
@@ -61,4 +83,17 @@ color:#cfcfd5;text-decoration:none;padding-bottom:2px
 }
 .jtwt a:hover { 
 color:#fff;text-decoration:none;border-bottom:1px solid #fff;padding-bottom:2px
+}
+.img-fadein-grayscale img
+{
+opacity:0.5;
+filter:alpha(opacity=50); /* For IE8 and earlier */
+ -webkit-filter: grayscale(100%);  
+}
+img.jtwt-profile:hover{
+opacity: 1;
+filter:alpha(opacity=1); /* For IE8 and earlier */
+-webkit-transition: opacity;
+ -webkit-filter: grayscale(1%);  
+-webkit-transition-duration: 1s;
 }

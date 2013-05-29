@@ -1,0 +1,139 @@
+// padding : 10 ~ 500px by 10px
+// --------------------------------------------------------------------------------------------------------------------------------------------
+@padding: 10;
+    .padding-loop(@index) when (@index < 501) {
+      .padding-@{index} { padding: unit(@index, px); }
+      .padding-loop(@index + 10);
+    }
+    // generate .padding-10 ~ 500px by 10px
+    .padding-loop(@padding);
+
+// padding-top : 10~ 500px by 10px 
+// --------------------------------------------------------------------------------------------------------------------------------------------
+@paddingTOP: 10;
+    .paddingTOP-loop(@index) when (@index < 501) {
+      .padding-top-@{index} { padding-top: unit(@index, px); }
+      .paddingTOP-loop(@index + 10);
+    }
+    // generate .padding-top-10 ~ 500px by 10px
+    .paddingTOP-loop(@paddingTOP);
+
+// padding-right : 10 ~ 500px by 10px 
+// --------------------------------------------------------------------------------------------------------------------------------------------
+@paddingRIGHT: 10;
+    .paddingRIGHT-loop(@index) when (@index < 501) {
+      .padding-right-@{index} { padding-right: unit(@index, px); }
+      .paddingRIGHT-loop(@index + 10);
+    }
+    // generate .padding-right-10 ~ 500px by 10px
+    .paddingRIGHT-loop (@paddingRIGHT);
+
+// padding-bottom : 10 ~ 500px by 10px
+// --------------------------------------------------------------------------------------------------------------------------------------------
+@paddingBOTTOM: 10;
+    .paddingBOTTOM-loop(@index) when (@index < 501) {
+      .padding-bottom-@{index} { padding-bottom: unit(@index, px); }
+      .paddingBOTTOM-loop(@index + 10);
+    }
+    // generate .padding-bottom-10 ~ 500px by 10px
+    .paddingBOTTOM-loop (@paddingBOTTOM);
+
+// padding-left : 10 ~ 500px by 10px
+// --------------------------------------------------------------------------------------------------------------------------------------------
+@paddingLEFT: 10;
+    .paddingLEFT-loop(@index) when (@index < 501) {
+      .padding-left-@{index} { padding-left: unit(@index, px); }
+      .paddingLEFT-loop(@index + 10);
+    }
+    // generate .padding-left-10 ~ 500px by 10px
+    .paddingLEFT-loop (@paddingLEFT);
+
+// height padding : 10 ~ 500px by 10px
+// --------------------------------------------------------------------------------------------------------------------------------------------
+@height-padding: 10;
+    .height-padding-loop(@index) when (@index < 501) {
+      .height-padding-@{index} { padding-top: unit(@index, px); padding-bottom: unit(@index, px); }
+      .height-padding-loop(@index + 10);
+    }
+    // generate .height-padding-10 ~ 500px by 10px
+    .height-padding-loop (@height-padding);
+
+// width padding : 10 ~ 500px by 10px
+// --------------------------------------------------------------------------------------------------------------------------------------------
+@width-padding: 10;
+    .width-padding-loop(@index) when (@index < 501) {
+      .width-padding-@{index} { padding-left: unit(@index, px); padding-right: unit(@index, px); }
+      .width-padding-loop(@index + 10);
+    }
+    // generate .width-padding-10 ~ 500px by 10px
+    .width-padding-loop (@width-padding);
+
+// margin : 10 ~ 500px by 10px
+// --------------------------------------------------------------------------------------------------------------------------------------------
+@margin: 10;
+    .margin-loop(@index) when (@index < 501) {
+      .margin-@{index} { margin: unit(@index, px); }
+      .margin-loop(@index + 10);
+    }
+    // generate .margin-10 ~ 500px by 10px
+    .margin-loop(@margin);
+
+// margin-top : 10 ~ 500px by 10px 
+// --------------------------------------------------------------------------------------------------------------------------------------------
+@marginTOP: 10;
+    .marginTOP-loop(@index) when (@index < 501) {
+      .margin-top-@{index} { margin-top: unit(@index, px); }
+      .marginTOP-loop(@index + 10);
+    }
+    // generate .margin-top-10 ~ 500px by 10px
+    .marginTOP-loop(@marginTOP);
+
+// margin-right : 10 ~ 500px by 10px 
+// --------------------------------------------------------------------------------------------------------------------------------------------
+@marginRIGHT: 10;
+    .marginRIGHT-loop(@index) when (@index < 501) {
+      .margin-right-@{index} { margin-right: unit(@index, px); }
+      .marginRIGHT-loop(@index + 10);
+    }
+    // generate .margin-right-10 ~ 500px by 10px
+    .marginRIGHT-loop (@marginRIGHT);
+
+// margin-bottom : 10 ~ 500px by 10px
+// --------------------------------------------------------------------------------------------------------------------------------------------
+@marginBOTTOM: 10;
+    .marginBOTTOM-loop(@index) when (@index < 501) {
+      .margin-bottom-@{index} { margin-bottom: unit(@index, px); }
+      .marginBOTTOM-loop(@index + 10);
+    }
+    // generate .margin-bottom-10 ~ 500px by 10px
+    .marginBOTTOM-loop (@marginBOTTOM);
+
+// margin-left : 10~ 500px by 10px
+// --------------------------------------------------------------------------------------------------------------------------------------------
+@marginLEFT: 10;
+    .marginLEFT-loop(@index) when (@index < 501) {
+      .margin-left-@{index} { margin-left: unit(@index, px); }
+      .marginLEFT-loop(@index + 10);
+    }
+    // generate .margin-left-10 ~ 500px by 10px
+    .marginLEFT-loop (@marginLEFT);
+
+// height margin : 10 ~ 500px by 10px
+// --------------------------------------------------------------------------------------------------------------------------------------------
+@height-margin: 10;
+    .height-margin-loop(@index) when (@index < 501) {
+      .height-margin-@{index} { margin-top: unit(@index, px); margin-bottom: unit(@index, px); }
+      .height-margin-loop(@index + 10);
+    }
+    // generate .height-margin-10 ~ 500px by 10px
+    .height-margin-loop (@height-margin);
+
+// width margin : 10 ~ 500px by 10px
+// --------------------------------------------------------------------------------------------------------------------------------------------
+@width-margin: 10;
+    .width-margin-loop(@index) when (@index < 501) {
+      .width-margin-@{index} { margin-left: unit(@index, px); margin-right: unit(@index, px); }
+      .width-margin-loop(@index + 10);
+    }
+    // generate .width-margin-10 ~ 500px by 10px
+    .width-margin-loop (@width-margin);

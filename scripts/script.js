@@ -36,7 +36,7 @@
     $("a[data-toggle=popover]").popover().click(function(e) {
       return e.preventDefault();
     });
-    $("[rel=tooltip]").tooltip();
+    $("a[data-toggle=tooltip]").tooltip();
     return $(window).load(function() {
       return $("#twitter").jtwt({
         username: "markquery",

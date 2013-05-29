@@ -78,8 +78,8 @@
 .github li p.first {
   display: inline-block; }
 
-.github ul, .github ol {
-  padding-left: 30px; }
+.github ul li, .github ol {
+  margin-left: 30px; }
 
 .github ul :first-child, .github ol :first-child {
   margin-top: 0; }

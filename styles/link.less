@@ -1,0 +1,178 @@
+// alink 
+// --------------------------------------------------------------------------------------------------------------------------------------------
+.alink(@LinkColor, @HoverColor,@BorderColor) {
+     color:@LinkColor;
+     text-decoration: none;
+     border-bottom: 1px solid @LinkColor;
+     padding-bottom: 2px;
+  &:hover,
+  &:focus {
+          color: @HoverColor;
+          text-decoration: none;
+          border-bottom: 1px solid @BorderColor;
+          padding-bottom: 2px;
+  }
+}
+// --------------------------------------------------------------------------------------------------------------------------------------------
+a.alink-111-555 { 
+  .alink(#111, #555, #555);
+}
+a.alink-cfcfd5-fff { 
+  .alink(#cfcfd5, #fff, #fff);
+}
+a.alink-cfcfd5-666 { 
+  .alink(#cfcfd5, #666, #666);
+}
+a.alink-08c-005580 { 
+  .alink(#08c, #005580, #0d65a1);
+}
+a.alink-8fbcdb-685642 { 
+  .alink(#0009FF, #685642, #685642);
+}
+a.alink-33ff00-29cd00 { 
+  .alink(#33ff00, #29CD00, #29CD00);
+}
+a.alink-ee2e24-210B61 { 
+  .alink(#ee2e24, #210B61, #210B61);
+}
+a.alink-ee2e24-b94a48 { 
+  .alink(#ee2e24, #b94a48, #b94a48);
+}
+
+
+
+// ahover
+// --------------------------------------------------------------------------------------------------------------------------------------------
+.ahover(@LinkColor, @HoverColor,@BorderColor) {
+     color:@LinkColor;
+     text-decoration: none;
+     padding-bottom: 2px;
+  &:hover,
+  &:focus {
+          color: @HoverColor;
+          text-decoration: none;
+          border-bottom: 1px solid @BorderColor;
+          padding-bottom: 2px;
+  }
+}
+// --------------------------------------------------------------------------------------------------------------------------------------------
+a.ahover-fff-ddd { 
+  .ahover(#fff, #ddd, #ddd);
+}
+a.ahover-111-555 { 
+  .ahover(#111, #555, #555);
+}
+a.ahover-cfcfd5-fff { 
+  .ahover(#cfcfd5, #fff, #fff);
+}
+a.ahover-cfcfd5-666 { 
+  .ahover(#cfcfd5, #666, #666);
+}
+a.ahover-08c-005580 { 
+  .ahover(#08c, #005580, #0d65a1);
+}
+a.ahover-8fbcdb-685642 { 
+  .ahover(#0009FF, #685642, #685642);
+}
+a.ahover-33ff00-29cd00 { 
+  .ahover(#33ff00, #29CD00, #29CD00);
+}
+a.ahover-ee2e24-210B61 { 
+  .ahover(#ee2e24, #210B61, #210B61);
+}
+a.ahover-ee2e24-b94a48 { 
+  .ahover(#ee2e24, #b94a48, #b94a48);
+}
+
+
+
+
+// nestedlink 
+// --------------------------------------------------------------------------------------------------------------------------------------------
+.nestedlink(@LinkColor, @HoverColor,@BorderColor) {
+          color: @LinkColor;
+          text-decoration: none;
+          border-bottom: 1px solid @LinkColor;
+          padding-bottom: 2px;
+  &:hover,
+  &:focus {
+          color: @HoverColor;
+          text-decoration: none;
+          border-bottom: 1px solid @BorderColor;
+          padding-bottom: 2px;
+  }
+}
+// --------------------------------------------------------------------------------------------------------------------------------------------
+a {
+    .nestedlink-08c-005580 & {
+  .nestedlink(#08c, #005580, #0d65a1);
+    }
+}
+a {
+    .nestedlink-111-555 & {
+  .nestedlink(#111, #555, #555);
+    }
+}
+a {
+    .nestedlink-fff-cbd8da & {
+  .nestedlink(#fff, #cbd8da, #cbd8da);
+    }
+}
+a {
+    .nestedlink-2cb7c1-118991 & {
+  .nestedlink(#2cb7c1, #118991, #118991);
+    }
+}
+a {
+    .nestedlink-ee2e24-210B61 & {
+  .nestedlink(#ee2e24, #210B61, #210B61);
+    }
+}
+
+
+
+// nestedhover 
+// --------------------------------------------------------------------------------------------------------------------------------------------
+.nestedhover(@LinkColor, @HoverColor,@BorderColor) {
+          color: @LinkColor;
+          text-decoration: none;
+          padding-bottom: 2px;
+  &:hover,
+  &:focus {
+          color: @HoverColor;
+          text-decoration: none;
+          border-bottom: 1px solid @BorderColor;
+          padding-bottom: 2px;
+  }
+}
+// --------------------------------------------------------------------------------------------------------------------------------------------
+a {
+    .nestedhover-cfcfd5-fff & {
+  .nestedhover(#cfcfd5, #fff, #fff);
+    }
+}
+a {
+    .nestedhover-08c-005580 & {
+  .nestedhover(#08c, #005580, #0d65a1);
+    }
+}
+a {
+    .nestedhover-111-555 & {
+  .nestedhover(#111, #555, #555);
+    }
+}
+a {
+    .nestedhover-fff-cbd8da & {
+  .nestedhover(#fff, #cbd8da, #cbd8da);
+    }
+}
+a {
+    .nestedhover-2cb7c1-118991 & {
+  .nestedhover(#2cb7c1, #118991, #118991);
+    }
+}
+a {
+    .nestedhover-ee2e24-210B61 & {
+  .nestedhover(#ee2e24, #210B61, #210B61);
+    }
+}

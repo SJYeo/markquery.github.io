@@ -19,9 +19,7 @@ figcaption {
   font-size: 12px;
   color: #bbb;
 }
-.p-right-20 {
-  margin-left: 20px;
-}
+
 .thumb2 {
   float:left;
     width: 16.666666666666664%;
@@ -121,7 +119,6 @@ figcaption {
   body [class*="margin"] {
     margin: 0;
   }
-
 }
 /* Landscape phones
 ------------------------- */

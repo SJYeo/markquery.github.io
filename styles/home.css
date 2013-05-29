@@ -4,11 +4,11 @@
 @import url(http://fonts.googleapis.com/css?family=Anton);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=latin);
 
-.font-anton-4em { font: 4em 'Anton' arial, sans-serif; font-weight: 300; }
-.font-anton-3em { font: 3em 'Anton' arial, sans-serif; font-weight: 300; }
-.font-opensans { font: 1em/1em 'Open Sans', arial, sans-serif; }
-.font-opensans300 { font: 2em 'Open Sans', arial, sans-serif; font-weight: 300; }
-.title-opensans { font: 2.8em 'Open Sans', arial, sans-serif; font-weight: 300; }
+.font-anton-4em { font: 4em 'Anton'; font-weight: 300; }
+.font-anton-3em { font: 1em 'Anton'; font-weight: 300; }
+.font-opensans { font: 1em/1em 'Open Sans'; }
+.font-opensans300 { font: 2em 'Open Sans'; font-weight: 300; }
+.title-opensans { font-family: 'Open Sans'; font-weight: 300;}
 
 header {
   margin-top: 90px;
@@ -34,6 +34,7 @@ header {
 }
 
 
+
 /* section
 --------------------------------------------------- */
 .intro {
@@ -49,14 +50,23 @@ header {
 {
 opacity:0.5;
 filter:alpha(opacity=50); /* For IE8 and earlier */
- -webkit-filter: grayscale(100%);  
+filter: grayscale(100%);  
+-webkit-filter: grayscale(100%);  
+  -moz-filter: grayscale(100%);  
+   -o-filter: grayscale(100%);  
 }
 .img-fadein-grayscale img:hover{
 opacity: 1;
 filter:alpha(opacity=1); /* For IE8 and earlier */
 -webkit-transition: opacity;
- -webkit-filter: grayscale(1%);  
+  -moz-transition: opacity;
+    -o-transition: opacity;
+-webkit-filter:grayscale(0%);  
+  -moz-filter: grayscale(0%);  
+    -o-filter: grayscale(0%);  
 -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
 }
 article ul {
   list-style: square;
@@ -168,6 +178,11 @@ a.ahover-fff-ddd{color:#fff;text-decoration:none;padding-bottom:2px}a.ahover-fff
 .padding-left-20 {
   padding-left: 20px;
 }
+/* to maintain margin-left for small devices
+--------------------------------------------------- */
+.m-left-20 {
+  margin-left: 20px;
+}
 /* height padding 
 --------------------------------------------------- */
 .height-padding-20 {
@@ -226,20 +241,12 @@ a.ahover-fff-ddd{color:#fff;text-decoration:none;padding-bottom:2px}a.ahover-fff
 
 /* border
 --------------------------------------------------- */
-.border-3teee {
-  border-top: 5px solid #ddd;
+.border3-top-ddd {
+  border-top: 3px solid #ddd;
 }
 
 /* hr
 --------------------------------------------------- */
-.hr-1px-ddd {
-  border-top: 1px solid #ddd;
-}
-.hr-3px-bbb {
-  border-top: 1px solid #bbb;
-  border-bottom: 5px solid #bbb;
-}
-.hr-bababa-f1f1f1 {
-  border-top: 1px solid #bababa;
-  border-bottom: 1px solid #f1f1f1;
-}
+.hr-ddd-ddd { border-top: 1px solid #ddd; border-bottom:1px solid #f1f1f1;}
+.hr-bababa-f1f1f1 { border-top:1px solid #bababa; border-bottom:1px solid #f1f1f1; }
+.hr6-bbb-f1f1f1 {  border-top: 5px solid #bbb; border-bottom:1px solid #f1f1f1; }

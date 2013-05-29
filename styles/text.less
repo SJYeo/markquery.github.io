@@ -1,0 +1,411 @@
+// text utility
+// ---------------------------------------------------------------------------------------------------------------------------------------------
+.text-justify {
+  text-align: justify;
+}
+
+// text size : 6 ~ 32px  by 1px
+// ---------------------------------------------------------------------------------------------------------------------------------------------
+@textsize-px: 6;
+    .text-size-px-loop(@index) when (@index < 33) {
+      .text-size-@{index} { font-size: unit(@index, px); }
+      .text-size-px-loop(@index + 1);
+    }
+    // generate .text-size 6px ~ 32px by 1px
+    .text-size-px-loop(@textsize-px);
+
+// text size : 35 ~ 200px by 5px
+// ---------------------------------------------------------------------------------------------------------------------------------------------
+@textsize-bigpx: 35;
+    .text-size-bigpx-loop(@index) when (@index < 201) {
+      .text-size-@{index} { font-size: unit(@index, px); }
+      .text-size-bigpx-loop(@index + 5);
+    }
+    // generate .text-size 35px ~ 200px by 5px
+    .text-size-bigpx-loop(@textsize-bigpx);
+
+// text size : 0.375 ~ 2em;
+// ---------------------------------------------------------------------------------------------------------------------------------------------
+.text-size-e375m { font-size: .375em; }
+.text-size-e438m { font-size: .438em; }
+.text-size-e500m { font-size: .5em; }
+.text-size-e563m { font-size: .563em; }
+.text-size-e625m { font-size: .625em; }
+.text-size-e688m { font-size: .688em; }
+.text-size-e750m { font-size: .750em; }
+.text-size-e813m { font-size: .813em; }
+.text-size-e875m { font-size: .875em; }
+.text-size-e938m { font-size: .938em; }
+.text-size-1em { font-size: 1em; }
+.text-size-1e063m { font-size: 1.063em; }
+.text-size-1e125m { font-size: 1.125em; }
+.text-size-1e188m { font-size: 1.188em; }
+.text-size-1e250m { font-size: 1.250em; }
+.text-size-1e313m { font-size: 1.313em; }
+.text-size-1e375m { font-size: 1.375em; }
+.text-size-1e438m { font-size: 1.438em; }
+.text-size-1e500m { font-size: 1.5em; }
+.text-size-1e563m { font-size: 1.563em; }
+.text-size-1e625m { font-size: 1.625em; }
+.text-size-1e688m { font-size: 1.688em; }
+.text-size-1e750m { font-size: 1.750em; }
+.text-size-1e813m { font-size: 1.813em; }
+.text-size-1e875m { font-size: 1.875em; }
+.text-size-1e938m { font-size: 1.938em; }
+.text-size-2em { font-size: 2em; }
+
+// text size : 3 ~ 40em by 1em
+// ---------------------------------------------------------------------------------------------------------------------------------------------
+@textsize-em: 3;
+    .text-size-em-loop(@index) when (@index < 41) {
+      .text-size-@{index}em { font-size: unit(@index, em); }
+      .text-size-em-loop(@index + 1 );
+    }
+    // generate .text-size 2em ~ 40em by 1em
+    .text-size-em-loop(@textsize-em);
+
+// text letter spacing
+// --------------------------------------------------------------------------------------------------------------------------------------------
+@textletterspacing: 1;
+    .textletterspacing-loop(@index) when (@index < 101) {
+      .text-letterspacing-@{index} { letter-spacing: unit(@index, px); }
+      .textletterspacing-loop(@index + 1 );
+    }
+    // generate .text-letterspacing 1px ~ 100px by 1px
+    .textletterspacing-loop(@textletterspacing);
+
+// text letter spacing 
+// --------------------------------------------------------------------------------------------------------------------------------------------
+@textwordspacing: 1;
+    .textwordspacing-loop(@index) when (@index < 101) {
+      .text-wordspacing-@{index} { word-spacing: unit(@index, px); }
+      .textwordspacing-loop(@index + 1 );
+    }
+    // generate .text-wordspacing 1px ~ 100px by 1px
+    .textwordspacing-loop(@textwordspacing);
+
+// text line height : 6 ~ 200px by 1
+// ---------------------------------------------------------------------------------------------------------------------------------------------
+@textLineHeightPX: 6;
+    .text-LineHeightPX-loop(@index) when (@index < 201) {
+      .text-lineheight-@{index} { line-height: unit(@index, px); }
+      .text-LineHeightPX-loop(@index + 1);
+    }
+    // generate .text-textLineHeight 6px ~ 200px by 1
+    .text-LineHeightPX-loop(@textLineHeightPX);
+
+// text line height : 0.375 ~ 2em;
+// ---------------------------------------------------------------------------------------------------------------------------------------------
+.text-lineheight-e375m { line-height: .375em; }
+.text-lineheight-e438m { line-height: .438em; }
+.text-lineheight-e500m { line-height: .5em; }
+.text-lineheight-e563m { line-height: .563em; }
+.text-lineheight-e625m { line-height: .625em; }
+.text-lineheight-e688m { line-height: .688em; }
+.text-lineheight-e750m { line-height: .750em; }
+.text-lineheight-e813m { line-height: .813em; }
+.text-lineheight-e875m { line-height: .875em; }
+.text-lineheight-e938m { line-height: .938em; }
+.text-lineheight-1em { line-height: 1em; }
+.text-lineheight-1e063m { line-height: 1.063em; }
+.text-lineheight-1e125m { line-height: 1.125em; }
+.text-lineheight-1e188m { line-height: 1.188em; }
+.text-lineheight-1e250m { line-height: 1.250em; }
+.text-lineheight-1e313m { line-height: 1.313em; }
+.text-lineheight-1e375m { line-height: 1.375em; }
+.text-lineheight-1e438m { line-height: 1.438em; }
+.text-lineheight-1e500m { line-height: 1.5em; }
+.text-lineheight-1e563m { line-height: 1.563em; }
+.text-lineheight-1e625m { line-height: 1.625em; }
+.text-lineheight-1e688m { line-height: 1.688em; }
+.text-lineheight-1e750m { line-height: 1.750em; }
+.text-lineheight-1e813m { line-height: 1.813em; }
+.text-lineheight-1e875m { line-height: 1.875em; }
+.text-lineheight-1e938m { line-height: 1.938em; }
+.text-lineheight-2em { line-height: 2em; }
+
+// text background color 
+// --------------------------------------------------------------------------------------------------------------------------------------------
+.textBgColor(@TextBgColor) {
+    background-color: @TextBgColor;
+    padding: 2px 3px;
+    border-radius: 5px;
+}
+// --------------------------------------------------------------------------------------------------------------------------------------------
+.text-bgcolor-fff {
+ .textBgColor(#fff);
+}
+.text-bgcolor-08c {
+ .textBgColor(#08c);
+}
+.text-bgcolor-fce9e7 {
+ .textBgColor(#fce9e7);
+}
+.text-bgcolor-ffffcc {
+ .textBgColor(#ffffcc);
+}
+.text-bgcolor-f5f500 {
+ .textBgColor(#f5f500);
+}
+
+// text color 
+// --------------------------------------------------------------------------------------------------------------------------------------------
+.text-color-f1f1f1 { color:#f1f1f1; }
+.text-color-eee { color:#eee; }
+.text-color-ddd { color:#ddd; }
+.text-color-999 { color:#999; }
+.text-color-111 { color:#111; }
+.text-color-155 { color:#155; }
+.text-color-ccc { color: #ccc; }
+.text-color-f9f6f4 { color: #f9f6f4; }
+.text-color-e9e0db { color: #e9e0db; }
+.text-color-c9a798 { color: #c9a798; }
+.text-color-4f2412 { color: #4f2412; }
+.text-color-f9e5cc { color: #f9e5cc; }
+.text-color-f9d654 { color: #f9d654; }
+.text-color-ec6c3f { color: #ec6c3f; }
+.text-color-e44d2e { color: #e44d2e; }
+.text-color-c7e1ba { color: #c7e1ba; }
+.text-color-9cb770 { color: #9cb770; }
+.text-color-628b61 { color: #628b61; }
+.text-color-397249 { color: #397249; }
+.text-color-8fbcdb { color: #8fbcdb; }
+.text-color-447294 { color: #447294; }
+.text-color-153450 { color: #153450; }
+.text-color-b22222 { color: #b22222; }
+.text-color-ffff99 { color: #ffff99; }
+.text-color-5f9ea0 { color: #5f9ea0; }
+.text-color-685642 { color: #685642; }
+.text-color-b3a580 { color: #b3a580; }
+.text-color-ded29e { color: #ded29e; }
+.text-color-f4f0cb { color: #f4f0cb; }
+.text-color-b7c68b { color: #b7c68b; }
+.text-color-efd3e7 { color: #efd3e7; }
+.text-color-9c0063 { color: #9c0063; }
+.text-color-cecfce { color: #cecfce; }
+.text-color-b58aa5 { color: #b58aa5; }
+.text-color-84596b { color: #84596b; }
+
+.text-color-fff { color:#fff; }
+.text-color-ffc { color:#ffc; }
+.text-color-ff9 { color:#ff9; }
+.text-color-ff6 { color:#ff6; }
+.text-color-ff3 { color:#ff3; }
+.text-color-ff0 { color:#ff0; }
+.text-color-fcf { color:#fcf; }
+.text-color-fcc { color:#fcc; }
+.text-color-fc9 { color:#fc9; }
+.text-color-fc6 { color:#fc6; }
+.text-color-fc3 { color:#fc3; }
+.text-color-fc0 { color:#fc0; }
+.text-color-f9f { color:#f9f; }
+.text-color-f9c { color:#f9c; }
+.text-color-f99 { color:#f99; }
+.text-color-f96 { color:#f96; }
+.text-color-f93 { color:#f93; }
+.text-color-f90 { color:#f90; }
+.text-color-f6f { color:#f6f; }
+.text-color-f6c { color:#f6c; }
+.text-color-f69 { color:#f69; }
+.text-color-f66 { color:#f66; }
+.text-color-f63 { color:#f63; }
+.text-color-f60 { color:#f60; }
+.text-color-f3f { color:#f3f; }
+.text-color-f3c { color:#f3c; }
+.text-color-f39 { color:#f39; }
+.text-color-f36 { color:#f36; }
+.text-color-f33 { color:#f33; }
+.text-color-f30 { color:#f30; }
+.text-color-f0f { color:#f0f; }
+.text-color-f0c { color:#f0c; }
+.text-color-f09 { color:#f09; }
+.text-color-f06 { color:#f06; }
+.text-color-f03 { color:#f03; }
+.text-color-f00 { color:#f00; }
+
+.text-color-cff { color:#cff; }
+.text-color-cfc { color:#cfc; }
+.text-color-cf9 { color:#cf9; }
+.text-color-cf6 { color:#cf6; }
+.text-color-cf3 { color:#cf3; }
+.text-color-cf0 { color:#cf0; }
+.text-color-ccf { color:#ccf; }
+.text-color-ccc { color:#ccc; }
+.text-color-cc9 { color:#cc9; }
+.text-color-cc6 { color:#cc6; }
+.text-color-cc3 { color:#cc3; }
+.text-color-cc0 { color:#cc0; }
+.text-color-c9f { color:#c9f; }
+.text-color-c9c { color:#c9c; }
+.text-color-c99 { color:#c99; }
+.text-color-c96 { color:#c96; }
+.text-color-c93 { color:#c93; }
+.text-color-c90 { color:#c90; }
+.text-color-c6f { color:#c6f; }
+.text-color-c6c { color:#c6c; }
+.text-color-c69 { color:#c69; }
+.text-color-c66 { color:#c66; }
+.text-color-c63 { color:#c63; }
+.text-color-c60 { color:#c60; }
+.text-color-c3f { color:#c3f; }
+.text-color-c3c { color:#c3c; }
+.text-color-c39 { color:#c39; }
+.text-color-c36 { color:#c36; }
+.text-color-c33 { color:#c33; }
+.text-color-c30 { color:#c30; }
+.text-color-c0f { color:#c0f; }
+.text-color-c0c { color:#c0c; }
+.text-color-c09 { color:#c09; }
+.text-color-c06 { color:#c06; }
+.text-color-c03 { color:#c03; }
+.text-color-c00 { color:#c00; }
+
+.text-color-9ff { color:#9ff; }
+.text-color-9fc { color:#9fc; }
+.text-color-9f9 { color:#9f9; }
+.text-color-9f6 { color:#9f6; }
+.text-color-9f3 { color:#9f3; }
+.text-color-9f0 { color:#9f0; }
+.text-color-9cf { color:#9cf; }
+.text-color-9cc { color:#9cc; }
+.text-color-9c9 { color:#9c9; }
+.text-color-9c6 { color:#9c6; }
+.text-color-9c3 { color:#9c3; }
+.text-color-9c0 { color:#9c0; }
+.text-color-99f { color:#99f; }
+.text-color-99c { color:#99c; }
+.text-color-999 { color:#999; }
+.text-color-996 { color:#996; }
+.text-color-993 { color:#993; }
+.text-color-990 { color:#990; }
+.text-color-96f { color:#96f; }
+.text-color-96c { color:#96c; }
+.text-color-969 { color:#969; }
+.text-color-966 { color:#966; }
+.text-color-963 { color:#963; }
+.text-color-960 { color:#960; }
+.text-color-93f { color:#93f; }
+.text-color-93c { color:#93c; }
+.text-color-939 { color:#939; }
+.text-color-936 { color:#936; }
+.text-color-933 { color:#933; }
+.text-color-930 { color:#930; }
+.text-color-90f { color:#90f; }
+.text-color-90c { color:#90c; }
+.text-color-909 { color:#909; }
+.text-color-906 { color:#906; }
+.text-color-903 { color:#903; }
+.text-color-900 { color:#900; }
+
+.text-color-6ff { color:#6ff; }
+.text-color-6fc { color:#6fc; }
+.text-color-6f9 { color:#6f9; }
+.text-color-6f6 { color:#6f6; }
+.text-color-6f3 { color:#6f3; }
+.text-color-6f0 { color:#6f0; }
+.text-color-6cf { color:#6cf; }
+.text-color-6cc { color:#6cc; }
+.text-color-6c9 { color:#6c9; }
+.text-color-6c6 { color:#6c6; }
+.text-color-6c3 { color:#6c3; }
+.text-color-6c0 { color:#6c0; }
+.text-color-69f { color:#69f; }
+.text-color-69c { color:#69c; }
+.text-color-699 { color:#699; }
+.text-color-696 { color:#696; }
+.text-color-693 { color:#693; }
+.text-color-690 { color:#690; }
+.text-color-66f { color:#66f; }
+.text-color-66c { color:#66c; }
+.text-color-669 { color:#669; }
+.text-color-666 { color:#666; }
+.text-color-663 { color:#663; }
+.text-color-660 { color:#660; }
+.text-color-63f { color:#63f; }
+.text-color-63c { color:#63c; }
+.text-color-639 { color:#639; }
+.text-color-636 { color:#636; }
+.text-color-633 { color:#633; }
+.text-color-630 { color:#630; }
+.text-color-60f { color:#60f; }
+.text-color-60c { color:#60c; }
+.text-color-609 { color:#609; }
+.text-color-606 { color:#606; }
+.text-color-603 { color:#603; }
+.text-color-600 { color:#600; }
+
+.text-color-3ff { color:#3ff; }
+.text-color-3fc { color:#3fc; }
+.text-color-3f9 { color:#3f9; }
+.text-color-3f6 { color:#3f6; }
+.text-color-3f3 { color:#3f3; }
+.text-color-3f0 { color:#3f0; }
+.text-color-3cf { color:#3cf; }
+.text-color-3cc { color:#3cc; }
+.text-color-3c9 { color:#3c9; }
+.text-color-3c6 { color:#3c6; }
+.text-color-3c3 { color:#3c3; }
+.text-color-3c0 { color:#3c0; }
+.text-color-39f { color:#39f; }
+.text-color-39c { color:#39c; }
+.text-color-399 { color:#399; }
+.text-color-396 { color:#396; }
+.text-color-393 { color:#393; }
+.text-color-390 { color:#390; }
+.text-color-36f { color:#36f; }
+.text-color-36c { color:#36c; }
+.text-color-369 { color:#369; }
+.text-color-366 { color:#366; }
+.text-color-363 { color:#363; }
+.text-color-360 { color:#360; }
+.text-color-33f { color:#33f; }
+.text-color-33c { color:#33c; }
+.text-color-339 { color:#339; }
+.text-color-336 { color:#336; }
+.text-color-333 { color:#333; }
+.text-color-330 { color:#330; }
+.text-color-30f { color:#30f; }
+.text-color-30c { color:#30c; }
+.text-color-309 { color:#309; }
+.text-color-306 { color:#306; }
+.text-color-303 { color:#303; }
+.text-color-300 { color:#300; }
+
+
+.text-color-0ff { color:#0ff; }
+.text-color-0fc { color:#0fc; }
+.text-color-0f9 { color:#0f9; }
+.text-color-0f6 { color:#0f6; }
+.text-color-0f3 { color:#0f3; }
+.text-color-0f0 { color:#0f0; }
+.text-color-0cf { color:#0cf; }
+.text-color-0cc { color:#0cc; }
+.text-color-0c9 { color:#0c9; }
+.text-color-0c6 { color:#0c6; }
+.text-color-0c3 { color:#0c3; }
+.text-color-0c0 { color:#0c0; }
+.text-color-09f { color:#09f; }
+.text-color-09c { color:#09c; }
+.text-color-099 { color:#099; }
+.text-color-096 { color:#096; }
+.text-color-093 { color:#093; }
+.text-color-090 { color:#090; }
+.text-color-06f { color:#06f; }
+.text-color-06c { color:#06c; }
+.text-color-069 { color:#069; }
+.text-color-066 { color:#066; }
+.text-color-063 { color:#063; }
+.text-color-060 { color:#060; }
+.text-color-03f { color:#03f; }
+.text-color-03c { color:#03c; }
+.text-color-039 { color:#039; }
+.text-color-036 { color:#036; }
+.text-color-033 { color:#033; }
+.text-color-030 { color:#030; }
+.text-color-00f { color:#00f; }
+.text-color-00c { color:#00c; }
+.text-color-009 { color:#009; }
+.text-color-006 { color:#006; }
+.text-color-003 { color:#003; }
+.text-color-000 { color:#000; }
+
