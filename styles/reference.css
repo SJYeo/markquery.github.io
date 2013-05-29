@@ -44,6 +44,7 @@ header {
 }
 .ref-prettyprint {
   padding: 15px 15px 0px 15px !important;
+  background-color: #f1f1f1 !important;
   border: none !important;
 }
 
