@@ -1,5 +1,40 @@
 {
   "bgcolor": [
+      {
+      "css": ".bgcolor-435e79 { background-color: #435e79; }",
+      "selector": "bgcolor-435e79",
+      "hex": "#435e79",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;bgcolor-435e79&quot;&gt;hello&lt;/p&gt;"
+    },
+      {
+      "css": ".bgcolor-3498db { background-color: #3498db; }",
+      "selector": "bgcolor-3498db",
+      "hex": "#3498db",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;bgcolor-3498db&quot;&gt;hello&lt;/p&gt;"
+    },
+      {
+      "css": ".bgcolor-2980b9 { background-color: #2980b9; }",
+      "selector": "bgcolor-2980b9",
+      "hex": "#2980b9",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;bgcolor-2980b9&quot;&gt;hello&lt;/p&gt;"
+    },
+      {
+      "css": ".bgcolor-34495e { background-color: #34495e; }",
+      "selector": "bgcolor-34495e",
+      "hex": "#34495e",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;bgcolor-34495e&quot;&gt;hello&lt;/p&gt;"
+    },
+      {
+      "css": ".bgcolor-2c3e50 { background-color: #2c3e50; }",
+      "selector": "bgcolor-2c3e50",
+      "hex": "#2c3e50",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;bgcolor-2c3e50&quot;&gt;hello&lt;/p&gt;"
+    },
     {
       "css": ".bgcolor-373737 { background-color: #373737; }",
       "selector": "bgcolor-373737",
