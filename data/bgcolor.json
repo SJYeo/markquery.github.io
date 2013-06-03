@@ -1,13 +1,6 @@
 {
   "bgcolor": [
       {
-      "css": ".bgcolor-435e79 { background-color: #435e79; }",
-      "selector": "bgcolor-435e79",
-      "hex": "#435e79",
-      "example": "Lorem ipsum",
-      "note": "&lt;p class=&quot;bgcolor-435e79&quot;&gt;hello&lt;/p&gt;"
-    },
-      {
       "css": ".bgcolor-3498db { background-color: #3498db; }",
       "selector": "bgcolor-3498db",
       "hex": "#3498db",
@@ -20,6 +13,13 @@
       "hex": "#2980b9",
       "example": "Lorem ipsum",
       "note": "&lt;p class=&quot;bgcolor-2980b9&quot;&gt;hello&lt;/p&gt;"
+    },
+      {
+      "css": ".bgcolor-2f4d6b { background-color: #2f4d6b; }",
+      "selector": "bgcolor-2f4d6b",
+      "hex": "#2f4d6b",
+      "example": "Lorem ipsum",
+      "note": "&lt;p class=&quot;bgcolor-2f4d6b&quot;&gt;hello&lt;/p&gt;"
     },
       {
       "css": ".bgcolor-34495e { background-color: #34495e; }",
